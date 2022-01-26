@@ -1,4 +1,5 @@
 <?php
+    echo "Comentários em PHP 7";
     // Comentário de uma linha
     /*
         Comentários de Multiplas linhas
