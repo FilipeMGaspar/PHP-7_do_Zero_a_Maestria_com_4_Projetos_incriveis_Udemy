@@ -8,4 +8,5 @@
     //Variavel para armazenar a profissão
     $profissão = "Sapateiro";
 
-    //Bloco de 
+    //Bloco de código para exibri as informações
+    echo $nome . " de " . $idade . " é " . $profissão;
