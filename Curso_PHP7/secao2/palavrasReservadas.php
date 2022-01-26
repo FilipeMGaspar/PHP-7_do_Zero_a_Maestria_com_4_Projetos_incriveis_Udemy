@@ -1,8 +1,8 @@
 <?php
-    function echo() {
+ /*   function echo() {
         return true;
     }
-
+*/
     function while() {
         return true;
     }
