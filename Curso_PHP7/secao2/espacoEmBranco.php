@@ -6,7 +6,8 @@
     echo "Quebra de linho "
     ;
 
-    ec
-    ho " Quebra de instrução"
+    echo " Quebra 
+    de
+     instrução"
     ;
 
