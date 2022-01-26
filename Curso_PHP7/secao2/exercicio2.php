@@ -9,4 +9,4 @@
     $profissão = "Sapateiro";
 
     //Bloco de código para exibri as informações
-    echo $nome . " de " . $idade . " é " . $profissão;
+    echo $nome . " de " . $idade . " anos de idade trabalha como " . $profissão;
