@@ -3,6 +3,10 @@
         return true;
     }
 */
-    function while() {
+ /*   function while() {
         return true;
     }
+*/
+function whileNew() {
+    return true;
+}
