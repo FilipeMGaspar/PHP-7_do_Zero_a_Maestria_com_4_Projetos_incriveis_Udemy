@@ -1,0 +1,11 @@
+<?php
+    //Variavel que vai armazenar o nome 
+    $nome = "Aluno de PHP 7";
+
+    //Variavel para armazenar a idade
+    $idade = 37;
+
+    //Variavel para armazenar a profissão
+    $profissão = "Sapateiro";
+
+    //Bloco de 
