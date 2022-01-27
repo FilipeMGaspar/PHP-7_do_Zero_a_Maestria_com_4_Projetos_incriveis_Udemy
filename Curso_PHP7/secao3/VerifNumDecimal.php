@@ -5,4 +5,6 @@
 
     if(is_float($num)){
         echo "É um número Décimal";
+    }else{
+        echo "NÃO É um número Décimal";
     }
