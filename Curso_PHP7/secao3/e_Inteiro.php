@@ -4,8 +4,8 @@
 
     echo "O número $num1 é um número ";
 
-    if(is_int($num1)){
-        echo "decimal!";
-    }else{
+    if(is_int($num2)){
         echo "inteiro!";
+    }else{
+        echo "decimal!";
     }
