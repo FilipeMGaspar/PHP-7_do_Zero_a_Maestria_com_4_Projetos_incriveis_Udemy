@@ -1,8 +1,8 @@
 <?php
-    $num1 = 3;
-    $num2 = -12;
+    $num1 = 8;
+    $num2 = -128;
 
-    echo 1000;
+    echo 58000;
     echo "<br>";
     echo "$num1";
     echo "<br>";
