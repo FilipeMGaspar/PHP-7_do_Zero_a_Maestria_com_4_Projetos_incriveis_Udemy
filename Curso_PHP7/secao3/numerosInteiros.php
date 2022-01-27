@@ -1,15 +1,15 @@
 <?php
-    $num = 2;
-     echo 5;
+    $num = 9;
+     echo 7;
      echo "<br>";
-     echo 5 + 7;
+     echo 8 + 7;
      echo "<br>";
-     echo -12;
+     echo -25;
      echo "<br>";
-     echo  5 -12;
+     echo  4 - 13;
      echo "<br>";
 
-     $n = 5;
+     $n = 30;
 
      echo "<br>";
      echo $n;
