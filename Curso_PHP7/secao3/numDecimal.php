@@ -8,4 +8,4 @@
     echo "<br>";
     echo $num2;
     echo "<br>";
-    echo 5.237 + 2.321;
+    echo 1.237 + 2.321;
