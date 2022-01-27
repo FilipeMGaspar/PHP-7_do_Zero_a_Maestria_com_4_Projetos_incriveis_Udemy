@@ -2,4 +2,10 @@
     $num1 = 5.5;
     $num2 = 100;
 
-    echo "O número $num2 é ".is_int($num1);
+    echo "O número $num1 é um número ";
+
+    if(is_int($num1)){
+        echo "decimal!";
+    }else{
+        echo "inteiro!";
+    }
