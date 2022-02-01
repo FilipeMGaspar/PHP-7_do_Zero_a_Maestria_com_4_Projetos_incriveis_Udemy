@@ -1,5 +1,5 @@
 <?php
-    $str = "'Sou um texto'";
+    $str = "'Sou um texto, com aspas simples!'";
 
     echo "Texto com aspas duplas!<br><br>";
     echo 'Texto com aspas simples<br><br>';
