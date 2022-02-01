@@ -10,6 +10,6 @@
         echo "É Verdadeiro! <br><br>";
     }
 
-    if(5 > 2){
+    if(5 > 2){  //true
         echo "É Verdadeiro! <br><br>";
     }
