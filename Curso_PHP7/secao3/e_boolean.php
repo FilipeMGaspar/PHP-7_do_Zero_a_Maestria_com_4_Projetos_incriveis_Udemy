@@ -1,5 +1,5 @@
 <?php
 
-if(is_boolean(true)){
+if(is_bool(true)){
     echo "é booleano";
 }
