@@ -12,6 +12,7 @@
     $idade = 18;
 
     echo "O João tem $idade anos! <br><br>";
-     
+    
+    echo 'O Lucas também tem $idade anos<br><br>';
 
 
