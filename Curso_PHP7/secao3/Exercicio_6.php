@@ -1,5 +1,11 @@
 <?php
-$carro = ['Marca' => "Ford", 'Modelo' => "Mondeo", 'Combustivel' => 'Diesel', 'Motor' => 1.9, 'Cvs' => 130];
+$carro = [
+    'Marca' => "Ford", 
+    'Modelo' => "Mondeo",
+    'Combustivel' => 'Diesel', 
+    'Motor' => 1.9,
+    'Cvs' => 130
+    ];
 
 echo "<br><br>";
 echo "Marca:       $carro['Marca']<br>";
