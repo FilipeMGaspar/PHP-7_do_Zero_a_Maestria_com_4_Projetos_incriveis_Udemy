@@ -4,7 +4,8 @@ $carro = [
     'Modelo' => "Mondeo",
     'Combustivel' => 'Diesel', 
     'Motor' => 1.9,
-    'Cvs' => 130
+    'Cvs' => 130,
+    'TetoPanoramico' => true
     ];
 
 echo "<br><br>";
