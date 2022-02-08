@@ -11,7 +11,7 @@ echo "<br>";
 echo "O Sr. " . $pessoa['nome'] . " de nacionalidade " . $pessoa['Nacionalidade'] . " com o número de Contribuinte " . $pessoa['Nif'] . " é ";
 
 if($pessoa['idade'] >= 18){
-    echo " Maior de idade!";
+    echo " maior de idade!";
 }else{
-    echo " Menor de idade!";
+    echo " menor de idade!";
 }
