@@ -3,11 +3,13 @@
 
     print_r($a);
 
-    echo "<br>";
+    echo "<br><br>";
 
     echo($a[0]);
 
-    $arr = ["Marcos", 1 , true];
+    $arr = ["Marcos", 2567, true];
 
-    echo("<br>");
+    echo("<br><br>");
     print_r($arr);
+
+    echo "$arr[1]";
