@@ -13,3 +13,5 @@
     print_r($arr);
 
     echo "<br><br>$arr[1]";
+
+    echo "<br><br>$arr[2]";
