@@ -8,4 +8,10 @@ $pessoa =[
 ];
 
 echo "<br>";
-echo "O Sr. " . $pessoa['nome'] . " de nacionalidade " . $pessoa['Nacionalidade'];
+echo "O Sr. " . $pessoa['nome'] . " de nacionalidade " . $pessoa['Nacionalidade'] . "Com o Nr. de Contribuinte " . $pessoa['Nif'] . " é ";
+
+if($pessoa['idade'] >= 18){
+    echo " Maior de idade!";
+}else{
+    echo " Menor de idade!";
+}
