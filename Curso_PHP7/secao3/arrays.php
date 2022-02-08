@@ -7,4 +7,7 @@
 
     echo($a[0]);
 
-    
+    $arr = ["Marcos", 1 , true];
+
+    echo("<br>");
+    print_r($arr);
