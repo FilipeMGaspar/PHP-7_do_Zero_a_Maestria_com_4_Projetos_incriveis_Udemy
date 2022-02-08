@@ -12,4 +12,4 @@
     echo("<br><br>");
     print_r($arr);
 
-    echo "$arr[1]";
+    echo "<br><br>$arr[1]";
