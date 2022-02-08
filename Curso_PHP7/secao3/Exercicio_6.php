@@ -9,7 +9,7 @@ $carro = [
     ];
 
 echo "<br><br>";
-echo "Marca:".       $carro['Marca'] . "<br>";
-echo "Modelo:".      $carro['Modelo'] . "<br>";
-echo "Combustivel:". $carro['Combustivel'] . "<br>";
-echo "Motor:".       $carro['Motor'] ." TDI de " . $carro['Cvs'] ." Cavalos";
+echo "Marca: ".       $carro['Marca'] . "<br>";
+echo "Modelo: ".      $carro['Modelo'] . "<br>";
+echo "Combustivel: ". $carro['Combustivel'] . "<br>";
+echo "Motor: ".       $carro['Motor'] ." TDI de " . $carro['Cvs'] ." Cavalos";
