@@ -17,3 +17,7 @@
     echo "$num";
 
     echo "<br><br>";
+
+    $velocidadeMaxima = 220;
+
+    echo $velocidadeMaxima;
