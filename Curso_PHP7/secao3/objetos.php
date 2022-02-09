@@ -10,4 +10,7 @@
     $lucas = new Pessoa();
 
     $lucas->nome = "Lucas";
+
+    echo $lucas->nome;
+
     
