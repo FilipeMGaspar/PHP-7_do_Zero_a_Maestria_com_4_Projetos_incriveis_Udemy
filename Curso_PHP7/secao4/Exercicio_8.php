@@ -7,4 +7,4 @@
 
     echo "O aluno $nome com a matricula $numMatricula do curso $curso <br><br>";
 
-    
+    echo "Tem de propinas $propinas €";
