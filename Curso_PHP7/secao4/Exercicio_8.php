@@ -5,7 +5,7 @@
     $curso = "Tim - Técnologias de Informação e Multimédia";
     $propinas = 1250.45;
 
-    echo "O aluno $nome <br> Matricula $numMatricula 
-    <br>Curso $curso <br><br>";
+    echo "Aluno: $nome <br> Matricula: $numMatricula 
+    <br>Curso: $curso <br><br>";
 
     echo "Tem de propinas $propinas €";
