@@ -13,4 +13,6 @@
 
     echo $lucas->nome;
 
-    
+    echo "<br><br>";
+
+    $lucas->falar();
