@@ -12,5 +12,8 @@
 
     echo "<br><br>";
 
-    
-    
+    $num = 1256.23;
+
+    echo "$num";
+
+    echo "<br><br>";
