@@ -3,7 +3,7 @@
     class Pessoa {
 
         function falar(){
-            echo "Olá pessoal";
+            echo "Olá pessoal!";
         }
     }
 
