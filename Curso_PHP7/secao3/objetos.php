@@ -9,4 +9,5 @@
 
     $lucas = new Pessoa();
 
+    $lucas->nome = "Lucas";
     
