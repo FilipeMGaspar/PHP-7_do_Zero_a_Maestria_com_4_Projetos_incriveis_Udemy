@@ -19,3 +19,10 @@
     echo "$x<br><br>";
 
     echo "$y<br><br>";
+
+    $nome = "Lucas";
+
+    $nome2 &= $nome;
+
+    echo "$nome";
+    echo "<br><br>";
