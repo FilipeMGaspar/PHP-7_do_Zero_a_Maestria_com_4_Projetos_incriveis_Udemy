@@ -1,7 +1,7 @@
 <?php
     $x = "nome";
 
-    echo "$x <br>";
+    echo "$x <br><br>";
 
     $$x = "Lucas"; //nome = Lucas
 
