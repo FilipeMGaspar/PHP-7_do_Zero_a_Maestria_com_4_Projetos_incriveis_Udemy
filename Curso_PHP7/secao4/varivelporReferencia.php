@@ -28,3 +28,10 @@
     echo "<br><br>";
 
     echo "$nome2";
+
+    $nome2 = "Maria";
+
+    echo "$nome";
+    echo "<br><br>";
+
+    echo "$nome2";
