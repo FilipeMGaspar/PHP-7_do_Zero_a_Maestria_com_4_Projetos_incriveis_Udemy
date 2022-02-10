@@ -22,7 +22,9 @@
 
     $nome = "Lucas";
 
-    $nome2 &= $nome;
+    $nome2 = & $nome;
 
     echo "$nome";
     echo "<br><br>";
+
+    echo "$nome2";
