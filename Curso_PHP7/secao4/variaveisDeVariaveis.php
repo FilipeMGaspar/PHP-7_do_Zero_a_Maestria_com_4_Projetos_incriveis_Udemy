@@ -1,4 +1,10 @@
 <?php
-    $x = "teste";
+    $x = "nome";
 
-    $$x = 5; //teste = 5
+    echo "$x <br>";
+
+    $$x = "Lucas"; //nome = Lucas
+
+    echo "$nome <br><br>";
+
+
