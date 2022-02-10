@@ -18,7 +18,7 @@
     $x = 20;
     echo "$x<br><br>";
 
-    echo "$y<br><br>";
+    echo "$y<br>";
 
     $nome = "Lucas";
 
