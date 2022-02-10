@@ -24,13 +24,14 @@
 
     $nome2 = & $nome;
 
+    echo "<br><br>";
     echo "$nome";
     echo "<br><br>";
 
     echo "$nome2";
 
     $nome2 = "Maria";
-
+    echo "<br><br>";
     echo "$nome";
     echo "<br><br>";
 
