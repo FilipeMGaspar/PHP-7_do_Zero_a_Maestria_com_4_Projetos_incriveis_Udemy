@@ -23,6 +23,8 @@ function testando(){
     echo "$x <br><br>";
 }
 
+$x = 123.568;
+
 testando();
 
 teste();
