@@ -13,3 +13,10 @@ function teste(){
 teste();
 
 echo "Escopo  Global $x <br><br>";
+
+teste();
+
+function testando(){
+
+    $x = "Escopo Local!";
+}
