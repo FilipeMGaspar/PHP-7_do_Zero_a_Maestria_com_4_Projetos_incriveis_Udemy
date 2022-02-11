@@ -12,4 +12,4 @@ function teste(){
 
 teste();
 
-echo "$x <br><br>";
+echo "Escopo  Global $x <br><br>";
