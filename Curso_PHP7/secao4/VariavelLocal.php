@@ -10,4 +10,6 @@ function teste(){
     echo "<br> Escopo Local $x <br><br>";
 }
 
+teste();
+
 echo "<br><br>$x <br><br>";
