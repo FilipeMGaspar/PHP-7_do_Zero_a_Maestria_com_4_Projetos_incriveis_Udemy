@@ -19,4 +19,12 @@ teste();
 function testando(){
 
     $x = "Escopo Local!";
+
+    echo "$x <br><br>";
 }
+
+testando();
+
+teste();
+
+echo "Escopo  Global $x <br><br>";
