@@ -7,7 +7,7 @@ echo "<br>Escopo  Global  $x";
 function teste(){
     $x = 5;
 
-    echo "<br><br>Escopo Local $x <br><br>";
+    echo "<br><br>Escopo Local $x função teste <br><br>";
 }
 
 teste();
@@ -18,7 +18,7 @@ teste();
 
 function testando(){
 
-    $x = "Escopo Local!";
+    $x = "Escopo Local! Função testando";
 
     echo "$x <br><br>";
 }
