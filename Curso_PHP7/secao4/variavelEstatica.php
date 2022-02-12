@@ -9,4 +9,6 @@
 
     teste();
 
-    
+    teste();
+
+    teste();
