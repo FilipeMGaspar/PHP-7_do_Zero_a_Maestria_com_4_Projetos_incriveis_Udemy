@@ -14,7 +14,7 @@
     teste();
 
     function testeStatic(){
-       static $a = 0;
+       static $a = 200;
         $a++;
 
         echo "$a <br><br>";
