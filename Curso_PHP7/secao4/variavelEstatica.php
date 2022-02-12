@@ -4,5 +4,9 @@
         $a = 0;
         $a++;
 
-        echo "";
+        echo "$a <br><br>";
     }
+
+    teste();
+
+    
