@@ -7,7 +7,7 @@
     if(5 > 2){
         $teste = "dsa";
 
-        echo "<br> $teste if <br>";
+        echo "<br> $teste Dentro do if <br>";
     }
 
     echo "<br> $teste Global 2 <br>";
