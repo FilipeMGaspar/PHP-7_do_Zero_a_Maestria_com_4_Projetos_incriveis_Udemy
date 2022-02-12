@@ -23,6 +23,7 @@
     function testando(){
 
         global $teste:
+        $teste = 25;
         echo "<br> $teste Global Dentro de uma função <br>";
     }
 
