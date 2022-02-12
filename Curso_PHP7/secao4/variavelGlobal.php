@@ -28,3 +28,5 @@
     }
 
     testando();
+
+    echo "<br> $teste Global 3 <br>";
