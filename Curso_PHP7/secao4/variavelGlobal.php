@@ -11,3 +11,9 @@
     }
 
     echo "<br> $teste Global 2 <br>";
+
+    function funcao(){
+        echo "<br> $teste Dentro de uma função <br>";
+    }
+
+    funcao();
