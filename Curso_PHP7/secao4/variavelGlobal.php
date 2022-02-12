@@ -1,11 +1,11 @@
 <?php
 
-    $teste = "asd";
+    $teste = "KLM";
 
     echo "<br> $teste Global 1 <br>";
 
     if(5 > 2){
-        $teste = "dsa";
+        $teste = "METRO";
 
         echo "<br> $teste Dentro do if <br>";
     }
