@@ -13,8 +13,6 @@
 
     teste();
 
-    hp
-
     function testeStatic(){
        static $a = 0;
         $a++;
