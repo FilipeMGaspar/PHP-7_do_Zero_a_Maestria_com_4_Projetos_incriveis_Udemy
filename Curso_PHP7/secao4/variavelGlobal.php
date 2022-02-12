@@ -9,3 +9,5 @@
 
         echo "<br> $teste if <br>";
     }
+
+    echo "<br> $teste Global 2 <br>";
