@@ -13,7 +13,15 @@
     echo "<br> $teste Global 2 <br>";
 
     function funcao(){
+
+        $teste = 123456;
         echo "<br> $teste Dentro de uma função <br>";
     }
 
     funcao();
+
+    function testando(){
+
+        $teste = 123456;
+        echo "<br> $teste Dentro de uma função <br>";
+    }
