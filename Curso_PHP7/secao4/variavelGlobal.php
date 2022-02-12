@@ -1,3 +1,8 @@
 <?php
 
-    $teste = "asd"
+    $teste = "asd";
+
+    
+    if(5 > 2){
+        $teste = "dsa";
+    }
