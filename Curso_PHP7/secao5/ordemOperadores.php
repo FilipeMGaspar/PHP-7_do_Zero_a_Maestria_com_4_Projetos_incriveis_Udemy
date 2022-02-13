@@ -22,4 +22,10 @@
 
     echo $c + $b / $a;
 
-    echo "<br><br>";  
+    echo "<br><br>";
+    
+    $d = $a * $b * $c;
+
+    echo $d;
+
+    echo "<br><br>";
