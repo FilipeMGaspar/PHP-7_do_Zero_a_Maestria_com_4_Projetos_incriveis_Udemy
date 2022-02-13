@@ -19,3 +19,7 @@
     echo $a + $b / $c;
 
     echo "<br><br>";
+
+    echo $c + $b / $a;
+
+    echo "<br><br>";  
