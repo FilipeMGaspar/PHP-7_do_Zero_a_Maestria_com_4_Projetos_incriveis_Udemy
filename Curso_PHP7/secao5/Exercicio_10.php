@@ -13,3 +13,7 @@ echo "<br><br>";
 echo $n1 - 50 * $n3 / $n2;
 
 echo "<br><br>";
+
+echo $n1 * $n2 - 56 / $n3;
+
+echo "<br><br>";
