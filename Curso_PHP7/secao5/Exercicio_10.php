@@ -10,6 +10,6 @@ echo $expr;
 
 echo "<br><br>";
 
-echo $n1 - 10 * $n3 / $n2;
+echo $n1 - 50 * $n3 / $n2;
 
 echo "<br><br>";
