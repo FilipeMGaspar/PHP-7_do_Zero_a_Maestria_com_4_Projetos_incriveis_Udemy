@@ -18,7 +18,7 @@ if (is_string(2 . 3)){
 }
 
 $nome = "Lucas";
-$sobrenome = "Matias";
+$sobrenome = "Fernandes";
 
 $nomeCompleto = $nome . " " . $sobrenome;
 
