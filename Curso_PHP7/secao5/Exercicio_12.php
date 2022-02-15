@@ -14,3 +14,4 @@ echo "Subtração = " . $subtract . "<br><br>";
 
 echo "Multiplicação = " . $mult . "<br><br>";
 
+echo "Multiplicação = " . $divisao . "<br><br>";
