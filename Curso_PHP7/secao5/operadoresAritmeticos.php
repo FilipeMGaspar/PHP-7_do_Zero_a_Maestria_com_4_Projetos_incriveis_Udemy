@@ -14,3 +14,7 @@ echo "Subtração = " . $subtract . "<br><br>";
 $multiplica = $num1 * $num2;
 
 echo "Multiplicação = " . $multiplica . "<br><br>";
+
+$divisao = $num1 / $num2;
+
+echo "Divisão = " . $divisao . "<br><br>";
