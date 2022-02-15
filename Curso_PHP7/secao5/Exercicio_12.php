@@ -6,7 +6,7 @@ $subtract = 8 - 3;
 
 $mult = 11 * 5;
 
-$divisão 32 / 5;
+$divisao 32 / 5;
 
 echo "Soma = " . $soma . "<br><br>";
 
