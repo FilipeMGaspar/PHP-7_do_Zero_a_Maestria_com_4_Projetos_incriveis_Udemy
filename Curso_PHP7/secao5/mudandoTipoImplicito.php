@@ -16,3 +16,12 @@ echo "<br>";
 if (is_string(2 . 3)){
     echo "É uma String!";
 }
+
+$nome = "Lucas";
+$sobrenome = "Matias";
+
+$nomeCompleto = $nome . " " . $sobrenome;
+
+echo "<br><br>";
+
+echo $nomeCompleto;
