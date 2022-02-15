@@ -13,6 +13,6 @@ echo 2 . 3;
 
 echo "<br>";
 
-if (is_string(2.3)){
+if (is_string(2 . 3)){
     echo "É uma String!";
 }
