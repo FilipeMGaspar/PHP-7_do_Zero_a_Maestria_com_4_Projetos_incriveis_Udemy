@@ -18,3 +18,7 @@ echo "Multiplicação = " . $multiplica . "<br><br>";
 $divisao = $num1 / $num2;
 
 echo "Divisão = " . $divisao . "<br><br>";
+
+$restDivisao = $num1 % 3;
+
+echo "Resto da divisão = " . $restDivisao . "<br><br>";
