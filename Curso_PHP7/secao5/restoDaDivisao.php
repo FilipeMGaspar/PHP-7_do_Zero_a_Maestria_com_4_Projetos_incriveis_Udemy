@@ -10,4 +10,4 @@ $a = 20;
 
 $b = 4;
 
-echo $a % $b " Módulo - resto da divisão de $a por $b";
+echo $a % $b . " Módulo - resto da divisão de $a por $b";
