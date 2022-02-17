@@ -13,3 +13,12 @@ $num = 10;
 if ($num != $comp){ //true é diferente
     echo "$num não é igual a $comp";
 }
+
+echo "<br><br>";
+$nome = "Lucas";
+
+$nomeDoSistema = "Lucas";
+
+if(){
+
+}
