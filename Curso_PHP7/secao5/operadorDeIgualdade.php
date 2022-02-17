@@ -15,10 +15,13 @@ if ($num != $comp){ //true é diferente
 }
 
 echo "<br><br>";
+
 $nome = "Lucas";
 
 $nomeDoSistema = "Lucas";
 
-if(){
-
+if($nome == $nomeDoSistema){
+    echo "Os nomes coincindem!";
 }
+
+echo "<br><br>";
