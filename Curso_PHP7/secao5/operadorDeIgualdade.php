@@ -6,6 +6,8 @@ if($num == $comp){ //trur é igual
     echo "$num  é igual a $comp";
 }
 
+echo "<br><br>";
+
 $num = 10;
 
 if ($num != $comp){ //true é diferente
