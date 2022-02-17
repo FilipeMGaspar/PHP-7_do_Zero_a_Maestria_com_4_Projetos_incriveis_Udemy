@@ -4,6 +4,12 @@ $n = 10;
 
 $x = 5;
 
-echo "Auto incremento! <br><br>";
+echo "Auto incremento! $n <br><br>";
 
-echo "Auto decremento! <br><br>";
+echo $n++;
+
+echo "<br><br>";
+
+
+echo "Auto decremento! $x <br><br>";
+
