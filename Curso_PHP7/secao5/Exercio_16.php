@@ -6,6 +6,7 @@ if($num == $num1){
     echo "$num é igual a $num1 <br><br>";
 }
 
-if(){
-    
+if($num != $num1){
+    echo "$num é diferente de $num1 <br><br>";
 }
+
