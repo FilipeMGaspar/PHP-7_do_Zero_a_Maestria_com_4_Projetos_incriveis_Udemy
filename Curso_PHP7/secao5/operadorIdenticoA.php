@@ -10,5 +10,5 @@ if($a === $b){
 }
 
 if($num === $num1){
-    echo "$num não é identico a $num1 <br><br>";
+    echo "$num é identico a $num1 <br><br>";
 }
