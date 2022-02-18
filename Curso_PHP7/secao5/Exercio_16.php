@@ -10,3 +10,10 @@ if($num != $num1){
     echo "$num é diferente de $num1 <br><br>";
 }
 
+if($num === $num1){
+    echo "$num é identico a $num1 <br<<br>";
+}
+
+if($num !== $num1){
+    echo "";
+}
