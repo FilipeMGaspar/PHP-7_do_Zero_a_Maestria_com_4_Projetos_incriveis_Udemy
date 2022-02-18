@@ -8,3 +8,6 @@ $num = 3;
 
 $num1 = "3";
 
+if($a !== $b){
+    echo ("$a não é identico a $b <br>");
+}
