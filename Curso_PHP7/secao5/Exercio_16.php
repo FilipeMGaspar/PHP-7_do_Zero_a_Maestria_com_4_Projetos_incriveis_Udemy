@@ -15,5 +15,5 @@ if($num === $num1){
 }
 
 if($num !== $num1){
-    echo "";
+    echo "$num não é identicao a $num1 <br><br>";
 }
