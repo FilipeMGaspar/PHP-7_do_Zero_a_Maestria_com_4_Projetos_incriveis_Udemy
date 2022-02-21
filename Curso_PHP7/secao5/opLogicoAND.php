@@ -24,3 +24,7 @@ $d = 12;
 if($a > $b && $c == $d){
     echo "<br><br> If $a > $b && $c == $d <br><br>";
 }
+
+if($b > $a && $c >= $d){
+    echo "<br><br> If $b > $a && $c >= $d <br><br>";
+}
