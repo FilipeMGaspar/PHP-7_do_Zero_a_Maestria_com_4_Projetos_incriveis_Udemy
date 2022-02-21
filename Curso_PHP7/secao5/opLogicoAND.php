@@ -22,5 +22,5 @@ $c = 12;
 $d = 12;
 
 if($a > $b && $c == $d){
-    echo "<br><br> If 1";
+    echo "<br><br> If $a > $b && $c == $d <br><br>";
 }
