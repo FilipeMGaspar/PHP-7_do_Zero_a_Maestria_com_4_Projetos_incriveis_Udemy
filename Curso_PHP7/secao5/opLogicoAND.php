@@ -15,3 +15,6 @@ if(5 < 10 && 10 > 50){ //true e false
 if(500 < 10 && 10 > 50){ //false e false
     echo "Entrei no primeiro if '5 < 10 && 10 > 50' <br><br>";
 }
+
+$a = 10;
+$b = 5;
