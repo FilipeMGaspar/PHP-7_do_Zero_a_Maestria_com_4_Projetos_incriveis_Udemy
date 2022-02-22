@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-       document.pronpt("Qual é o seu nome?");
+       document.pronpt("Qual é o seu nome?")
     </script>
 
 </body>
