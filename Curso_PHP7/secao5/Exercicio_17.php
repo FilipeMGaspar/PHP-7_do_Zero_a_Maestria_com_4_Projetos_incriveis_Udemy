@@ -11,3 +11,7 @@ if($a > $b && $nome === "joao"){
 if("teste" > 5 && 1){
     echo "<br> teste > 5 && 1 <br><br>";
 }
+
+if(2 == 3 && 5 >= 3){
+
+}
