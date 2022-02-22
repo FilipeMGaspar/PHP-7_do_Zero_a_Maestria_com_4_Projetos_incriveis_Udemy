@@ -8,6 +8,6 @@ if($a > $b && $nome === "joao"){
     echo "<br> $a > $b && $nome === joao <br><br>";
 }
 
-if(){
-    
+if("teste" > 5 && 1){
+    echo "<br> teste > 5 && 1 <br><br>";
 }
