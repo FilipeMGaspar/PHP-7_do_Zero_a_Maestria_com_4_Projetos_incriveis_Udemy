@@ -8,8 +8,7 @@
 </head>
 <body>
     <script>
-        let nome
-        nome = windows.pronpt "Qual é o seu nome? "
+       alert("Olá, Mundo!")
     </script>
 
 </body>
