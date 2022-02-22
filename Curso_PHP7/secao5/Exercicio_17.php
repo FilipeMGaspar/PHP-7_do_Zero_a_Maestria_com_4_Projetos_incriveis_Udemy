@@ -2,8 +2,8 @@
 $a = 15;
 $b = 5;
 
-$nome = joao;
+$nome = "joao";
 
-if(){
-    
+if($a > $b && $nome === "joao"){
+    echo "<br> $a > $b && $nome === joao <br><br>";
 }
