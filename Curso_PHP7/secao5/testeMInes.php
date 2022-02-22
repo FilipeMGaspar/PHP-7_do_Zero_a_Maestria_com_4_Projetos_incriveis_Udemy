@@ -8,8 +8,8 @@
 </head>
 <body>
     <script>
-        let nome;
-        nome = pronpt "Qual é o seu nome? "
+        let nome
+        nome = windows.pronpt "Qual é o seu nome? "
     </script>
 
 </body>
