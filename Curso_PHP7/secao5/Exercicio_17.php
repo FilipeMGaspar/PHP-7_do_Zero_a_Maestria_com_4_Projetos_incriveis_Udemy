@@ -7,3 +7,7 @@ $nome = "joao";
 if($a > $b && $nome === "joao"){
     echo "<br> $a > $b && $nome === joao <br><br>";
 }
+
+if(){
+    
+}
