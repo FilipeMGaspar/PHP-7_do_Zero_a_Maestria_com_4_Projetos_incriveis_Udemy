@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-       alert("Olá, Mundo!")
+       document.pronpt("Qual é o seu nome?");
     </script>
 
 </body>
