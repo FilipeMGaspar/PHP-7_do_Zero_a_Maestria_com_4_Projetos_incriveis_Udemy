@@ -8,13 +8,9 @@
 </head>
 <body>
     <script>
-    let nome = prompt("Qual é o teu nome? ")
-    alert ("Olá " + nome + " seja bem vindo!")
+        let nome;
+        nome = pronpt "Qual é o seu nome? "
     </script>
-    
-    <?php
-    echo '<script> alert ("olá Mundo!") </script>';
-?>    
 
 </body>
 </html>
