@@ -1,2 +1,2 @@
 <?php
-echo "";
+echo '<script> alert ("olá Mundo!") </script>';
