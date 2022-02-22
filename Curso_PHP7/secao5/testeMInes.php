@@ -8,8 +8,8 @@
 </head>
 <body>
     <script>
-    let nome = pronpt("Qual é o teu nome? ");
-    alert "Olá " + nome + " seja bem vindo!";;
+    let nome = pronpt("Qual é o teu nome? ")
+    alert ("Olá " + nome + " seja bem vindo!")
     </script>
 <?php
     echo '<script> alert ("olá Mundo!") </script>';
