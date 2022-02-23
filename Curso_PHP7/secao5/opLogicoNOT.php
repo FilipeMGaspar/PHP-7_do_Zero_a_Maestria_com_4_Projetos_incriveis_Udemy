@@ -9,5 +9,5 @@
     }
 
     if(!(50 < 2)) { //false
-        echo "<br> 50 não é > 2 <br><br>";
+        echo "<br> 50 não é < 2 <br><br>";
     }
