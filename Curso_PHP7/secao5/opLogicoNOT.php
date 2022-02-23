@@ -16,6 +16,6 @@
     $b = 20;
 
 
-    if(!($a <= $b)){
-        echo "$a  não é <=  $b <br><br>";
+    if(!($a >= $b)){
+        echo "$a  não é >=  $b <br><br>";
     }
