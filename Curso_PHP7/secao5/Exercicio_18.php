@@ -13,6 +13,6 @@ if(1 > 5 || 1){ // false  ou true = true
     echo "<br> 1 > 5 || 1 <br><br>";
 }
 
-if(20 === "20" && 51 >= 31){
+if(20 === "20" && 51 >= 31){ //false  E  false  =   false 
     echo "<br> 20 === '20' && 51 >= 31 <br><br>";
 }
