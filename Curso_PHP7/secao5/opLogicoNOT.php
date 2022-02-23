@@ -8,6 +8,6 @@
         echo "<br> 5 não é > 2 <br><br>";
     }
 
-    if(!(50 > 2)) { //false
+    if(!(50 < 2)) { //false
         echo "<br> 50 não é > 2 <br><br>";
     }
