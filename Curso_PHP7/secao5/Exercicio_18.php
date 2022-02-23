@@ -5,6 +5,6 @@ $b = 5;
 
 $nome = "joao";
 
-if($a < $b || "joao" === $nome){
+if($a < $b || "joao" === $nome){ //false   ou true  = true
     echo "<br> $a < $b || 'joao' === $nome <br><br>";
 }
