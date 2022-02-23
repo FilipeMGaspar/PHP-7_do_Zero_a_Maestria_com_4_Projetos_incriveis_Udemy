@@ -24,3 +24,7 @@ $d = 40;
 if($a > $b || $d < $c){ //false   ou   true   = true
     echo "<br> $a > $b || $d < $c <br><br>";
 }
+
+if(($a > $b || $d < $c) && $c < $d){ //true e true = true
+    echo "<br> ($a > $b || $d < $c) && $c < $d <br><br>";
+}
