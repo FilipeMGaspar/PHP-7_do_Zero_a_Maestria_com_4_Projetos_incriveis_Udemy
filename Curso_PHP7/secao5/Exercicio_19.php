@@ -11,3 +11,7 @@ $d = (int) [1, 2, 3];
 echo $a;
 
 echo "<br><br>";
+
+echo $b;
+
+echo "<br><br>";
