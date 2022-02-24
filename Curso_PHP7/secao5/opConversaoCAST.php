@@ -19,3 +19,9 @@ $b = (float) 3.14151896;
 if($b === 3.14151896){
     echo "$b é idêntico a 3.14151896 <br><br>";
 }
+
+$c = (String) 34;
+
+echo $c;
+
+echo "<br><br>";
