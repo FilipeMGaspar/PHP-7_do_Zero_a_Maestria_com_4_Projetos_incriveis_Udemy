@@ -25,3 +25,7 @@ $c = (String) 34;
 echo $c;
 
 echo "<br><br>";
+
+if($c === "34"){
+    echo "$c é idêntico a 34 <br><br>";
+}
