@@ -1,10 +1,13 @@
 <?php
 
-$a = "testando";
+$a = (int) "testando";
 
-$b = 12.9;
+$b = (int) 12.9;
 
-$c = true;
+$c = (int) true;
 
-$d = [1, 2, 3];
+$d = (int) [1, 2, 3];
 
+echo $a;
+
+echo "<br><br>";
