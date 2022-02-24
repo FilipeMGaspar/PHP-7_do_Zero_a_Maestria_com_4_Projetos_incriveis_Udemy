@@ -15,3 +15,7 @@ echo "<br><br>";
 echo $b;
 
 echo "<br><br>";
+
+echo $c;
+
+echo "<br><br>";
