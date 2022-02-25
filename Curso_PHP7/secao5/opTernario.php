@@ -9,4 +9,6 @@
 
     $b = 5;
 
-    echo $a >= $b ?  "$a é maoir ou igaul a $b <br><br>" : "$a é menor ou igual a $b <br><br>";
+    echo $a >= $b ?  "$a é mair ou igaul a $b <br><br>" : "$a é menor ou igual a $b <br><br>";
+
+    echo $a === $b && 10 ?  "$a é identico a $b e 10 <br><br>" : "$a não é identico a $b e 10 <br><br>";
