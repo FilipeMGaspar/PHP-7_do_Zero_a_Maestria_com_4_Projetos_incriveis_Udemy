@@ -37,3 +37,11 @@
     $e %= 3;
 
     echo $e . "<br><br>";
+
+    //utilização com variaveis
+
+    $f = 10;
+
+    $x = 20;
+
+    $f += $x; // $f = $f + $x
