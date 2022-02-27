@@ -27,6 +27,7 @@ $a = 12;
 
 $b = 11;
 
-if(){
-    
+if($a <= $b){
+    echo "$a é menor ou igual a $b";
+    echo "<br><br>";  
 }
