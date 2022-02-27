@@ -13,3 +13,8 @@
         echo "Você tem $idade anos, logo é maior de idade!";
         echo "<br><br>";
     }
+
+    if($idade2 >= 18){ //False
+        echo "Você tem $idade anos, logo é maior de idade!";
+        echo "<br><br>";
+    }
