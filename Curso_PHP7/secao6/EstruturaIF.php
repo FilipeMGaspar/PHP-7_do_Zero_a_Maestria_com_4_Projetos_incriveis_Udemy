@@ -17,3 +17,12 @@
         echo "Entrou no IF! Condição Verdadeira";
         echo "<br><br>";
     }
+
+    //Variaveis
+    $a = 10;
+    $b = 5;
+
+    if($a > $b){
+        echo "$a é maior que $b";
+        echo "<br><br>";
+    }
