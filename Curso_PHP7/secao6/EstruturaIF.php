@@ -12,3 +12,8 @@
     }
 
 
+    //utilizar operador logico 
+    if(10 === 10 && 9 > 3){
+        echo "Condição Verdadeira";
+        echo "<br><br>";
+    }
