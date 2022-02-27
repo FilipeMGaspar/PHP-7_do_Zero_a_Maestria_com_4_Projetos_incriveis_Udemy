@@ -10,7 +10,7 @@
     }
 
     if($idade1 >= 18){ //False
-        echo "Você tem $idade anos, logo é maior de idade!";
+        echo "Você tem $idade1 anos, logo é maior de idade!";
         echo "<br><br>";
     }
 
