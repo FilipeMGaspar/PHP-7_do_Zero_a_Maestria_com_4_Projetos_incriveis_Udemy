@@ -12,3 +12,8 @@ if($a > $b){
 $nome = "Pedro";
 
 $nome1 = "Matheus";
+
+if($nome !== $nome1){
+    echo "$nome é diferente de $nome1";
+    echo "<br><br>";
+}
