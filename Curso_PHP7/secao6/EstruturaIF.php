@@ -2,7 +2,7 @@
 
     //Condição verdadeira
     if(5 > 2){
-        echo "<br><br>";
+        echo "Condição verdadeira, Entrou no IF<br><br>";
     }
 
 
