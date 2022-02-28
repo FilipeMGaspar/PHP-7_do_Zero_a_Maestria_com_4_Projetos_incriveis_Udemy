@@ -3,7 +3,7 @@
 $a = 2:
 $b = 5;
 
-    if($a > $b){
+    if($a > $b) {
         echo "$a é maior  que $b";
         echo "<br><br>";
     } else{
