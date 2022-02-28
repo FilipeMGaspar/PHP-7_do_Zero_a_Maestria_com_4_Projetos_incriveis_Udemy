@@ -3,7 +3,7 @@
     $idade = 18;
 
     if($idade >= 18){
-        echo "Você tem $idade, ";
+        echo "Você tem $idade, logo é maior de Idade!";
         echo "<br><br>";
     }
 
