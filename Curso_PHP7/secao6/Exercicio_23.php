@@ -1,5 +1,9 @@
 <?php
 
+ /*
+ Verifique se uma pesso á maior ou menor de idade, considerando 18 anos ou mais para ser maoir de idade
+ */ 
+
     $idade = 18;
 
     if($idade >= 18){
