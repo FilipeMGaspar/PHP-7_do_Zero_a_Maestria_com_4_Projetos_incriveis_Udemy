@@ -1,5 +1,12 @@
 <?php
 
+ /*
+ Crie variavés que recebma idades
+
+ verifique se as idades são maiores ou iguais a 18
+
+ se sim, imprima uma mensagem que a pesso é maior de idade
+ */ 
     $idade = 25;
     $idade1 = 16;
     $idade2 = 50;
