@@ -14,7 +14,7 @@ if($peso > 80){
 } else {
     echo "o seu peso atual é de $peso Kg. Encontra-se no peso ideal!";
     echo "<br><br>";
-}}
+}
 
 $peso = 75;
 
