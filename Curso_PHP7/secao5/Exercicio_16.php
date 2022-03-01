@@ -1,4 +1,14 @@
 <?php
+/*
+insira o valor 5 numa variável e o valor 3 noutra
+
+Teste os operadores de:
+    Igualdade
+    Diferença
+    Idêntico
+    Não Idêntico
+*/
+
 $num = 5;
 $num1 = 3;
 
