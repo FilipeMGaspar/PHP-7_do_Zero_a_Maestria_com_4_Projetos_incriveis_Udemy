@@ -1,5 +1,15 @@
 <?php
 
+/*
+Verifique as seguintes operações com OR
+
+12 < 5 OR  "joão" === "joão"
+
+1 > 5  OR  1
+
+20 === "20" AND 51 >= 31 
+*/
+
 $a = 12;
 $b = 5;
 
