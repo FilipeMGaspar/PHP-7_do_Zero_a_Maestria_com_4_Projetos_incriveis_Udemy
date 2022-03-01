@@ -1,4 +1,15 @@
 <?php
+/*
+Verifique as seguintes operações com AND
+
+15 > 5 AND "João" === "João"
+
+"teste" > 5 AND 1
+
+2 == 3 AND 5 >= 3
+
+*/
+
 $a = 15;
 $b = 5;
 
