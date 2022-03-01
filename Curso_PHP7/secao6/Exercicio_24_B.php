@@ -9,19 +9,19 @@ se não, imprima "Peso dentro do limite"
 $peso = 80.2;
 
 if($peso > 80){
-    echo "o seu peso atual é de $peso Kg. Infelizmento encontra-se acima do peso ideal!";
+    echo "O seu peso atual é de $peso Kg. Infelizmento encontra-se acima do peso ideal!";
     echo "<br><br>";
 } else {
-    echo "o seu peso atual é de $peso Kg. Encontra-se no peso ideal!";
+    echo "O seu peso atual é de $peso Kg. Encontra-se no peso ideal!";
     echo "<br><br>";
 }
 
 $peso = 75;
 
 if($peso > 80){
-    echo "o seu peso atual é de $peso Kg. Infelizmento encontra-se acima do peso ideal!";
+    echo "O seu peso atual é de $peso Kg. Infelizmento encontra-se acima do peso ideal!";
     echo "<br><br>";
 } else {
-    echo "o seu peso atual é de $peso Kg. Encontra-se no peso ideal!";
+    echo "O seu peso atual é de $peso Kg. Encontra-se no peso ideal!";
     echo "<br><br>";
 }
