@@ -1,5 +1,11 @@
 <?php
+/*
+Atribua dois números a variaveis distintas
 
+Faça uma comparação de menor ou igual com o operador ternário
+
+Imprima resultados para ambas as possibilidades
+*/
 $num = 25;
 
 $num1 = 12;
