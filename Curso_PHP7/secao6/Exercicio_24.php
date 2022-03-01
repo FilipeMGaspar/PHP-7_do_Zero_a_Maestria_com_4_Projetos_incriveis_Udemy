@@ -1,4 +1,10 @@
 <?php
+/*
+Crie algumas variáveis com tipos de dados diferentes: String, int e boolean, por exemplo;
+Verifique se a variavél é um inteiro
+Se sim, apresenta uma mensagem confirmando o tipo de dado
+se não, apresenta outra mensagem
+*/ 
 
 $num = 256;
 
