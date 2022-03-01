@@ -1,4 +1,15 @@
 <?php
+/*
+Faça as seguintes verificações utilizando a estrutura if
+
+5 é maoir que 2
+
+Matheus é deferente de Pedro
+
+12 é menor ou igual a 11
+
+você deve inserir os valores em variáveis
+*/ 
 
 // 5 é maior que 2   = True
 
