@@ -1,7 +1,11 @@
 <?php
 
  /*
- Verifique se uma pesso á maior ou menor de idade, considerando 18 anos ou mais para ser maoir de idade
+ Verifique se uma pesso á maior ou menor de idade, considerando 18 anos ou mais para ser maoir de idade.
+
+ Se tver 18 anos ou mais imprima maior de idade 
+
+ se não imprima menor de idade
  */ 
 
     $idade = 18;
