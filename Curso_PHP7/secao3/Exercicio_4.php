@@ -1,5 +1,11 @@
 <?php
 
+/*
+Crie um arquivo PHP
+Imprima três floats
+Utilize a função is_float em um deles
+*/ 
+
  $num = 0.123456789;
 
     echo 12.236589;
