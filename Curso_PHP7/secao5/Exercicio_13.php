@@ -1,4 +1,10 @@
 <?php
+/*
+Crie um arquivo PHP
+Teste o operador de resto em duas divisões
+Uma não exata e outra exata
+*/ 
+
 $num = 5;
 $num1 = 25;
 $num2 = 4;
