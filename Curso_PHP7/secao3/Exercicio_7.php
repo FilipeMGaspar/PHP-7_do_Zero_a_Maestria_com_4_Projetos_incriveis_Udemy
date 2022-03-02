@@ -1,5 +1,12 @@
 <?php
 
+/*
+Crie um arquivo PHP
+Crie um array associativo com caraterísticas de uma pessoa
+Desafio: faça um if checando se ela é maior de idade e imprima uma mensagem, caso seja
+
+*/
+
 $pessoa =[
 'nome' => 'Lucas',
 'idade' => 15,
