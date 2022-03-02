@@ -1,4 +1,11 @@
 <?php
+
+/*
+crie um arquivo PHP
+Crie um array com caraterísticas de um carro
+Imprima duas caraterísticas
+*/
+
 $carro = [
     'Marca' => "Volkswagen", 
     'Modelo' => "Golf",
