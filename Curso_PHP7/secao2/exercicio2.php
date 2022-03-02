@@ -1,4 +1,11 @@
 <?php
+
+/*
+    Crie um arquivo PHP
+    Neste arquivo descreva caraterísticas básicas de uma pesso ou objeto utilizando comentários
+    Pelo menos três, em linhas separadas
+*/ 
+
     //Variavel que vai armazenar o nome 
     $nome = "Aluno de PHP 7";
 
