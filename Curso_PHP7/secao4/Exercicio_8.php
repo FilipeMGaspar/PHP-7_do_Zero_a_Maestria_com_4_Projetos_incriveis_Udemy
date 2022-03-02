@@ -1,5 +1,11 @@
 <?php
 
+/*
+Crie um arquivo PHP
+Crie três variaveis com tipos de dados diferentes
+Imprima estas variáveis
+*/ 
+
     $nome = "Paulo Couves";
     $numMatricula = 202135269;
     $curso = "Tim - Técnologias de Informação e Multimédia";
