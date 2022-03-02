@@ -39,6 +39,8 @@
         if("teste" == "teste"){
             echo "Entrou no Segundo if 4<br><br>";
 
+            echo $escopo . "<br><br>";
+
         } else{
             echo "Entrou no Segundo else 4<br><br>";
         }
