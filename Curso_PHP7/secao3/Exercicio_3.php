@@ -1,4 +1,10 @@
 <?php
+
+/*
+Crie um arquivo PHP
+Imprima três números inteiros
+*/ 
+
     $num1 = 8;
     $num2 = -128;
 
