@@ -1,4 +1,10 @@
 <?php
+/*
+Crie um arquivo PHP
+Crie uma operação que utiliza subtração (-); divisão (/) e multiplicação (*)
+Armazene todos os valores em variaveis
+imprima o resultado final na tela
+*/ 
 
 $n1 = 100;
 $n2 = 5;
