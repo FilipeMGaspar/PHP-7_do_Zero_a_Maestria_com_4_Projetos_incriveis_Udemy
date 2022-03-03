@@ -17,20 +17,27 @@
     if(is_int($num)){
         $mult = $num * 2;
         if($mult > 100){
-            echo "$num * 2 é maoir que 100! <br><br>";
+            echo "$num * 2 é maior que 100! <br><br>";
         }
     }
 
     if(is_int($num1)){
         $mult = $num1 * 2;
         if($mult > 100){
-            echo "$num1 * 2 é maoir que 100! <br><br>";
+            echo "$num1 * 2 é maior que 100! <br><br>";
         }
     }
 
     if(is_int($txt)){
         $mult = $txt * 2;
         if($mult > 100){
-            echo "$txt * 2 é maoir que 100! <br><br>";
+            echo "$txt * 2 é maior que 100! <br><br>";
+        }
+    }
+
+    if(is_int($frase)){
+        $mult = $frase * 2;
+        if($mult > 100){
+            echo "$frase * 2 é maior que 100! <br><br>";
         }
     }
