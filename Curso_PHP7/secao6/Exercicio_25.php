@@ -5,4 +5,11 @@
     E crie um outro if, que checa se o novo número é maior que 100
     Se sim, imprima uma mensagem
     */ 
-    
+
+    $num = 50;
+
+    $num1 = 65;
+
+    $txt = "Uma Palavra!";
+
+    $frase = "Curso de PHP 7";
