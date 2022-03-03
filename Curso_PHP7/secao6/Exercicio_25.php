@@ -27,3 +27,10 @@
             echo "$num1 * 2 é maoir que 100! <br><br>";
         }
     }
+
+    if(is_int($txt)){
+        $mult = $txt * 2;
+        if($mult > 100){
+            echo "$txt * 2 é maoir que 100! <br><br>";
+        }
+    }
