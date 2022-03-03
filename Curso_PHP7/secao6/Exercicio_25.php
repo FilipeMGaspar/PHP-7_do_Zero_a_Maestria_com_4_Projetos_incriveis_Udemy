@@ -13,3 +13,10 @@
     $txt = "Uma Palavra!";
 
     $frase = "Curso de PHP 7";
+
+    if(is_int($num)){
+        $mult = $num * 2;
+        if($mult > 100){
+            echo "$num * 2 é maoir que 100! <br><br>"
+        }
+    }
