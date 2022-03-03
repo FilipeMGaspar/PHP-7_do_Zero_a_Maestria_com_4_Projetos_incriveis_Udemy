@@ -41,3 +41,10 @@
             echo "$frase * 2 é maior que 100! <br><br>";
         }
     }
+
+    if(is_int($num)){
+        $mult = $num * 2;
+        if($mult > 100){
+            echo "$num * 2 é maior que 100! <br><br>";
+        }
+    }
