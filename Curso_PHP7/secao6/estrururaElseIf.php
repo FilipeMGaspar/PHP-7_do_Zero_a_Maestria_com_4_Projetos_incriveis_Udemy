@@ -45,7 +45,7 @@ if($a < $b){
 } else if($a < $b){
     echo "Entrou no else if <br><br>";
 } else if($a > $b) {
-    echo "Entrou no else if 2 exec 4<br><br>";
+    echo "Entrou no else if 2 exec 5<br><br>";
 }else {
     echo $msg . "<br><br>";
 }
