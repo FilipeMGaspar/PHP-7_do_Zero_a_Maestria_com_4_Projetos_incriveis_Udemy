@@ -31,7 +31,7 @@ if(10 < 5){
 } else if(10 < 6){
     echo "Entrou no else if <br><br>";
 } else if(11 > 1) {
-    echo "Entrou no else if 2 <br><br>";
+    echo "Entrou no else if 2 exec 4<br><br>";
 }else {
     echo "Entrou no else <br><br>";
 }
