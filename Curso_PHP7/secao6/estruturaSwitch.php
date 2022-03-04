@@ -11,5 +11,4 @@ switch($x){
         break;
     default:
         echo "Valor inválido!<br><br>";
-        break;
 }
