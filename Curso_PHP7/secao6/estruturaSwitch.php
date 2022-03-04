@@ -1,6 +1,6 @@
 <?php
 
-$x = 8;
+$x = 0;
 
 switch($x){
     case 0:
