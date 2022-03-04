@@ -7,3 +7,10 @@ Se a velocidade for menor que 40, imprima que o motorista está na velocidade co
 Se igual a 40, imprima uma mensagem para o motorista tomatr cuidado
 Se for maior de 40, imprima uma mensagem de multa.
 */ 
+
+$velAtualCarro = 35;
+
+if($velAtualCarro < 40){
+    echo "Velocidade atual : $velAtualCarro Km/h - Velocidade correta";
+    echo "<br><br>";
+}
