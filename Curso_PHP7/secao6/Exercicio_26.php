@@ -17,7 +17,7 @@ if($velAtualCarro < 40){
     echo "Velocidade atual : $velAtualCarro Km/h - Atensão radar";
     echo "<br><br>";
 } else {
-    echo "Velocidade atual : $velAtualCarro Km/h -  Multado";
+    echo "Velocidade atual : $velAtualCarro Km/h -  Multado em 200€";
     echo "<br><br>"; 
 }
 
@@ -30,6 +30,6 @@ if($velAtualCarro < 40){
     echo "Velocidade atual : $velAtualCarro Km/h - Atensão radar";
     echo "<br><br>";
 } else {
-    echo "Velocidade atual : $velAtualCarro Km/h -  Multado";
+    echo "Velocidade atual : $velAtualCarro Km/h -  Multado em 200€";
     echo "<br><br>"; 
 }
