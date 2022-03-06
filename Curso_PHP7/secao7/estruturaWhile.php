@@ -14,6 +14,6 @@ $y = 0;
 while($y <= 10){
     echo $y;
     echo " - ";
-    $y++;
+    $y += 2;
 }
 echo "FIM! <br><br>";
