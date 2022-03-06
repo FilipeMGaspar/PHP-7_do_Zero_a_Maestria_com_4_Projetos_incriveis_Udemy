@@ -8,3 +8,11 @@ while($c < 10){
     $c++;
 }
 echo "FIM! <br><br>";
+
+$y = 0;
+
+while($y <= 10){
+    echo $y;
+    echo " - ";
+    $y++;
+}
