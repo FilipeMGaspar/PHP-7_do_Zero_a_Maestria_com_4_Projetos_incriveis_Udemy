@@ -1,5 +1,5 @@
 <?php
-$c = 0;
+$c = 1;
 
 echo "<br><br>";
 while($c < 10){
