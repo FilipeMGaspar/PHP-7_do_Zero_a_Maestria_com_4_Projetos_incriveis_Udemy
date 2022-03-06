@@ -2,7 +2,7 @@
 $c = 0;
 
 echo "<br><br>";
-while(){
+while($c < 10){
     echo $c;
     echo " - ";
     $c++;
