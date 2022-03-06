@@ -16,3 +16,4 @@ while($y <= 10){
     echo " - ";
     $y++;
 }
+echo "FIM! <br><br>";
