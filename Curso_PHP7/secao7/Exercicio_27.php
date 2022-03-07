@@ -5,6 +5,8 @@
     $i = 0;
 
     while ($i < 10) {
-        
+        if(is_string($arr[$i])){
+            echo  $arr[$i]. " <br>";
+        }
         $i++;
     }
