@@ -1,5 +1,7 @@
 <?php
 
+    echo "<br><br>";
+
     $arr = ["Texto", 100, 12.6, 'c', true, "Melga", 78, "Frase", 78.269, "String"];
 
     $i = 0;
