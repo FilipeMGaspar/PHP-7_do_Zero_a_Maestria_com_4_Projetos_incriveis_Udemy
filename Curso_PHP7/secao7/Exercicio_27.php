@@ -9,7 +9,7 @@
     
     $conta = 0;
 
-    while ($conta <= $i) {
+    while ($conta < $i) {
         if(is_string($arr[$conta])){
             echo  $arr[$conta]. " <br>";
         }
