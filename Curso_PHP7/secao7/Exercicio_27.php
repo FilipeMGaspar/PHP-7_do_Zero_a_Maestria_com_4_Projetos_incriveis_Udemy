@@ -4,11 +4,14 @@
 
     $arr = ["Texto", 100, 12.6, false, true, [], 78, "Frase", 78.269, "String"];
 
-    $i = 0;
+    $i = count($arr); // vai receber 
+    echo $i . "<br><br>",
+    
+    $conta = 0;
 
-    while ($i < 10) {
-        if(is_string($arr[$i])){
-            echo  $arr[$i]. " <br>";
+    while ($conta < $i) {
+        if(is_string($arr[$conta])){
+            echo  $arr[$conta]. " <br>";
         }
-        $i++;
+        $conta++;
     }
