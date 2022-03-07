@@ -4,7 +4,7 @@
 
     $arr = ["Texto", 100, 12.6, false, true, [], 78, "Frase", 78.269, "String"];
 
-    $i = count($arr); // Vai receber 
+    $i = count($arr); // Vai receber o tamanho do array
     
     $conta = 0;
 
