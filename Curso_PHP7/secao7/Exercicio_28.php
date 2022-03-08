@@ -10,10 +10,11 @@ Utilize o break para para o loop quando chegar ao número 24
 $conta = 4;
 
 while ($conta <= 30){
-    
+
+    echo $conta . " - ";
 
     if($conta === 24){
-        echo "<br><br>";
+        echo " Fim <br><br>";
     }
     $conta += 2;
 }
