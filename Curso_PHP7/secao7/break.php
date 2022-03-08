@@ -13,3 +13,5 @@ while($x < 10){
     
     $x++;
 }
+
+echo "<br> Saiu do loop <br>";
