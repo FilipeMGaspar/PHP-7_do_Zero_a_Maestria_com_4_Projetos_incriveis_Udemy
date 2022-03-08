@@ -10,6 +10,7 @@
             echo "Loop Interno = $j <br>";
             $j++; // Incremento do Segundo contador
         }
+        echo "<hr>";
 
         $i++; // Incremento do primeiro contador
     }
