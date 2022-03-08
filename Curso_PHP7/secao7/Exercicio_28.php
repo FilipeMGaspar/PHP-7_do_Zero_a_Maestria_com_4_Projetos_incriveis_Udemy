@@ -15,6 +15,7 @@ while ($conta <= 30){
 
     if($conta === 24){
         echo " Fim <br><br>";
+        break;
     }
     $conta += 2;
 }
