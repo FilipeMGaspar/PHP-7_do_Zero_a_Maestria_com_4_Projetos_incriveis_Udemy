@@ -2,6 +2,7 @@
 
     $i = 1; //Primeiro contador
 
+    echo "<br><hr>";
     while($i <= 10){
         echo "Loop Externo : $i <br>";       
  
