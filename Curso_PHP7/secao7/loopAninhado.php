@@ -9,7 +9,7 @@
         //segundo contador
         $j = 1;
         while($j <= 5){
-            echo "Loop Externo : $j<br><br>";
+            echo "Loop Interno = $j<br><br>";
             $j++;
         }
     }
