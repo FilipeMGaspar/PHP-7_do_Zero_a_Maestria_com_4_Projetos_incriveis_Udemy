@@ -11,6 +11,10 @@ $arr =[10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 $i = count($arr); 
 $conta = 0;
 
-while(){
+while($conta < $i){
 
+    echo "$arr[$conta] - ";
+    $conta++;
 }
+
+echo " FIM! <br><br>";
