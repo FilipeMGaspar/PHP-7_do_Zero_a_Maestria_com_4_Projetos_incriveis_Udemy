@@ -1,7 +1,7 @@
 <?php
 
 /*
-Crie um array com valores inteiros de 10 a 100, com incremento de 10;
+Crie um array com valores inteiros de 10 a 100, com incremento de 1;
 Aplique um loop neste array
 Quando entrar os valores 30 ou 40, pule para a próxima execução
 */ 
@@ -15,7 +15,7 @@ while($conta < $i){
 
     if($arr[$conta] == 30 || $arr[$conta] == 40){
         $conta ++;
-        echo " X - ";
+        echo " X - "; // No lugar do 30 e do 40 vai escrever  X
         continue;
     }
 
