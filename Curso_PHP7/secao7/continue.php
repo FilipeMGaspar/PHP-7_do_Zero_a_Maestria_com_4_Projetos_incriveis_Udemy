@@ -6,6 +6,7 @@
       
        if($x == 5 || $x == 7){
             echo "Pulou a execução $x <br>";
+            $a--;
             continue;
        }
 
