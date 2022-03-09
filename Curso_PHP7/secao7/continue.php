@@ -1,6 +1,7 @@
 <?php
-    $x = 0;
+    $x = 10;
 
-    while(){
-        
+    while($x > 0){
+       echo "Executando o loop $x<br>";
+
     }
