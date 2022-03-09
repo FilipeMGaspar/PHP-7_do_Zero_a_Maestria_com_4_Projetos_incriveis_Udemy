@@ -8,3 +8,9 @@ Quando entrar os valores 30 ou 40, pule para a próxima execução
 
 $arr =[10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
+$i = count($arr); 
+$conta = 0;
+
+while(){
+
+}
