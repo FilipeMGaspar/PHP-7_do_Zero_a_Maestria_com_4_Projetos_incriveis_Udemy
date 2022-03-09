@@ -15,7 +15,7 @@ while($conta < $i){
 
     if($arr[$conta] == 30 || $arr[$conta] == 40){
         $conta ++;
-        echo " X ";
+        echo " X - ";
         continue;
     }
 
