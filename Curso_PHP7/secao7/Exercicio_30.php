@@ -8,10 +8,15 @@
 
     $arr = [];
 
-    for($i = 0; $i < 20; $i++){
+    
+    for($i = 0; $i < 20; $i++){ //ciclo for para prencher o array
         $arr[$i] = $i + 1;
     }
 
-    echo "<br>";
-    print_r($arr);
-    echo "<br>";
+    for($i = 0; $i < 20; $i++){ //ciclo para imprimir apenas os pares
+        if($arr[$i] % 2 == 0){
+            echo "Números pares <br><br>";
+            echo $arr[$i] . " - ";
+        }
+    }
+    
