@@ -16,3 +16,12 @@ for($i = 0 ; $i < 10; $i++){ // Preenchimento do array
 }
 
 echo "<br> Números Ímpares <br>";
+
+$tamArray = count($arr);
+
+for($i = 0; $i < $tamArray; $i++){
+    if($arr[$i] % 2 != 0){
+        echo $arr[$i] . " - ";
+    }
+}
+echo "<br><br>",
