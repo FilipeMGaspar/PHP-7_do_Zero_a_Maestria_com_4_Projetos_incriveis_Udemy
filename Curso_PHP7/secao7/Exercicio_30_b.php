@@ -8,3 +8,11 @@
 
     * Imprima o array com o print_r
 */
+
+$arr = [];
+
+for($i = 0; $i < 10; $i++){
+    array_push($arr, $i + 1);
+}
+
+print_r($arr);
