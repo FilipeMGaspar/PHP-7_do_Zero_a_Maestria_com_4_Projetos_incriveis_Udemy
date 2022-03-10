@@ -18,4 +18,4 @@
             echo $arr[$i] . " - ";
         }
     }
-    
+    echo "FIM!";
