@@ -9,4 +9,9 @@
 
     echo "<br><br>";
 
-    echo "<br>Incremento com a Estrutura For<br>"; 
+    echo "<br>Decremento com a Estrutura For<br>"; 
+
+    for($x = 10; $x > 0; $x-- ){
+        echo "Testando a estrutura FOR $x";
+        echo "<br>";
+    }
