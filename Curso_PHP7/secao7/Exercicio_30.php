@@ -7,9 +7,8 @@
     */ 
 
     $arr = [];
-
     
-    for($i = 0; $i < 20; $i++){ //ciclo for para prencher o array
+    for($i = 0; $i < 20; $i++){ //ciclo for para preencher o array
         $arr[$i] = $i + 1;
     }
 
