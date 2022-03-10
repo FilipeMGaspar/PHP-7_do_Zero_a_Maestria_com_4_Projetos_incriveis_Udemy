@@ -12,8 +12,9 @@
         $arr[$i] = $i + 1;
     }
 
+    $tamArr = count($arr);
     echo "<br><br>Números PAR <br><br>";
-    for($i = 0; $i < 20; $i++){ //ciclo para imprimir apenas os pares
+    for($i = 0; $i <  $tamArr; $i++){ //ciclo para imprimir apenas os pares
         if($arr[$i] % 2 == 0){
             echo $arr[$i] . " - ";
         }
