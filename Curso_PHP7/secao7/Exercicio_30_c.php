@@ -24,4 +24,4 @@ for($i = 0; $i < $tamArray; $i++){
         echo $arr[$i] . " - ";
     }
 }
-echo "<br><br>",
+echo "<br><br>";
