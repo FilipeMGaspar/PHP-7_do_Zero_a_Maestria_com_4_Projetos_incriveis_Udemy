@@ -12,6 +12,6 @@
     $i = 10;
 
     do {
-        
+        echo "Decremento em do while $i <br>";
         $i--;
     }while($i > 0);
