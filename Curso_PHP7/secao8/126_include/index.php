@@ -3,4 +3,4 @@
 ?>
 
 <p>Após o include !</p>
-<p>Imprimindo o C <?php echo $c; ?></p>
+<p>Imprimindo o C = <?php echo $c; ?></p>
