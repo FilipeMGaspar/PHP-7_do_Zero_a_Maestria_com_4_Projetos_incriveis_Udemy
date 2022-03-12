@@ -1,3 +1,4 @@
+<p>Testando</p>
 <?php
     require "include.php";
 ?>    
