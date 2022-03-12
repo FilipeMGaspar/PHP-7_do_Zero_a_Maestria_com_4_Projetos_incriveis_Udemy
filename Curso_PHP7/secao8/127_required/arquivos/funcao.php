@@ -1,4 +1,4 @@
 <?php
     $idade = 12;
 
-    echo
+    echo "<br>A idade é igual a $idade <br>";
