@@ -4,3 +4,7 @@
 ?>    
 
 <p>Arquivo include</p>
+
+<?php
+    include "arquivos/funcao.php";
+?>
