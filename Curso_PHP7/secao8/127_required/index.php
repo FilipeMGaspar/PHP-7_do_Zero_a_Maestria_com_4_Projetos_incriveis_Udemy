@@ -1,6 +1,6 @@
 <p>Testando</p>
 <?php
-    require "include.php";
+    require "required.php";
 ?>    
 
 <p>Arquivo include</p>
