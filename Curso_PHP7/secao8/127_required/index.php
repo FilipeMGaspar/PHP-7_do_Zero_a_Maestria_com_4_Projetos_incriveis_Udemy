@@ -6,5 +6,5 @@
 <p>Arquivo include</p>
 
 <?php
-    include "arquivos/funcao.php";
+    require "arquivos/funcao.php";
 ?>
