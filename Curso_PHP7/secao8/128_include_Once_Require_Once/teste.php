@@ -4,6 +4,10 @@
 
  include_once "include_once.php";
 
+ //para testes
+ include_once "include_once.php";
+
+
 ?>
 
 <br>
