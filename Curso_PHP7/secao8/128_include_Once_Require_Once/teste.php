@@ -2,10 +2,10 @@
  //include_once "naoexiste.php";
  //require_once "naoexiste.php";
 
- include "include_once.php";
+ include_once "include_once.php";
 
  //para testes
- include "include_once.php";
+ require_once "require_Once.php";
 
 
 ?>
