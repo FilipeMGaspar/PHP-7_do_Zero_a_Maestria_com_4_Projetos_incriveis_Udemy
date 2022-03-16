@@ -6,7 +6,7 @@
 
 <form action="">
     <div>
-        <input type="text" value="">
+        <input type="text" value="<?=$nome?>">
     </div>
 
     <div>
