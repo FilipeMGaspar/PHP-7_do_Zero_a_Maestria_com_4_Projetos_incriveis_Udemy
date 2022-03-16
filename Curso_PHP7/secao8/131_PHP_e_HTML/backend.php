@@ -1,4 +1,4 @@
 <?php
     $nome = "Lucas";
-    $produtos = ["carro", "Avião", "Lancha"];
+    $produtos = ["Motas", "Carros", "Aviões", "Barcos"];
 ?>
