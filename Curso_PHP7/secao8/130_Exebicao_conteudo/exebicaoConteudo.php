@@ -1,8 +1,8 @@
-<!--
+
 <?php
     $nome = "Lucas";
 ?>
--->
+
 
 <form action="">
     <div>
