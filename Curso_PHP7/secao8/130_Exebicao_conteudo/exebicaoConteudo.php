@@ -1,4 +1,7 @@
 <?php
+    $nome = "Lucas";
 ?>
 
-<?="Teste!";?>
+<form> action = "">
+
+</form>
