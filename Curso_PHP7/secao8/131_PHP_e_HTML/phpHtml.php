@@ -6,6 +6,7 @@
 <p><?=$nome ?>, veja as nossas ofertas!</p>
 
 <h2>Confira os nossos principais produtos</h2>
+
 <ul>
 <?php foreach($produtos as $produto): ?>
    <li><?=$produto?></li>
