@@ -2,7 +2,10 @@
 
     //Definindo uma função
     function soma(){
-        echo 4 + 2 . "<br><br>";
+        $a = 5;
+        $b = 4;
+
+        echo $a + $b . "<br><br>";
     }
 
     //Chamando / invocando função
