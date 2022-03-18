@@ -11,3 +11,6 @@
     //Chamando / invocando função
     soma();
     soma();
+
+    //função do PHP
+    strtoupper("testando função!");
