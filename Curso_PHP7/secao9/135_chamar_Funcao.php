@@ -3,3 +3,5 @@
     function soma(){
         echo 4 + 2 . "<br><br>";
     }
+
+    soma();
