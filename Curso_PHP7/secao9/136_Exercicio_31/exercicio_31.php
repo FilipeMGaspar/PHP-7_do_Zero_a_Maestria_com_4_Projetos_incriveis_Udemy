@@ -10,6 +10,6 @@
 
     $plvr = ["Olá","seja!", "Bem", "Vindo"];
 
-    $texto = implode(",", $plvr);
+    $texto = implode(", ", $plvr);
 
     echo $texto;
