@@ -8,4 +8,8 @@
     *   Exiba o resultado
     */
 
-    $texto = ["Olá","seja!", "Bem", "Vindo"];
+    $plvr = ["Olá","seja!", "Bem", "Vindo"];
+
+    $texto = implode(",", $plvr);
+
+    echo $texto;
