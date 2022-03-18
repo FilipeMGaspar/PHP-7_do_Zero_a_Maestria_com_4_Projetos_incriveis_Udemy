@@ -5,8 +5,9 @@
         $a = 5;
         $b = 4;
 
-        echo $a + $b . "<br><br>";
+        echo $a + $b . "<br>";
     }
 
     //Chamando / invocando função
+    soma();
     soma();
