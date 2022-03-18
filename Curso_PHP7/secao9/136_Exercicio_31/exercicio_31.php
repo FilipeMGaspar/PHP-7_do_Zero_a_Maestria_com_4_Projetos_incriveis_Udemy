@@ -7,3 +7,5 @@
     *   Atribua a invocação da função a uma variavel
     *   Exiba o resultado
     */
+
+    $texto = ["Olá","seja!", "Bem", "Vindo"];
