@@ -13,4 +13,4 @@
     soma();
 
     //função do PHP
-    strtoupper("testando função!");
+   echo strtoupper("testando função!");
