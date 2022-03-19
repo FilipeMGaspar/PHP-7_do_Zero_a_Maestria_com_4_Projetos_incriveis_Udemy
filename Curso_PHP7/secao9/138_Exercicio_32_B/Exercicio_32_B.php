@@ -11,3 +11,5 @@ function imprime(){
 
     echo "Ola, $nome $sobrenome. Seja bem Vindo!";
 }
+
+imprime();
