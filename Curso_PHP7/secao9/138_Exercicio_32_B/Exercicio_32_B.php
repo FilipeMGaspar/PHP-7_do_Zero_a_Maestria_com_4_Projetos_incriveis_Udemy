@@ -9,5 +9,5 @@ function imprime(){
     $nome = "Lucas";
     $sobrenome = "Mendes";
 
-    echo "Ola, $nome $sobrenome. Seja bem Vindo!"
+    echo "Ola, $nome $sobrenome. Seja bem Vindo!";
 }
