@@ -12,3 +12,5 @@
 
         echo " $a x $b x $c = ". $a * $b * $c ."<br>";
     }
+
+    multiplicar();
