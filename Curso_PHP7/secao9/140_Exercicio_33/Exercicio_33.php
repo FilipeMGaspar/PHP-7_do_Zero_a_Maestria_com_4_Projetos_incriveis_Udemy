@@ -10,3 +10,5 @@ function apresentarPessoa($nome, $idade){
 }
 
 apresentarPessoa("Julia", 39);
+apresentarPessoa("Manuel", 19);
+apresentarPessoa("Lucas", 37);
