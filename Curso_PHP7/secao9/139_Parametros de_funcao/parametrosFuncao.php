@@ -15,4 +15,4 @@
 
    $velocidade = 256;
    velocidadeMaxima($velocidade, "Teste");
-   velocidadeMaxima("teste";
+   velocidadeMaxima("teste");
