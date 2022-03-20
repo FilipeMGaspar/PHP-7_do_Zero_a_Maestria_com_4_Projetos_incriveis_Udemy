@@ -7,3 +7,4 @@
     velocidadeMaxima(220);
     velocidadeMaxima(180);
     velocidadeMaxima(320);
+    velocidadeMaxima();
