@@ -21,3 +21,7 @@
    $velocidade = 256;
    velocidadeMaxima($velocidade, "Teste");
    velocidadeMaxima("teste");
+
+   function descreverAnimal($nome, $raca, $corPelo){
+        echo "<br>O $nome é da $raca com pelagem $corPelo<br>"
+   }
