@@ -22,9 +22,11 @@
    velocidadeMaxima($velocidade, "Teste");
    velocidadeMaxima("teste");
 
+   echo "<br>";
    function descreverAnimal($nome, $raca, $corPelo){
         echo "<br>O $nome é da raça $raca com pelagem $corPelo<br>";
    }
 
    descreverAnimal("Joly", "Rafeiro", "beje");
    descreverAnimal("Max", "Pastor alemão", "castanho");
+   descreverAnimal("Poodle", "branco", "Lacy");
