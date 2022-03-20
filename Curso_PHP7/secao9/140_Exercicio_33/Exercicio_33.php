@@ -8,3 +8,5 @@
 function apresentarPessoa($nome, $idade){
     echo "<br>Olá o meu nome é $nome e tenho $idade anos! <br>";
 }
+
+apresentarPessoa("Julia", 39);
