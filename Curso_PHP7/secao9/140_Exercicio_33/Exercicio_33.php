@@ -5,6 +5,6 @@
 *   Imprima "Olá eu sou o NOME e tenho X anos";
 */
 
-function apresentarPessoa(){
-
+function apresentarPessoa($nome, $idade){
+    echo "<br> <br>";
 }
