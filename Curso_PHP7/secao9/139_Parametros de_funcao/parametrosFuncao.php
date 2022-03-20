@@ -1,2 +1,5 @@
 <?php
-    
+
+    function velocidadeMaxima($vel){
+        
+    }
