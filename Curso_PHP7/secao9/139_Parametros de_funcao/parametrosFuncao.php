@@ -1,7 +1,12 @@
 <?php
 
     function velocidadeMaxima($vel){
-        echo "O carro atinge a velocidade máxima de $vel Km/h <br>";
+        if(is_int($vel)){
+            echo "O carro atinge a velocidade máxima de $vel Km/h <br>";
+        } else {
+            echo "Velocidade máxima do carro não foi definida!",
+        }
+      
     }
 
     velocidadeMaxima(220);
