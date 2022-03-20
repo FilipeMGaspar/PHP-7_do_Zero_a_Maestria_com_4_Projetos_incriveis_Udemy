@@ -6,5 +6,5 @@
 */
 
 function apresentarPessoa($nome, $idade){
-    echo "<br> <br>";
+    echo "<br>Olá o meu nome é $nome e tenho $idade anos! <br>";
 }
