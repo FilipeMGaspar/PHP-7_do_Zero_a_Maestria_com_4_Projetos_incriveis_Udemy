@@ -6,3 +6,6 @@
     ECHO "Teste 03 <br>";
 
     echo "<br> $nome <br>";
+
+    //echo "<br> $Nome <br>"; Case sensitive vai dar erro
+
