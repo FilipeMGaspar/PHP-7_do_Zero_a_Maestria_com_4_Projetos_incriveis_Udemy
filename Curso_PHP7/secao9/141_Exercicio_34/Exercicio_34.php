@@ -11,5 +11,5 @@
         }else{
             $resultado = "ÍMPAR";
         }
-        echo "o número $num é <strong>$resultado</strong>";
+        echo "<br>O número $num é <strong>$resultado</strong> <br>";
     }
