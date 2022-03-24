@@ -13,3 +13,6 @@
         }
         echo "<br>O número $num é <strong>$resultado</strong> <br>";
     }
+
+    parOUimpar(26);
+    parOUimpar(101);
