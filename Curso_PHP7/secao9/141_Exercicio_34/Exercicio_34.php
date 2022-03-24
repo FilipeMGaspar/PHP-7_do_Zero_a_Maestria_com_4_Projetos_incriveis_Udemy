@@ -4,3 +4,7 @@
     *   Se for par imprima uma mensagem
     *   Se for ímpar imprima uma mensagem 
     */
+
+    function parOUimpar($num){
+        
+    }
