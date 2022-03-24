@@ -9,7 +9,7 @@
         if($num %2 === 0){
             $resultado = "PAR";
         }else{
-            $resultado = "ÍMPAR"
+            $resultado = "ÍMPAR";
         }
         echo "o número $num é <strong>$resultado</strong>";
     }
