@@ -12,5 +12,5 @@
     echo $x;
 
     echo "<br><br>";
-    $y = soma($x + 11);
+    $y = soma($x, 11);
     echo $y;
