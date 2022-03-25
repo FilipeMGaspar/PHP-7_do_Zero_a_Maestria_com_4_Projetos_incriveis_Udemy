@@ -7,6 +7,10 @@
     echo "<br><br>";
     echo soma(25, 30);
     
-    $x = soma(3, 5);
     echo "<br><br>";
+    $x = soma(3, 5);    
     echo $x;
+
+    echo "<br><br>";
+    $y = soma($x + 11);
+    echo $y;
