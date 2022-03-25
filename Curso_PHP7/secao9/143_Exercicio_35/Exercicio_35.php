@@ -5,15 +5,15 @@
 */
 
     function numAoQuadrado($num){
-        $result = $x ** 2;
-        //return pow($num, 2);
+        $result = pow($num, 2);
+        
         return $result;
     }
 
     echo numAoQuadrado(5);
 
     echo "<br><br>";
-    $n = 2;
+    $n = 12;
     $n1 = numAoQuadrado($n);
     echo $n1;
 
