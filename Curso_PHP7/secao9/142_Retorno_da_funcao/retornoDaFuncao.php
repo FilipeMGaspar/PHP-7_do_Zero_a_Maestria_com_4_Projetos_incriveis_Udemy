@@ -4,4 +4,4 @@
         return $n1 + $n2;
     }
 
-    soma(3, 5);
+   echo soma(3, 5);
