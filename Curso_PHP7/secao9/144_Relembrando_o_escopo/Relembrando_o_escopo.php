@@ -16,5 +16,6 @@
     }
 
     echo "ESCOPO GLOBAL DE A: $a <br><br>";
+    echo "ESCOPO GLOBAL DE B: $b <br><br>";
 
     testeEscopo();
