@@ -28,3 +28,5 @@
     testeEscopo();
 
     echo "ESCOPO GLOBAL DE B: $b <br><br>";
+
+    testeEscopo();
