@@ -8,13 +8,13 @@
         $a = 5;
         global $b;
 
-        $a++;
-
-        $b += 15; 
+        $a++;       
 
         echo "ESCOPO LOCAL DE A: $a <br><br>";
 
-        echo "ESCOPO GLOBAL NA FUNÇÃO DE $b <br><br>";
+        echo "ESCOPO GLOBAL NA FUNÇÃO DE B:  $b <br><br>";
+
+        $b += 15;
     }
 
     echo "ESCOPO GLOBAL DE A: $a <br><br>";
