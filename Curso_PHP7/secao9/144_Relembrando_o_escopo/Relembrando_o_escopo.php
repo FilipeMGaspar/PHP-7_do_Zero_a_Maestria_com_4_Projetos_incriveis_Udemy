@@ -5,13 +5,13 @@
     $b = 15;
 
     function testeEscopo(){
-        $a = 5;
+        $a = -5;
         global $b;
         static $c = 0;
 
         $a++;    
         
-        $c++;   
+        $c += 3;   
 
         echo "ESCOPO LOCAL DE A: $a <br><br>";
 
