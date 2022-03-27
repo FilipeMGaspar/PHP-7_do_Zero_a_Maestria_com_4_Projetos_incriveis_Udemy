@@ -5,6 +5,8 @@
     function testeEscopo(){
         $a = 5;
 
+        $a++;
+        
         echo "ESCOPO LOCAL DE $a <br><br>";
     }
 
