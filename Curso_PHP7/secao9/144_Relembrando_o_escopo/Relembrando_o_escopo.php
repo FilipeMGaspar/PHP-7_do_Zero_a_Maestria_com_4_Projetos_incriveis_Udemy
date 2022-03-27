@@ -7,12 +7,17 @@
     function testeEscopo(){
         $a = 5;
         global $b;
+        static $c = 0;
 
-        $a++;       
+        $a++;    
+        
+        $c++;   
 
         echo "ESCOPO LOCAL DE A: $a <br><br>";
 
         echo "ESCOPO GLOBAL NA FUNÇÃO DE B:  $b <br><br>";
+
+        echo "ESCOPO STATIC DE C: $c <br><br>";
 
         $b += 15;
     }
