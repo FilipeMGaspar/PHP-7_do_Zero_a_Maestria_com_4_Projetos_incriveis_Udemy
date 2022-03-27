@@ -9,3 +9,5 @@
     }
 
     echo "ESCOPO GLOBAL DE $a <br><br>";
+
+    testeEscopo();
