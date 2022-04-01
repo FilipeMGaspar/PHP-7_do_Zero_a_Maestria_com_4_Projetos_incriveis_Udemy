@@ -25,8 +25,6 @@
             array_push($arr, $i * 3);
         }
     }
-   
-    arrayMaoirQueSete($arr);
 
     $arrayfun = arrayMaoirQueSete($arr);
     sort($arrayfun); // Coloca o array por ordem crescente
