@@ -24,9 +24,13 @@
         }else{
             array_push($arr, $i);
         }
-        array_push($arr, $i);
     }
-    print_r($arr);
+   
+    echo "<br>";
+    foreach ($arr as $elemento){
+        echo "$elemento - ";
+    }
+    echo "Fim!";
    /*
     arrayMaoirQueSete($arr);
 
