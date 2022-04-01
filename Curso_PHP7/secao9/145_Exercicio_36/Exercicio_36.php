@@ -13,9 +13,10 @@
             }
         }
 
-        print_r($novoArray);
-        //return $novoArray;
+        return $novoArray;
     }
 
     $arr = [10, 2 , 8, 16, 5, 3, 6, 9, 25, 125, 1];
     arrayMaoirQueSete($arr);
+
+    $arrayfun = arrayMaoirQueSete($arr);
