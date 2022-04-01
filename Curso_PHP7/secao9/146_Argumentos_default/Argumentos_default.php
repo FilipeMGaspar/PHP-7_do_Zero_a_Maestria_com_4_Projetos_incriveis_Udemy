@@ -7,3 +7,7 @@
     teste();
 
     teste(12.256);
+
+    function testando($a = "X", $b){
+            
+    }
