@@ -21,7 +21,8 @@
 
     $arrayfun = arrayMaoirQueSete($arr);
 
+    echo "<br>";
     foreach ($arrayfun as $elemento){
-        echo "<br> $elemento - ";
+        echo "$elemento - ";
     }
     echo "Fim!";
