@@ -20,7 +20,8 @@
     arrayMaoirQueSete($arr);
 
     $arrayfun = arrayMaoirQueSete($arr);
-
+    sort($arrayfun); // Coloca o array por ordem crescente
+    
     echo "<br>";
     foreach ($arrayfun as $elemento){
         echo "$elemento - ";
