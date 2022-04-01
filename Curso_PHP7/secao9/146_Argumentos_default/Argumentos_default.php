@@ -13,4 +13,4 @@
             echo "O valor de B é $b <br>";
     }
 
-    testando();
+    testando("1");
