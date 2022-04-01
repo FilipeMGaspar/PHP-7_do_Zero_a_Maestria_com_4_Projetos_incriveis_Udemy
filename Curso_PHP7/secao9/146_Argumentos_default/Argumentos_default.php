@@ -8,7 +8,7 @@
 
     teste(12.256);
 
-    function testando($a = "X", $b){
+    function testando($b, $a = "X"){
             echo "<br>O valor de A é: $a <br>";
             echo "O valor de B é $b <br>";
     }
