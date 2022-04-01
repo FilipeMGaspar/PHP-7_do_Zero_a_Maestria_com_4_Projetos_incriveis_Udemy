@@ -20,3 +20,8 @@
     arrayMaoirQueSete($arr);
 
     $arrayfun = arrayMaoirQueSete($arr);
+
+    foreach ($arrayfun as $elemento){
+        echo "<br> $elemento - ";
+    }
+    echo "Fim!";
