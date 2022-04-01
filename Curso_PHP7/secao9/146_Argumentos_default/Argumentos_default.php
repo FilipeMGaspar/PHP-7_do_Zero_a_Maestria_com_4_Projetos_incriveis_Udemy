@@ -10,5 +10,7 @@
 
     function testando($a = "X", $b){
             echo "<br>O valor de A é: $a <br>";
-            echo "O valor de B é $b";
+            echo "O valor de B é $b <br>";
     }
+
+    testando();
