@@ -26,12 +26,6 @@
         }
     }
    
-    echo "<br>";
-    foreach ($arr as $elemento){
-        echo "$elemento - ";
-    }
-    echo "Fim!";
-   /*
     arrayMaoirQueSete($arr);
 
     $arrayfun = arrayMaoirQueSete($arr);
@@ -41,4 +35,4 @@
     foreach ($arrayfun as $elemento){
         echo "$elemento - ";
     }
-    echo "Fim!";*/
+    echo "Fim!";
