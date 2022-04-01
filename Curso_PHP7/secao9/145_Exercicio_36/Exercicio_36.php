@@ -18,7 +18,7 @@
 
     $arr = [];
 
-    for ($i = 0; $i <= 15, $i++){
+    for ($i = 0; $i <= 15; $i++){
         if($i % 2 = 0){
             array_push($arr, $i);
         }else{
