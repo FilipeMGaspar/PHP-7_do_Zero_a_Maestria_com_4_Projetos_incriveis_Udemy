@@ -19,7 +19,7 @@
     $arr = [];
 
     for ($i = 0; $i <= 15; $i++){
-        if($i % 2 = 0){
+        if($i % 2 == 0){
             array_push($arr, $i);
         }else{
             array_push($arr, $i * 2);
