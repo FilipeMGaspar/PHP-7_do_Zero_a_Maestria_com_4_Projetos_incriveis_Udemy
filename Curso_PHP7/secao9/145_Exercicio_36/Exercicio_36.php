@@ -26,6 +26,8 @@
         }
         array_push($arr, $i);
     }
+    print($arr);
+   /*
     arrayMaoirQueSete($arr);
 
     $arrayfun = arrayMaoirQueSete($arr);
