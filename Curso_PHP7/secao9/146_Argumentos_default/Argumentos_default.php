@@ -14,3 +14,5 @@
     }
 
     testando(123);
+
+    testando("Melga", 568.256);
