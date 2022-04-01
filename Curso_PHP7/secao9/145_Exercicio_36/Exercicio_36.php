@@ -22,7 +22,7 @@
         if($i % 2 == 0){
             array_push($arr, $i);
         }else{
-            array_push($arr, $i * 2);
+            array_push($arr, $i);
         }
         array_push($arr, $i);
     }
@@ -37,4 +37,4 @@
     foreach ($arrayfun as $elemento){
         echo "$elemento - ";
     }
-    echo "Fim!";
+    echo "Fim!";*/
