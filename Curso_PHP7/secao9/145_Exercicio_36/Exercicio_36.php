@@ -5,9 +5,9 @@
     *   Retorne este novo arra e imprima na tela
     */
 
-    function arrayMaoirQueSete ($a = []){
+    function arrayMaoirQueSete ($RcbArray){
         $novoArray = [];
-        foreach ($a as $elemento){
+        foreach ($RcbArray as $elemento){
             if($elemento > 7){
                 array_push($novoArray, $elemento); 
             }
@@ -16,7 +16,16 @@
         return $novoArray;
     }
 
-    $arr = [10, 2 , 8, 16, 5, 3, 6, 9, 25, 125, 1];
+    $arr = [];
+
+    for ($i = 0; $i <= 15, $i++){
+        if($i % 2 = 0){
+            array_push($arr, $i);
+        }else{
+            array_push($arr, $i * 2);
+        }
+        array_push($arr, $i);
+    }
     arrayMaoirQueSete($arr);
 
     $arrayfun = arrayMaoirQueSete($arr);
