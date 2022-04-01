@@ -6,7 +6,15 @@
     */
 
     function arrayMaoirQueSete ($a = []){
-        print_r($a);
+        $novoArray = [];
+        foreach ($a as $elemento){
+            if($elemento > 7){
+                array_push($novoArray, $elemento); 
+            }
+        }
+
+        print_r($novoArray);
+        //return $novoArray;
     }
 
     $arr = [10, 2 , 8, 16, 5, 3, 6, 9, 25, 125, 1];
