@@ -10,6 +10,6 @@
 
     print_r($arr);
 
-    echo "<br>";
+    echo "<br><br>";
 
     var_dump($arr);
