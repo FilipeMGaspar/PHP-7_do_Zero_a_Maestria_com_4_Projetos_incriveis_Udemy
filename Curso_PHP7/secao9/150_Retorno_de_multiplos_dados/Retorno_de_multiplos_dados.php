@@ -13,4 +13,4 @@
 
     echo "<br><br>";
 
-    echo "Olá $dados[1], você tem $dados[1]";
+    echo "Olá $dados[0], você tem $dados[1]";
