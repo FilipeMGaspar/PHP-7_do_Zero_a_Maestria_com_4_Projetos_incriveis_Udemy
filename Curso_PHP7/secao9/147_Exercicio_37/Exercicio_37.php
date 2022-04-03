@@ -10,6 +10,6 @@
         return $cor;
     }
 
-    echo "O carro tem como com o" . defineCorCarro() . "<br><br>";
+    echo "O carro de cor " . defineCorCarro() . "<br><br>";
 
-    echo "O carro tem como com o" . defineCorCarro("Azul") . "<br><br>";
+    echo "O carro de cor " . defineCorCarro("Azul") . "<br><br>";
