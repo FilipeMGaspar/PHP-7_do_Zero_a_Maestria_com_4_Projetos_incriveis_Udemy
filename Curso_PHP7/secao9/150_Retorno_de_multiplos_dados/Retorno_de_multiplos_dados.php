@@ -8,3 +8,5 @@
     }
 
     $dados = alteraDados("Lucas", 37);
+
+    print_r($dados);
