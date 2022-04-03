@@ -10,3 +10,7 @@
     $dados = alteraDados("Lucas", 37);
 
     print_r($dados);
+
+    echo "<br><br>";
+
+    echo "Olá $dados[1], você tem $dados[1]";
