@@ -6,3 +6,6 @@
 *   Imprima o retorno tanto com parametro default, como também definindo a cor
 *
 */
+    function defineCorCarro($cor = "Vermelho"){
+        return $cor;
+    }
