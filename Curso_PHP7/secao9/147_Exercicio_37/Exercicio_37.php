@@ -9,3 +9,7 @@
     function defineCorCarro($cor = "Vermelho"){
         return $cor;
     }
+
+    echo "O carro tem como com o" . defineCorCarro() . "<br><br>";
+
+    echo "O carro tem como com o" . defineCorCarro("Azul") . "<br><br>";
