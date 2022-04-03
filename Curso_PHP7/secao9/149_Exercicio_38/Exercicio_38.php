@@ -11,3 +11,5 @@
     }
 
     $arr = ["Pão", "Leite", "Açucar", "Arroz"];
+
+    echo  itensSuperMercado($arr) . "<br>";
