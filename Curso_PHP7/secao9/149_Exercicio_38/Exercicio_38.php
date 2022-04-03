@@ -6,7 +6,7 @@
 */
 
     function itensSuperMercado($arrayItens){
-        $ItenSuperString = implode(", " , $arrayItens)
+        $ItenSuperString = implode(", " , $arrayItens);
         return $ItenSuperString;
     }
 
