@@ -7,7 +7,7 @@
         return [$nome, $idade];
     }
 
-    $dados = alteraDados("Lucas", 37);
+    $dados = alteraDados("Filipe", 37);
 
     print_r($dados);
 
