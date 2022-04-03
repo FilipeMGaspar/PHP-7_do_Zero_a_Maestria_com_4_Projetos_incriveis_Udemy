@@ -6,7 +6,8 @@
 */
 
     function itensSuperMercado($arrayItens){
-        $ItenSuperString 
-        return implode($ItenSuperString, ", ", $arrayItens);
+        $ItenSuperString = implode(", " , $arrayItens)
+        return $ItenSuperString;
     }
-    
+
+    $arr = ["Pão", "Leite", "Açucar", "Arroz"];
