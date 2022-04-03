@@ -4,3 +4,9 @@
 *   Retorne este array em forma de string, separado em virgulas
 *
 */
+
+    function itensSuperMercado($arrayItens){
+        $ItenSuperString 
+        return implode($ItenSuperString, ", ", $arrayItens);
+    }
+    
