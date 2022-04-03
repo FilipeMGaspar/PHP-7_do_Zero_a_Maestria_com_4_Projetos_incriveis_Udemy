@@ -10,6 +10,6 @@
         return $ItenSuperString;
     }
 
-    $arr = ["Pão", "Leite", "Açucar", "Arroz"];
+    $arr = ["Ovos","Pão", "Leite", "Açucar", "Arroz"];
 
     echo  itensSuperMercado($arr) . "<br>";
