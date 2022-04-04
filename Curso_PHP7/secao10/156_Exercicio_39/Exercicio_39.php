@@ -9,13 +9,15 @@
 *   Imprima o retorno
 */ 
 
-    function carateristasobjetos($nome, $preço, $qtObjetos){
-        $arrayObjetos = array("$nome" => $preço);
+    function carateristasobjetos($arrayObjetos){
+        
         return $arrayObjetos;
     }
 
-    $arr = carateristasobjetos("carro", 2500);
-    $arr = carateristasobjetos("Mota", 500);
-
-    var_dump($arr);
-    
+   
+    $arr = array(
+        "carro" => 11250.99,
+        "sofa" => 899,85,
+        "cafeteira" => 9.99,
+        "borracha" => 0.89
+    );
