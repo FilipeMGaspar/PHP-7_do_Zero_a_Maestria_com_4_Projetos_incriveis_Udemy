@@ -12,3 +12,6 @@
     header("Content-type: text/plain"); // texto puro
 
     echo "Isso aqui vai ficar na primeira linha \nE isso na segunda linha \n";
+
+    //tabulação
+    echo "";
