@@ -10,7 +10,11 @@
 */ 
 
     function carateristasobjetos($nome, $preço){
-        $arrayObjetos = [];
-
-        array_push($arrayObjetos["$nome"] => $preço);
+        $arrayObjetos = array("$nome" => $preço);
+        return $arrayObjetos;
     }
+
+    $arr = carateristasobjetos("carro", 2500);
+
+    var_dump($arr);
+    
