@@ -9,9 +9,9 @@
 *   Imprima o retorno
 */ 
 
-    function carateristasobjetos($arrayObjetos){
-        
-        return $arrayObjetos;
+    function objetosAcimaDeDez($arrayObjetos){
+        $arrayDezMais = [];
+        return $arrayDezMais;
     }
 
    
