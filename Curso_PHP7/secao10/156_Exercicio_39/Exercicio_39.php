@@ -13,7 +13,7 @@
         $arrayDezMais = [];
 
         foreach ($arrayObjetos as $objecto => $preco){
-            if($objecto > 10){
+            if($preco > 10){
                array_push($arrayDezMais, $objecto);
             }
         }
