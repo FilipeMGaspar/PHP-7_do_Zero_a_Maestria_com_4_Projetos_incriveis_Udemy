@@ -8,3 +8,9 @@
 *
 *   Imprima o retorno
 */ 
+
+    function carateristasobjetos($nome, $preço){
+        $arrayObjetos = [];
+
+        array_push($arrayObjetos["$nome"] => $preço);
+    }
