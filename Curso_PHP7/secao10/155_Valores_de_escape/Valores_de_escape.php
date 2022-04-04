@@ -18,3 +18,6 @@
 
     // Barra invertida
     echo "Barra invertida \\";
+
+    // sinal de dólar
+    echo "imprimindo o dólar \$"; 
