@@ -9,12 +9,13 @@
 *   Imprima o retorno
 */ 
 
-    function carateristasobjetos($nome, $preço){
+    function carateristasobjetos($nome, $preço, $qtObjetos){
         $arrayObjetos = array("$nome" => $preço);
         return $arrayObjetos;
     }
 
     $arr = carateristasobjetos("carro", 2500);
+    $arr = carateristasobjetos("Mota", 500);
 
     var_dump($arr);
     
