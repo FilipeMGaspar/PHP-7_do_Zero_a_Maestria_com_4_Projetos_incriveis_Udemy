@@ -29,4 +29,6 @@
         "borracha" => 0.89
     );
 
-    objetosAcimaDeDez($arr);
+   $novoArray = objetosAcimaDeDez($arr);
+
+   var_dump($novoArray);
