@@ -14,4 +14,7 @@
     echo "Isso aqui vai ficar na primeira linha \nE isso na segunda linha \n";
 
     //tabulação
-    echo "Testando a tabulação \taqui";
+    echo "\nTestando a tabulação \taqui\n";
+
+    // Barra invertida
+    echo "Barra invertida \\";
