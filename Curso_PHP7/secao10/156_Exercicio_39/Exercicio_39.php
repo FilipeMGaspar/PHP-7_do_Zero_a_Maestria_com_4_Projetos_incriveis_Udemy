@@ -12,7 +12,7 @@
     function objetosAcimaDeDez($arrayObjetos){
         $arrayDezMais = [];
 
-        foreach ($arrayObjetos as $objecto){
+        foreach ($arrayObjetos as $objecto => $preco){
             if($objecto > 10){
                array_push($arrayDezMais, $objecto);
             }
@@ -31,4 +31,4 @@
 
    $novoArray = objetosAcimaDeDez($arr);
 
-   var_dump($novoArray);
+  print_r($novoArray);
