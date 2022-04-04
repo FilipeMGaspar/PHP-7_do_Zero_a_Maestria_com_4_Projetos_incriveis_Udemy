@@ -11,6 +11,13 @@
 
     function objetosAcimaDeDez($arrayObjetos){
         $arrayDezMais = [];
+
+        foreach ($arrayObjetos as $objecto){
+            if($objecto > 10){
+                echo "$objecto <br>";
+            }
+        }
+
         return $arrayDezMais;
     }
 
@@ -21,3 +28,5 @@
         "cafeteira" => 9.99,
         "borracha" => 0.89
     );
+
+    objetosAcimaDeDez($arr);
