@@ -9,4 +9,6 @@
 
     // pular linha
 
-    echo "Isso aqui vai ficar na primeira linha \n E isso na segunda linha";
+    header("Content-type: text/plain"); // texto puro
+
+    echo "Isso aqui vai ficar na primeira linha \nE isso na segunda linha \n";
