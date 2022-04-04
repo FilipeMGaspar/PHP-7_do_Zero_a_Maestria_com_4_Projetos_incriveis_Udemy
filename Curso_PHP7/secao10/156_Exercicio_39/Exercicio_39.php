@@ -14,7 +14,7 @@
 
         foreach ($arrayObjetos as $objecto){
             if($objecto > 10){
-                echo "$objecto <br>";
+               array_push($arrayDezMais, $objecto);
             }
         }
 
