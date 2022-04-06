@@ -8,13 +8,14 @@
 
     $frase = "O rato roeu a roupa do Rei de Roma";
     $numDeA = 0;
+    $letra = "o";
 
     echo "A frase '$frase'<br>";
 
     for($i = 0; $i < strlen($frase); $i++){
-        if($frase[$i] === "a"){
+        if($frase[$i] === $letra){
             $numDeA++;
         }
     }
 
-    echo "Tem $numDeA letras 'a'";
+    echo "Tem <strong>$numDeA</strong> letras '$letra'";
