@@ -7,4 +7,6 @@
     *   rtrim   limpa espaços da parte final da string
     */
 
-        $frase = "";
+        $frase = "        Filipe";
+
+        echo "Esta é a string 1: $frase <br>",
