@@ -6,3 +6,5 @@
     *
     *   rtrim   limpa espaços da parte final da string
     */
+
+        $frase = "";
