@@ -2,8 +2,8 @@
     $nome = "Filipe";
     $str = "Esta String é muito grande";
 
-    echo "O nome $nome, tem " . strlen($nome) . " letras <br>";
-    echo "Número de Letras = " . strlen($str) . "<br>";
+    echo "O nome $nome, tem " . strlen($nome) . " letras <br><br>";
+    echo "Número de Letras = " . strlen($str) . "<br><br>";
 
     $len1 = strlen($nome);
     $len2 = strlen($str);
