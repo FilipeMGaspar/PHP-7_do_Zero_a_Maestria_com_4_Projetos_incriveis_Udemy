@@ -8,7 +8,7 @@
 
     $frase = "O rato roeu a roupa do Rei de Roma";
     $numDeA = 0;
-    $letra = "o";
+    $letra = "a";
 
     echo "A frase '$frase'<br>";
 
