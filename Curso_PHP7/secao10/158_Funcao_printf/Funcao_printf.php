@@ -10,4 +10,3 @@
 
     // %f -> float
     printf("<br>Salário %.2f", 856.26);
-    
