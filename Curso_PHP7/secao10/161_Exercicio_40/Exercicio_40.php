@@ -5,3 +5,5 @@
 *
 *   A partir de um loop, imprima o número de letras "a" desta string
 */ 
+
+    $frase = "O rato roeu a roupa do Rei de Roma";
