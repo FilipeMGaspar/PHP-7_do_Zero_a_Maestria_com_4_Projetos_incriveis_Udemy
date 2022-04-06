@@ -15,3 +15,5 @@
             $numDeA++;
         }
     }
+
+    echo "Tem $numDeA letras 'a'";
