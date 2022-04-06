@@ -9,7 +9,7 @@
     $len2 = strlen($str);
 
     if($len1 > $len2){
-        echo "A string '$nome' é maoir que a string '$str' <br>";
+        echo "A string '$nome' é maior que a string '$str' <br>";
     }else {
-        echo "A string '$str' é maoir que a string '$nome' <br>";
+        echo "A string '$str' é maior que a string '$nome' <br>";
     }
