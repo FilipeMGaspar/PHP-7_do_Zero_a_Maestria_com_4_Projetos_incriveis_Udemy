@@ -9,4 +9,4 @@
 
         $frase = "        Filipe";
 
-        echo "Esta é a string 1: $frase <br>",
+        echo "Esta é a string 1: $frase <br>";
