@@ -12,4 +12,7 @@
         echo "Esta é a string 1: $frase!<br>";
 
         $fraseLimpa = trim($frase);
-        echo "Esta é a string 1 limpa: $fraseLimpa!<br>";
+        echo "Esta é a string 1 limpa com o trim: $fraseLimpa!<br>";
+
+        $fraseLimpa2 = rtrim($frase);
+        echo "Esta é a string 1 limpa com o rtrim: $fraseLimpa2!<br>";
