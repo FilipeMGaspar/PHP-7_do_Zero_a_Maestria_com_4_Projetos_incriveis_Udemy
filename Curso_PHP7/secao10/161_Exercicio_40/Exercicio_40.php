@@ -9,8 +9,9 @@
     $frase = "O rato roeu a roupa do Rei de Roma";
     $numDeA = 0;
 
-    echo "A frase '$frase'<br>"
-    for($i = 0 ; $i < strlen($frase); $i++){
+    echo "A frase '$frase'<br>";
+
+    for($i = 0; $i < strlen($frase); $i++){
         if($frase[$i] === "a"){
             $numDeA++;
         }
