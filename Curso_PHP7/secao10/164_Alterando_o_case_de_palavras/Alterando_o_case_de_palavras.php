@@ -14,3 +14,4 @@
 
     // Todas as palavras com as iniciais maiúsculas
     echo ucwords($frase3) . "<br>";
+    echo ucwords($frase2) . "<br>";
