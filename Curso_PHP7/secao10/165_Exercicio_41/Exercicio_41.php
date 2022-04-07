@@ -8,6 +8,7 @@
 
     header('Content-Type: text/html; charset=UTF-8');
 
-    $frase = "este item esta em promocao";
+    $frase = "este item esta em ";
+    $promo = "promocao";
     
-    echo ucfirst($frase) . "<br>";
+    echo ucfirst($frase) . strtoupper($promo). "<br>";
