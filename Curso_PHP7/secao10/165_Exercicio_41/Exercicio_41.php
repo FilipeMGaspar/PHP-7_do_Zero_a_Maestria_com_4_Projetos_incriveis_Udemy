@@ -8,6 +8,6 @@
 
     header('Content-Type: text/html; charset=UTF-8');
 
-    $frase = "este item está em promoção";
+    $frase = "este item esta em promocao";
 
     echo strtoupper($frase) . "<br>";
