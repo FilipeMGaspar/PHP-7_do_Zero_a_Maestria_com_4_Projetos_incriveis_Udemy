@@ -10,4 +10,4 @@
 
     $frase = "este item esta em promocao";
 
-    echo strtoupper($frase) . "<br>";
+    echo ucfirst($frase) . "<br>";
