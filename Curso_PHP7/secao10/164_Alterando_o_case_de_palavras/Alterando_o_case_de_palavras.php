@@ -5,5 +5,12 @@
      */
 
     $frase = "esta frase tem todas as letras minusculas";
+    $frase2 = "Esta frase tem todas as letras minusculas";
+    $frase3 = "esta frase tem todas as letras minusculas";
 
+    // Primeira letra maiúsculo
     echo ucfirst($frase). "<br>";
+    echo ucfirst($frase2). "<br>";
+
+    // Todas as palavras com as iniciais maiúsculas
+    echo ucwords($frase3) . "<br>";
