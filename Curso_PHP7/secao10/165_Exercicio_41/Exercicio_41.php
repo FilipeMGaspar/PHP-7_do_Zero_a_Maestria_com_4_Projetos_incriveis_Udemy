@@ -9,5 +9,5 @@
     header('Content-Type: text/html; charset=UTF-8');
 
     $frase = "este item esta em promocao";
-
+    
     echo ucfirst($frase) . "<br>";
