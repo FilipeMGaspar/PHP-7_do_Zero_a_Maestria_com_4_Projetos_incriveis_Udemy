@@ -5,4 +5,6 @@
     */
 
     $str1 = "esta string está em letras minúsculas";
-    $str2 = "";
+    $str2 = "ESTA STRING ESTÁ EM LETRAS MAIÚSCULAS";
+
+    
