@@ -4,4 +4,6 @@
      *      ucwords - primeira letra de cada palavra maiúscula
      */
 
-    $frase = "esta frase tem todas as letras minusculas"
+    $frase = "esta frase tem todas as letras minusculas";
+
+    echo ucfirst($frase). "<br>";
