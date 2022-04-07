@@ -4,8 +4,8 @@
      *      strtoupper - todas as letras maiúsculas
     */
 
-    $str1 = "esta string está em letras minúsculas";
-    $str2 = "ESTA STRING ESTÁ EM LETRAS MAIÚSCULAS";
+    $str1 = "esta string esta em letras minusculas";
+    $str2 = "ESTA STRING ESTA EM LETRAS MAIUSCULAS";
 
     echo strtoupper($str1) . "<br>";
     echo strtolower($str2) . "<br>";
