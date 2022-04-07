@@ -7,6 +7,6 @@
 
     echo $textoHtml . "<br>";
 
-    $textoBanco = strip_tags($textoHtml);
+    $textoslavoNoBanco = strip_tags($textoHtml);
 
-    echo $textoBanco . "<br>";
+    echo $textoslavoNoBanco . "<br>";
