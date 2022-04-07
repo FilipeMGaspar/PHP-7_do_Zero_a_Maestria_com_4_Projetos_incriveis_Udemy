@@ -5,8 +5,8 @@
      */
 
     $frase = "esta frase tem todas as letras minusculas";
-    $frase2 = "Esta frase tem todas as letras minusculas";
-    $frase3 = "esta frase tem todas as letras minusculas";
+    $frase2 = "Esta frase tem a primeira letra com maiuscula";
+    $frase3 = "testando o case de uma frase com letras minusculas";
 
     // Primeira letra maiúsculo
     echo ucfirst($frase). "<br>";
