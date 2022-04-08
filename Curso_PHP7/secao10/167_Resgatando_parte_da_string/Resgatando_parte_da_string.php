@@ -8,3 +8,5 @@
     *
      *  fim é o indice final da palavra ou texto   
     */
+    
+    $str = "Esta é a minha string";
