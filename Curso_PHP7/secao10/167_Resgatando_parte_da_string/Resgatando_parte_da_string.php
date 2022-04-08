@@ -15,4 +15,10 @@
 
     echo $str . "<br><br>";
 
-    echo $minha . "<br>";
+    echo $minha . "<br><br>";
+
+    $str2 = "Testando esta string";
+
+    $novaString = substr($str2, 10);
+
+    echo $novaString . "<br><br>";
