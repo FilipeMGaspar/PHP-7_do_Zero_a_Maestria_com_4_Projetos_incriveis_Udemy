@@ -13,6 +13,6 @@
 
     $minha($str, 10, 5);
 
-    echo $str . "<br><br>":
+    echo $str . "<br><br>";
 
-    echo $minha . "<br>"
+    echo $minha . "<br>";
