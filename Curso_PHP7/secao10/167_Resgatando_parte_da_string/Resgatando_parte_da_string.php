@@ -11,7 +11,7 @@
     
     $str = "Esta é a minha string";
 
-    $minha($str, 10, 5);
+    $minha = substr($str, 10, 5);
 
     echo $str . "<br><br>";
 
