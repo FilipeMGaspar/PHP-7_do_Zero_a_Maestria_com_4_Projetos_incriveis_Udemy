@@ -10,3 +10,9 @@
     */
     
     $str = "Esta é a minha string";
+
+    $minha($str, 10, 5);
+
+    echo $str . "<br><br>":
+
+    echo $minha . "<br>"
