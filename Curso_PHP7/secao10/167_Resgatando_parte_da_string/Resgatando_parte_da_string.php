@@ -19,6 +19,6 @@
 
     $str2 = "Testando esta string";
 
-    $novaString = substr($str2, 10);
+    $novaString = substr($str2, 8);
 
     echo $novaString . "<br><br>";
