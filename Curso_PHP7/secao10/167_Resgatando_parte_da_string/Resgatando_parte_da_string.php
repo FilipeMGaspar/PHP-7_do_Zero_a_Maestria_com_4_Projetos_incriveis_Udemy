@@ -17,7 +17,7 @@
 
     echo $minha . "<br><br>";
 
-    $str2 = "Testando esta string";
+    $str2 = "Testando esta string, mais";
 
     $novaString = substr($str2, 8);
 
