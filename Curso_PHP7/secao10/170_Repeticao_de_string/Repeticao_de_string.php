@@ -1,6 +1,8 @@
 <?php
     // str_repeat
 
-    $str = "Teste";
+    $str = "Teste! ";
 
     $strRepetida = str_repeat($str, 5);
+
+    echo $strRepetida ."<br>";
