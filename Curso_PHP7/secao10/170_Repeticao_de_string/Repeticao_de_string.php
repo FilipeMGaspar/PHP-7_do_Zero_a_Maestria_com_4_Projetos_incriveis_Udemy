@@ -7,7 +7,7 @@
 
     echo $strRepetida ."<br>";
 
-    $frase = "Testando repetição por frase \n";
+    $frase = "Testando repetição por frase. ";
 
     $fraseRepetida = str_repeat($frase, 3);
 
