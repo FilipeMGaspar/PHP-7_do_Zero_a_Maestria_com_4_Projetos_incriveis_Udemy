@@ -22,3 +22,7 @@
     $novaString = substr($str2, 8);
 
     echo $novaString . "<br><br>";
+
+    $novaString2 = substr($str2, 8, -4);
+
+    echo $novaString2 . "<br><br>";
