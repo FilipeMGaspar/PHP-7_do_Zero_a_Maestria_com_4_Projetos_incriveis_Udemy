@@ -10,4 +10,9 @@
 
      echo $str . "<br><br>";
 
-     print_r($strArray);
+     //print_r($strArray);
+     echo "<ul>";   
+     foreach ($strArray as $palavra){
+        echo "<li>$palavra</li>";
+     }
+     echo "</ul>";
