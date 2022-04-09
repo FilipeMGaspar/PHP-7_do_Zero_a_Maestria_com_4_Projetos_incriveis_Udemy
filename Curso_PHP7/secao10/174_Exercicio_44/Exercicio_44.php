@@ -4,3 +4,5 @@
      * 
      *  ["O", "PHP", "é", "Muito", "Legal"]
     */
+
+    $arr = ["O", "PHP", "é", "Muito", "Legal"];
