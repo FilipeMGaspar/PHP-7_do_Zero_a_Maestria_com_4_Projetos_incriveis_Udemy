@@ -11,6 +11,7 @@
      echo $str . "<br><br>";
 
      //print_r($strArray);
+     echo "<h3>Produtos</h3>";
      echo "<ul>";   
      foreach ($strArray as $palavra){
         echo "<li>$palavra</li>";
