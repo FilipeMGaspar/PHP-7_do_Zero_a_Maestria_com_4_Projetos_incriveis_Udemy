@@ -1,4 +1,5 @@
 <?php
     // implode
 
-    $arr = ["Maçã", "Pera", "Morango"];
+    $arr = ["Maçã", "Pera", "Morango", "Batata"];
+    
