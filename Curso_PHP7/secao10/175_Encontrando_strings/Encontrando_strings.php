@@ -18,7 +18,7 @@ if($testeEncontrar == false){
     echo "Palavra <strong>java</strong> não encontrada na string: <br> $str <br>";
 }
 
+echo "<br>";
 $palavra = "com";
-
 $testeEncontrar = strpos($str, $palavra);
 echo $testeEncontrar . "<br>";
