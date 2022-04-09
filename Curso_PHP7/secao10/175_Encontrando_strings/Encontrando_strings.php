@@ -22,3 +22,8 @@ echo "<br>";
 $palavra = "com";
 $testeEncontrar = strpos($str, $palavra);
 echo $testeEncontrar . "<br>";
+
+echo "<br>";
+$palavra = "to";
+$testeEncontrar = strpos($str, $palavra);
+echo $testeEncontrar . "<br>";
