@@ -7,3 +7,7 @@
 
      $str = "carro - navio - helicóptero - barco - jangada";
      $strArray = explode(" - ", $str);
+
+     echo $str . "<br><br>";
+
+     print_r($strArray);
