@@ -6,3 +6,7 @@
     */
 
     $arr = ["O", "PHP", "é", "Muito", "Legal"];
+
+    $str = implode(", ", $arr);
+
+    echo $str;
