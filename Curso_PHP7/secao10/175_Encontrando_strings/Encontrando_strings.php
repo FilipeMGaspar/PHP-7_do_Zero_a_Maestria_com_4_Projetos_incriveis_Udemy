@@ -10,6 +10,10 @@ $testeEncontrar = strpos($str, "strpos");
 
 echo $testeEncontrar . "<br>";
 
-$testeEncontrar = strpos($str, "melga");
+$testeEncontrar = strpos($str, "java");
 
 echo $testeEncontrar . "<br>";
+
+if($testeEncontrar == false){
+    echo "Palavra <strong>java</strong> não encontrada na string <br> $str <br>";
+}
