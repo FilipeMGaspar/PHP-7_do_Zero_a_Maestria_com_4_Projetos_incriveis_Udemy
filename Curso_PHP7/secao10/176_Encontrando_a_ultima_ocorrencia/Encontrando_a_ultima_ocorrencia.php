@@ -15,6 +15,7 @@
         echo "A palavra 'Java' não foi encontrada";
     }
 
+    echo "<br>";
     $palavra = substr($str, strpos($str, "teste"), 5);
 
     echo $palavra . "<br>";
