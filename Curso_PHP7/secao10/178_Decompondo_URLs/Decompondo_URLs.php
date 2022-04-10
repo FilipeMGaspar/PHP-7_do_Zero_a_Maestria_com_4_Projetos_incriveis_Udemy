@@ -9,3 +9,5 @@
     echo "<br><br>";
 
     echo $arrayUrl["host"] . "<br><br>";
+
+    $url = "http://www.horadecodar.com.pt";
