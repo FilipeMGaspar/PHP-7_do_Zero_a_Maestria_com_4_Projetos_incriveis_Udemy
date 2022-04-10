@@ -5,4 +5,4 @@
 
     $resto = strstr($str, "resto");
 
-    
+    echo $resto . "<br>";
