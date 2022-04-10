@@ -11,3 +11,7 @@
     $resto = strstr($str, $s);
 
     echo $resto . "<br>";
+
+    if(strstr($str, ".Net") === false){
+        echo "não encontramos a String! .Net";
+    }
