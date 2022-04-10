@@ -7,3 +7,5 @@
 
     print_r($arrayUrl);
     echo "<br><br>";
+
+    echo $arrayUrl["host"] . "<br><br>";
