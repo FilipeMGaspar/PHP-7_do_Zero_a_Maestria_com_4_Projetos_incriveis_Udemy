@@ -13,3 +13,4 @@
     print_r($arrayUrl);
     echo "<br><br>";
     echo $arrayUrl["host"] . "<br><br>";
+    echo $arrayUrl["query"] . "<br><br>"
