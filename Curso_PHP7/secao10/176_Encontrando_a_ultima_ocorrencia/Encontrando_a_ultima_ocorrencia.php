@@ -1,4 +1,4 @@
 <?php
     // strrpos  
 
-    $str = "";
+    $str = "Testando encontrando a palavra teste, em uma string que tem teste";
