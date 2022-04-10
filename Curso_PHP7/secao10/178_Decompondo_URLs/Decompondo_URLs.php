@@ -8,7 +8,7 @@
 
     echo $arrayUrl["host"] . "<br><br>";
 
-    $url = "http://www.horadecodar.com.pt";
+    $url = "http://www.horadecodar.com.pt/?busca=php";
     $arrayUrl = parse_url($url);
     print_r($arrayUrl);
     echo "<br><br>";
