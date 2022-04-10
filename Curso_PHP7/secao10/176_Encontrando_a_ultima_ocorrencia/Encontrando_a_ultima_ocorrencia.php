@@ -14,3 +14,7 @@
     if(strrpos($str, "Java") === false) {
         echo "A palavra 'Java' não foi encontrada";
     }
+
+    $palavra = substr($str, strpos($str, "teste"), 5);
+
+    echo $palavra . "<br>";
