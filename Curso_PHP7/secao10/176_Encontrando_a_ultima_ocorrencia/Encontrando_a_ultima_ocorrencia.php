@@ -6,3 +6,7 @@
     $palavra = strrpos($str, "teste");
 
     echo $palavra . "<br>";
+
+    $palavra = strpos($str, "teste");
+
+    echo $palavra . "<br>";
