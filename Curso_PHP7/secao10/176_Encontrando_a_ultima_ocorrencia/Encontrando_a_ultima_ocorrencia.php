@@ -10,3 +10,7 @@
     $palavra = strpos($str, "teste");
 
     echo $palavra . "<br>";
+
+    if(strrpos($str, "Java") === false) {
+        echo "A palavra 'Java' não foi encontrada";
+    }
