@@ -3,7 +3,7 @@
 
     print_r($arr);
     echo "<br>";
-
+    //Adicionar valores ao array 
     $arr[0] = 10;
     print_r($arr);
     echo "<br>";
@@ -12,6 +12,11 @@
     print_r($arr);
     echo "<br>";
 
+    $arr[5] = 25;
+    print_r($arr);
+    echo "<br>";
+
+    //Modificar valores no array
     $arr[5] = 25;
     print_r($arr);
     echo "<br>";
