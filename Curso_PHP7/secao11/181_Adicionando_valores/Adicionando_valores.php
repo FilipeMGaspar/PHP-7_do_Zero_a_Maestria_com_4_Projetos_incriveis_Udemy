@@ -11,3 +11,7 @@
     $arr[1] = 15;
     print_r($arr);
     echo "<br>";
+
+    $arr[5] = 25;
+    print_r($arr);
+    echo "<br>";
