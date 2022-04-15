@@ -17,19 +17,25 @@
     print_r($arr);
     echo "<br>";
 
-    //Modificar valores no array
-    
+    //Modificar valores no array    
     $arr[1] += 55;
     print_r($arr);
     echo "<br>";
 
+    //Array associativo
     $arrAssoc = [];
     print_r($arrAssoc);
 
+    //Adicionar valores ao array associativo
     $arrAssoc["carro"] = "BMW";
     print_r($arrAssoc);
     echo "<br>";
 
     $arrAssoc["aviao"] = "Boeing";
+    print_r($arrAssoc);
+    echo "<br>";
+
+    //Modificar valores no array associativo
+    $arrAssoc["carro"] = "Ferrari";
     print_r($arrAssoc);
     echo "<br>";
