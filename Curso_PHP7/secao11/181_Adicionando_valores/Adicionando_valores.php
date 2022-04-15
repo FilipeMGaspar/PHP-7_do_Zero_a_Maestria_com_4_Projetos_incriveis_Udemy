@@ -17,6 +17,7 @@
     echo "<br>";
 
     //Modificar valores no array
-    $arr[5] = 25;
+    
+    $arr[1] += 55;
     print_r($arr);
     echo "<br>";
