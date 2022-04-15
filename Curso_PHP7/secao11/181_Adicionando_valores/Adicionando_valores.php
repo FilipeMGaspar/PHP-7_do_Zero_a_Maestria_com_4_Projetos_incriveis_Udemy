@@ -3,6 +3,7 @@
 
     print_r($arr);
     echo "<br>";
+
     //Adicionar valores ao array 
     $arr[0] = 10;
     print_r($arr);
@@ -20,4 +21,10 @@
     
     $arr[1] += 55;
     print_r($arr);
+    echo "<br>";
+
+    $arrAssoc = [];
+
+    $arrAssoc["carro"] = "BMW";
+    print_r($arrAssoc);
     echo "<br>";
