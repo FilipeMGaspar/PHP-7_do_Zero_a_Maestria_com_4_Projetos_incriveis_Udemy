@@ -6,5 +6,5 @@
     echo "<br>";
 
     $arr2 = range(100, 90);
-    print_r($arr);
+    print_r($arr2);
     echo "<br>";
