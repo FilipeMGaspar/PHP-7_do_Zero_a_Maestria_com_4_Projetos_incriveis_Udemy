@@ -27,3 +27,7 @@
     $arr3["Marca"] = "Seat";
     print_r($arr3);
     echo "<br>";
+
+    $arr3["Modelo"] = "Leon";
+    print_r($arr3);
+    echo "<br>";
