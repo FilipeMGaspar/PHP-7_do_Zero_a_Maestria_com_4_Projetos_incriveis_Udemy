@@ -10,3 +10,5 @@
     echo "<br>";
 
     $arr3 = range(1, 100, 10);//a rray de 100 a 90 com passo de 10
+    print_r($arr3);
+    echo "<br>";
