@@ -19,3 +19,11 @@
     $arr2[] = 1;
     print_r($arr2);
     echo "<br>";
+
+    $arr3 = [];
+    print_r($arr3);
+    echo "<br>";
+
+    $arr3["Marca"] = "Seat";
+    print_r($arr3);
+    echo "<br>";
