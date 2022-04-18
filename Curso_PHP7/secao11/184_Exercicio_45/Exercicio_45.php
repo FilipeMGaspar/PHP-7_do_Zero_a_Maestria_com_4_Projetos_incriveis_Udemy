@@ -5,4 +5,10 @@
      * Se a soma passar de 30, imprima também que o número é muito alto
      */
 
-     $arr = range(10, 45); // Array de 10 a 45
+    $arr = range(10, 45); // Array de 10 a 45
+    $soma = 0;
+    
+    for($i = 0; $i <count($arr); $i++){
+        
+        echo "$arr[i] + 6";
+    }
