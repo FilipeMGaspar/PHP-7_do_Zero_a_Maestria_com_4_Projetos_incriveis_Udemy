@@ -11,6 +11,14 @@
         [9, 10, 11, 12]
     ];
 
-    echo "Primeiro array ..: " . $arr[0][1] . "<br>"; // primeiro array, segundo elemento
+    for($i = 0; $i < count($arr); $i++){
+        for($j = 0; $j < count($arr[$i]); $j++){
+            echo $arr[$i][$j] . " - ";
+        }
+        echo " Fim array $i <br> Mudou para o array ". $i + 1 . "<br>";
+    }
+    
+    /*echo "Primeiro array ..: " . $arr[0][1] . "<br>"; // primeiro array, segundo elemento
     echo "Segundo array ..: " . $arr[1][2] . "<br>"; // Segundo array, terceiro elemento
     echo "Terceiro array ..: " . $arr[2][3] . "<br>"; // terceiro array, ultimo elemento
+    */
