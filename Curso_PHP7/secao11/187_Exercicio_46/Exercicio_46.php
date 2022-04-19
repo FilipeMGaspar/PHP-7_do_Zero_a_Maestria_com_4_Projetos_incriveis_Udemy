@@ -15,7 +15,10 @@
         for($j = 0; $j < count($arr[$i]); $j++){
             echo $arr[$i][$j] . " - ";
         }
-        echo " Fim do " . ($i + 1) . " array <br> Mudou para o array ". ($i + 1) . "<br>";
+        if($i + 1 <= 3){
+            echo " Fim do " . ($i + 1) . " array <br> Mudou para o array <br>";
+        }
+        
     }
     
     /*echo "Primeiro array ..: " . $arr[0][1] . "<br>"; // primeiro array, segundo elemento
