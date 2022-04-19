@@ -12,3 +12,5 @@
         "idade" -> 37,
         "profissao" -> "Sapateiro"
     ];
+
+    echo count($arr3) . "<br>";
