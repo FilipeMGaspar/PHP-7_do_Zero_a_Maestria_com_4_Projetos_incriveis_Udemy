@@ -11,4 +11,6 @@
         [9, 10, 11, 12]
     ];
 
-    echo $arr[0][2] . "<br>";
+    echo $arr[0][1] . "<br>"; // primeiro array, segundo elemento
+    echo $arr[1][2] . "<br>"; // Segundo array, terceiro elemento
+    echo $arr[2][3] . "<br>"; // terceiro array, ultimo elemento
