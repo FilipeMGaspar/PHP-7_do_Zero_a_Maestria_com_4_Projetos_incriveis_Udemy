@@ -17,6 +17,8 @@
         }
         if($i + 1 < 3){
             echo " Fim do " . ($i + 1) . " array <br> Mudou de array <br>";
+        }else{
+            echo " Fim do " . ($i + 1) . " array";
         }
         
     }
