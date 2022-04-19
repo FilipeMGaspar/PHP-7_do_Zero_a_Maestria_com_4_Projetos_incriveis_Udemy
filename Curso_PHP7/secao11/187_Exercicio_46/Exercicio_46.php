@@ -15,8 +15,8 @@
         for($j = 0; $j < count($arr[$i]); $j++){
             echo $arr[$i][$j] . " - ";
         }
-        if($i + 1 <= 3){
-            echo " Fim do " . ($i + 1) . " array <br> Mudou para o array <br>";
+        if($i + 1 < 3){
+            echo " Fim do " . ($i + 1) . " array <br> Mudou de array <br>";
         }
         
     }
