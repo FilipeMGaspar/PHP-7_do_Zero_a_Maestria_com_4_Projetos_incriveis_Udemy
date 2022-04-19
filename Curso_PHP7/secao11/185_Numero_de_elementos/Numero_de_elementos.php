@@ -5,6 +5,6 @@
 
     echo count($arr) . "<br>";
 
-    $arr2 = range(0 , 10);
+    $arr2 = range(1 , 10);
 
     echo count($arr2) . "<br>";
