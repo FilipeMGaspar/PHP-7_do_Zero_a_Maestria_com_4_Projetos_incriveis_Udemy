@@ -5,3 +5,6 @@
     ];
 
     print_r($arr);
+    echo "<br>";
+
+    echo $arr[0][1] . "<br>"; // Acessando o primeiro arryy, e segundo elemento  
