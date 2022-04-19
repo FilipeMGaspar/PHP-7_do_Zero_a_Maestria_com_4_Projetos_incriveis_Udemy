@@ -10,5 +10,7 @@
     echo $arr[0][1] . "<br>"; // Acessando o primeiro arryy, e segundo elemento
     
     echo $arr[1][2] . "<br>"; // Acessando o segundo array, e ultimo elemento
-
-    echo count($arr) . "<br>";
+    
+    echo "<br>";
+    echo count($arr) . "<br><br>";
+    echo count($arr[0]) . "<br>";
