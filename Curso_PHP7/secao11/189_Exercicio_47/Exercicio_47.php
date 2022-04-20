@@ -8,4 +8,6 @@
      *  Crie variáveis com base neste array
      */
 
-     $carro = ["Jaguar", 3.0, "Azul", 18, "Teto Solar", "Aucomática"];
+     $carro = ["Jaguar", 3.0, "Azul", 18, "Teto de abrir", "Aucomática"];
+
+    list($marca, $celindrada)
