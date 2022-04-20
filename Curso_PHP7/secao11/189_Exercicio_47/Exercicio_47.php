@@ -7,3 +7,5 @@
      *  
      *  Crie variáveis com base neste array
      */
+
+     $carro = ["Jaguar", 3.0, "Azul", 18, "Teto Solar", "Aucomática"];
