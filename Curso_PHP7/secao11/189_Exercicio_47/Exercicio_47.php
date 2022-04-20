@@ -12,7 +12,7 @@
 
     list($marca, $celindrada, $cor, $jantes, $teto, $caixa) = $carro;
 
-    echo "<h3>MalseMove AutoMóveis! Calhambeques de qualidade</h3>";
+    echo "<h3>Mal-Se-Move AutoMóveis! Calhambeques de qualidade</h3>";
     echo "Marca .........: $marca <br>";
     echo "Celindrada ..: $celindrada <br>";
     echo "Cor ..............: $cor <br>";
