@@ -10,4 +10,4 @@
 
      $carro = ["Jaguar", 3.0, "Azul", 18, "Teto de abrir", "Aucomática"];
 
-    list($marca, $celindrada)
+    list($marca, $celindrada, $cor, $jante, $teto, $caixa) = $carro;
