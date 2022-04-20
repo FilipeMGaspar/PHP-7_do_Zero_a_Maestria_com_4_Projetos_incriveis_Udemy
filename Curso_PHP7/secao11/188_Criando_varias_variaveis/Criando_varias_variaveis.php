@@ -7,4 +7,4 @@
 
     list($nome, $idade, $profissao, $corDosOlhos) = $pessoa;
 
-    echo "$nome, $idade, $profissao, $corDosolhos";
+    echo "$nome, $idade, $profissao, $corDosOlhos";
