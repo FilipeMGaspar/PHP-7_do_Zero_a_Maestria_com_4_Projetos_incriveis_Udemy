@@ -13,9 +13,9 @@
     list($marca, $celindrada, $cor, $jantes, $teto, $caixa) = $carro;
 
     echo "<h3>MalseMove AutoMóveis! Calhambeques de qualidade</h3>";
-    echo "Marca .......: $marca <br>";
+    echo "Marca .........: $marca <br>";
     echo "Celindrada ..: $celindrada <br>";
-    echo "Cor .........: $cor <br>";
-    echo "Jantes ......: $jantes <br>";
-    echo "Extras ......: $teto <br>";
-    echo "Caixa .......: $caixa <br>";
+    echo "Cor ..............: $cor <br>";
+    echo "Jantes ...........: $jantes <br>";
+    echo "Extras ..........: $teto <br>";
+    echo "Caixa ...........: $caixa <br>";
