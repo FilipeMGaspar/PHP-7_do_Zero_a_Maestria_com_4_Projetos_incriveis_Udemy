@@ -9,3 +9,7 @@
     $slice2 = array_slice($arr, 4, 4);
     print_r($slice2);
     echo "<br>";
+
+    $slice3 = array_slice($arr, 4);
+    print_r($slice3);
+    echo "<br>";
