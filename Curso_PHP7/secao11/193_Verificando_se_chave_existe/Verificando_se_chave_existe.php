@@ -6,4 +6,8 @@
         "idade" => 37
     ];
 
-    
+    if(array_key_exists("nome", $arr)){
+        echo "A chave existe! <br>";
+    } else{
+        echo "A Chave não existe!<br>";
+    }
