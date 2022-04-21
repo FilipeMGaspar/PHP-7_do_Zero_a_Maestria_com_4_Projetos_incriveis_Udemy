@@ -11,3 +11,9 @@
     } else{
         echo "A Chave não existe!<br>";
     }
+
+    if(array_key_exists("profissao", $arr)){
+        echo "A chave existe! <br>";
+    } else{
+        echo "A Chave não existe!<br>";
+    }
