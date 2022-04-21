@@ -13,3 +13,7 @@
     $slice3 = array_slice($arr, 4);
     print_r($slice3);
     echo "<br>";
+
+    $slice4 = array_slice($arr, 4, -3);
+    print_r($slice4);
+    echo "<br>";
