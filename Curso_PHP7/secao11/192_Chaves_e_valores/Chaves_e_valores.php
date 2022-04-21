@@ -1,5 +1,5 @@
 <?php
-    //array_key   -> cria um array apenas com as chaves de um array
+    //array_keys   -> cria um array apenas com as chaves de um array
 
     //array_values  -> cria um array apenas com os valores de um array
 
@@ -13,4 +13,8 @@
 
     $chaves = array_keys($carro);
     print_r($chaves);
+    echo "<br><br>";
+
+    $valores = array_values($carro);
+    print_r($valores);
     echo "<br><br>";
