@@ -9,3 +9,6 @@
     $arrays = array_chunk($arr, 10); // divide o array principal em arrays com 10 elementos cada
     print_r($arrays);
     echo "<br><br>";
+
+    print_r($arrays[1]);
+    echo "<br><br>";
