@@ -10,3 +10,7 @@
         "caixa" => "Manual",
         "portas" => 4
     ];
+
+    $chaves = array_key($carro);
+    print_r($chaves);
+    echo "<br><br>";
