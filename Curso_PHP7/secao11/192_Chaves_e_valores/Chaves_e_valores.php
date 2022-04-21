@@ -11,6 +11,6 @@
         "portas" => 4
     ];
 
-    $chaves = array_key($carro);
+    $chaves = array_keys($carro);
     print_r($chaves);
     echo "<br><br>";
