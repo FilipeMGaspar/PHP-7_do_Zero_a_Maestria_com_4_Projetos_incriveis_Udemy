@@ -17,3 +17,16 @@
     } else{
         echo "A Chave não existe!<br>";
     }
+
+    //verificação com o isset
+    if(isset($arr['nome'])){
+        echo "A chave existe! <br>";
+    } else{
+        echo "A Chave não existe!<br>";
+    }
+
+    if(isset($arr['profissão'])){
+        echo "A chave existe! <br>";
+    } else{
+        echo "A Chave não existe!<br>";
+    }
