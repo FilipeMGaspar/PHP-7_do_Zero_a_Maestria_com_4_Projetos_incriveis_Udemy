@@ -11,10 +11,10 @@
         "portas" => 4
     ];
 
-    $chaves = array_keys($carro);
+    $chaves = array_keys($carro);  //Retorna as chaves do array
     print_r($chaves);
     echo "<br><br>";
 
-    $valores = array_values($carro);
+    $valores = array_values($carro); //Retorna os valores 
     print_r($valores);
     echo "<br><br>";
