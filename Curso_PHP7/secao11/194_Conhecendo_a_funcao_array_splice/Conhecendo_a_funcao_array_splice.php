@@ -17,3 +17,10 @@
     echo "<br><br>";
     print_r($removidos2);
     echo "<br><br>";
+
+    $arr3 = [1, 2, 3, 4, 5, 6];
+    $removidos3 = array_splice($arr3, 1, -1);
+    print_r($arr3);
+    echo "<br><br>";
+    print_r($removidos3);
+    echo "<br><br>";
