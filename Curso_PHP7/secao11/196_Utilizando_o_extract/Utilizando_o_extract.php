@@ -20,4 +20,8 @@
         "idade" => 37
     ];
 
+    echo "<br>$nome <br><br>";
     extract($pessoa);
+
+    echo "$nome <br>";
+    echo "$idade <br>";
