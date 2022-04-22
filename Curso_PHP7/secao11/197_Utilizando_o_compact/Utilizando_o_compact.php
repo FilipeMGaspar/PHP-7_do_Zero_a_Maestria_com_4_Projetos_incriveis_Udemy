@@ -7,3 +7,4 @@
     $portas = 4;
 
     $carro = compact("marca", "motor", "tetoSolar", "portas");
+    print_r($carro);
