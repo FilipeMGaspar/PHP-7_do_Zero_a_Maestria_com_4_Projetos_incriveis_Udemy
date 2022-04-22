@@ -10,7 +10,9 @@
 
     $removidos = array_splice($produtos, 3);
 
+    echo "Lista de itens removidos <br>";
     print_r($removidos);
     echo "<br><br>";
+    echo "Array original <br>";
     print_r($produtos);
     echo "<br><br>";
