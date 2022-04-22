@@ -1,4 +1,5 @@
 <?php
-    // array_splice
+    // array_splice  -> Resgatar Elementos de um Array 
+                     // Remover Elementos
 
     
