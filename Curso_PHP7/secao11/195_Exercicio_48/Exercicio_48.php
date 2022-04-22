@@ -3,7 +3,9 @@
 /**
  *  Crie um array com os valores:
  *      batata, maçã, pera, feijão, arroz
- *  Remoca pera e jeijão
+ *  Remova pera e jeijão
  */
 
  $produtos = ["Batata", "Maçã", "Pera", "Feijão", "Arroz"];
+
+ $removidos = array_splice($produtos, 2);
