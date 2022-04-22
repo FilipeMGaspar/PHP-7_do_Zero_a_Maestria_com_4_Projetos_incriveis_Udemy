@@ -4,4 +4,6 @@
     $marca = "BMW";
     $motor = "3.0";
     $tetoSolar = true;
-    $porta = 4;
+    $portas = 4;
+
+    $carro = compact("marca", "motor", "tetoSolar", "portas");
