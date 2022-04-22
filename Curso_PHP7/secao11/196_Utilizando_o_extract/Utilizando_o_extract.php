@@ -4,7 +4,7 @@
     $arr = [
         "cor" => "Vermelho",
         "forma" => "Retangular",
-        "material" => "aço"
+        "material" => "Aço"
     ];
 
     extract($arr);
