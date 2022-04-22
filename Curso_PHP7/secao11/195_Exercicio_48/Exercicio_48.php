@@ -6,6 +6,9 @@
  *  Remova pera e jeijão
  */
 
- $produtos = ["Batata", "Maçã", "Pera", "Feijão", "Arroz"];
+    $produtos = ["Batata", "Maçã", "Pera", "Feijão", "Arroz"];
 
- $removidos = array_splice($produtos, 2);
+    $removidos = array_splice($produtos, 3);
+
+    print_r($removidos);
+    echo "<br><br>";
