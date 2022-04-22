@@ -12,3 +12,5 @@
 
     print_r($removidos);
     echo "<br><br>";
+    print_r($produtos);
+    echo "<br><br>";
