@@ -9,3 +9,8 @@
         "Nome" => "João",
         "Idade" => 42   
     }
+
+    $luisa{
+        "Nome" => "Luisa",
+        "Idade" => 50   
+    }
