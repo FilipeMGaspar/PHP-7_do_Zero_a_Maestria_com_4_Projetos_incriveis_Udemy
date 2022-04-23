@@ -5,19 +5,16 @@
      *  Dica: utilize as tags do elemento table
     */
 
-    $joao = [
-        "Nome"=>"João",
-        "Idade"=>42   
-    ];
-
-    $luisa = [
-        "Nome" => "Luisa",
-        "Idade" => 50   
+    $pessoas = [
+        "Matheus" => 29,
+        "Alexia" => 25,
+        "Filipe" => 37,
+        "Maria" => 12
     ];
     
     echo "<table>";
-    echo "<tr><td>Nome<td>Idade";
-    foreach($joao as $caract){
-        echo "<tr><td>$caract<td>";
+    echo "<tr><th>Nome<th>Idade";
+    foreach($joao as $nome => $idade){
+        echo "<tr><td>$nome<td>$idade";
     }
     echo "<table>";
