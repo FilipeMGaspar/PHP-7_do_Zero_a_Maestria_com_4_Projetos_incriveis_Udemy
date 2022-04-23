@@ -14,3 +14,7 @@
             "idade" => 27,
             "profissao" => "Maquinista"
         ];
+
+        foreach($filipe as $caracteristica => $valor){
+            echo $caracteristica . "" . $valor;
+        }
