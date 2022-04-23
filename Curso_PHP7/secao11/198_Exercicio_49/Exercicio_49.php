@@ -20,7 +20,3 @@
     foreach($animais as $animal){
         echo $animal . "<br><br>";
     }
-   
-   /* for($i = 0; $i < count($animal); $i++){
-        echo $animal[$i];
-    } */
