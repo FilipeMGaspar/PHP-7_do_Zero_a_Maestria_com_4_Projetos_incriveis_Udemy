@@ -6,7 +6,7 @@
     */
 
     $joao[
-        "nome" => "João",
+        "Nome" => "João",
         "Idade" => 42   
     ];
 
