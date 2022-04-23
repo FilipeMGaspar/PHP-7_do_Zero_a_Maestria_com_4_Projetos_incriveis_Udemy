@@ -12,10 +12,15 @@
     $peso = 65.3;
     $numPatas = 4;
 
-    $animal = compact("raca", "corPelo", "peso", "numPatas");
+    $animais = compact("raca", "corPelo", "peso", "numPatas");
 
-    print_r($animal);
+    print_r($animais);
     echo "<br><br>";
-    for($i = 0; $i < count($animal); $i++){
-        echo $animal[$i];
+
+    foreach($animais as $animal){
+        echo $animal . "<br><br>";
     }
+   
+   /* for($i = 0; $i < count($animal); $i++){
+        echo $animal[$i];
+    } */
