@@ -15,5 +15,5 @@
     $animal = compact("raca", "corPelo", "peso", "numPatas");
 
     for($i = 0; $i < count($animal); $i++){
-        echo $animal[$i] . "<br>"
+        echo $animal[$i] . "<br>";
     }
