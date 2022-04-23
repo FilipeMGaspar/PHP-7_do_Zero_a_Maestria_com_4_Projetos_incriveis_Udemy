@@ -18,3 +18,7 @@
         foreach($filipe as $caracteristica => $valor){
             echo "$caracteristica ..: $valor <br>";
         }
+
+        foreach($alexia as $caract => $value){
+            echo "$caract ..: $valor <br>";
+        }
