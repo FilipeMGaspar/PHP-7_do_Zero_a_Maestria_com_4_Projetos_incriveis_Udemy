@@ -14,7 +14,7 @@
     
     echo "<table>";
     echo "<tr><th>Nome<th>Idade";
-    foreach($joao as $nome => $idade){
-        echo "<tr><td>$nome<td>$idade";
+    foreach($pessoas as $nome => $idade){
+        echo "<tr><td> $nome<td>$idade";
     }
     echo "<table>";
