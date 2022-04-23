@@ -15,10 +15,11 @@
             "profissao" => "Maquinista"
         ];
 
-        foreach($filipe as $caracteristica => $valor){
-            echo "$caracteristica ..: $valor <br>";
+        foreach($filipe as $caracteristica => $value){
+            echo "$caracteristica ..: $value <br>";
         }
 
+        echo "<br>";
         foreach($alexia as $caract => $value){
-            echo "$caract ..: $valor <br>";
+            echo "$caract ..: $value <br>";
         }
