@@ -5,12 +5,16 @@
      *  Dica: utilize as tags do elemento table
     */
 
-    $joao{
+    $joao[
         "Nome" => "João",
         "Idade" => 42   
-    }
+    ];
 
-    $luisa{
+    $luisa[
         "Nome" => "Luisa",
         "Idade" => 50   
-    }
+    ];
+
+    echo "<table>";
+    echo "<tr><td>Nome<td>Idade";
+    echo "<table>";
