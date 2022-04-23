@@ -17,6 +17,6 @@
     print_r($animais);
     echo "<br><br>";
 
-    foreach($animais as $animal){
-        echo $animal . "<br><br>";
+    foreach($animais as $caracteristica => $value){
+        echo "$caracteristica : $value <br><br>";
     }
