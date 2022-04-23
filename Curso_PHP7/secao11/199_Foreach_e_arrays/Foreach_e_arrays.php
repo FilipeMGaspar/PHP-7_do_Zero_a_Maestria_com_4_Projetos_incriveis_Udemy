@@ -16,5 +16,5 @@
         ];
 
         foreach($filipe as $caracteristica => $valor){
-            echo $caracteristica . "" . $valor;
+            echo "$caracteristica ..: $valor <br>";
         }
