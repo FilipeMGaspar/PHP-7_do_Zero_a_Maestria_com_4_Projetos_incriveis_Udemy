@@ -15,6 +15,7 @@
     $animal = compact("raca", "corPelo", "peso", "numPatas");
 
     print_r($animal);
-    /*for($i = 0; $i < count($animal); $i++){
-        echo $animal[$i] . "<br>";
-    }*/
+    echo "<br><br>";
+    for($i = 0; $i < count($animal); $i++){
+        echo $animal[$i];
+    }
