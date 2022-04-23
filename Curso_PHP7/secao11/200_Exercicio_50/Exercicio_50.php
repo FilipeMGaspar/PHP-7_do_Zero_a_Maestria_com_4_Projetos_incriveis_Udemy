@@ -17,4 +17,7 @@
     
     echo "<table>";
     echo "<tr><td>Nome<td>Idade";
+    foreach($joao as $caract){
+        echo "<tr><td>$caract<td>";
+    }
     echo "<table>";
