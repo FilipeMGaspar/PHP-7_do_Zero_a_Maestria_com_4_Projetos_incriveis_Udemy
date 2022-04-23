@@ -17,8 +17,8 @@
     print_r($animais);
     echo "<br><br>";
 
-    foreach($animais as $animal){
-        echo $animal . "<br><br>";
+    foreach($keys => $animais as $animal){
+        echo $keys . " ..: " . $animal . "<br><br>";
     }
    
    /* for($i = 0; $i < count($animal); $i++){
