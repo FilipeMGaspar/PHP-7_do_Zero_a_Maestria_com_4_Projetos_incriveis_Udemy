@@ -5,15 +5,23 @@
     $busca = "Batata";
 
     if(in_array($busca, $arr)){
-        echo "O item <strong>$busca</strong> foi encontrado no array";
+        echo "O item <strong>$busca</strong> foi encontrado no array!<br>";
     } else {
-        echo "O item <strong>$busca</strong> Não foi encontrado array";
+        echo "O item <strong>$busca</strong> Não foi encontrado array!<br>";
     }
 
     $busca = "Banana";
 
     if(in_array($busca, $arr)){
-        echo "O item <strong>$busca</strong> foi encontrado no array<br>";
+        echo "O item <strong>$busca</strong> foi encontrado no array!<br>";
     } else {
-        echo "O item <strong>$busca</strong> Não foi encontrado array<br>";
+        echo "O item <strong>$busca</strong> Não foi encontrado array!<br>";
+    }
+
+    $busca = "Feijão";
+
+    if(in_array($busca, $arr)){
+        echo "O item <strong>$busca</strong> foi encontrado no array!<br>";
+    } else {
+        echo "O item <strong>$busca</strong> Não foi encontrado array!<br>";
     }
