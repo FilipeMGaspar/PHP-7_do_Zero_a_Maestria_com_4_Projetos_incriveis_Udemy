@@ -19,4 +19,7 @@
     echo "<br><br>";
 
     $nomes = ["Maria", "Aaron", "João", "José", "Matheus"];
-    
+    sort($nomes);
+    echo "Ordem alfabética <br>";
+    print_r($nomes);
+    echo "<br><br>";
