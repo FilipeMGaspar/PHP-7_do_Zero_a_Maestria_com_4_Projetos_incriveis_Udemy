@@ -9,5 +9,6 @@
     echo "<br><br>";
 
     sort($arr);
+    echo "Ordem crescente <br>";
     print_r($arr);
     echo "<br><br>";
