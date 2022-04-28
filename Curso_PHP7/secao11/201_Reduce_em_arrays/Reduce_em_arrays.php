@@ -5,6 +5,12 @@
         return $a + $b;
     }
 
-    $resultado = array_reduce($arr, "soma");
+    function subtracao($a, $b){
+        return $a + $b;
+    }
 
-    echo $resultado . "<br>";
+    $resultado = array_reduce($arr, "soma");
+    echo "Soma = $resultado <br>";
+
+    $resultado = array_reduce($arr, "subtracao");
+    echo "subtracao = $resultado <br>";
