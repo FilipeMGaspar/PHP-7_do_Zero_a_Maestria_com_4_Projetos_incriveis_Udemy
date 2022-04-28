@@ -9,3 +9,11 @@
     } else {
         echo "O item <strong>$busca</strong> Não foi encontrado array";
     }
+
+    $busca = "Banana";
+
+    if(in_array($busca, $arr)){
+        echo "O item <strong>$busca</strong> foi encontrado no array<br>";
+    } else {
+        echo "O item <strong>$busca</strong> Não foi encontrado array<br>";
+    }
