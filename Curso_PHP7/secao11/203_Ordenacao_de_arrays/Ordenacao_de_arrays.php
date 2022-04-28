@@ -17,3 +17,6 @@
     echo "Ordem decrescente <br>";
     print_r($arr);
     echo "<br><br>";
+
+    $nomes = ["Maria", "Aaron", "João", "José", "Matheus"];
+    
