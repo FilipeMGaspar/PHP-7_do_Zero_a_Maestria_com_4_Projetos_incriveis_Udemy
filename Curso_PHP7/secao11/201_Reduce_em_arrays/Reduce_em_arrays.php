@@ -13,4 +13,4 @@
     echo "Soma = $resultado <br>";
 
     $resultado = array_reduce($arr, "subtracao");
-    echo "subtracao = $resultado <br>";
+    echo "Subtração = $resultado <br>";
