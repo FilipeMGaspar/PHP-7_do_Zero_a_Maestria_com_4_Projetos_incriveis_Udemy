@@ -5,4 +5,4 @@
         return $a + $b;
     }
 
-    
+    $resultado = array_reduce($arr, "soma");
