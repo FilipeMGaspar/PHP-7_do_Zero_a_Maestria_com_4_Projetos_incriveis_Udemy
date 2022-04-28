@@ -4,4 +4,4 @@
 
     // rsort     coloca por ordem decrescente    
 
-    
+    $arr = [5, 6, 9, 3, 356, 32, 123, 4, 12, 999, 1, 8];
