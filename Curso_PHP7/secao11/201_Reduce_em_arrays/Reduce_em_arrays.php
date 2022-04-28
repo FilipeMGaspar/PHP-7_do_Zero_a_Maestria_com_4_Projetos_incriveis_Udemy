@@ -6,7 +6,7 @@
     }
 
     function subtracao($a, $b){
-        return $a + $b;
+        return $a - $b;
     }
 
     $resultado = array_reduce($arr, "soma");
