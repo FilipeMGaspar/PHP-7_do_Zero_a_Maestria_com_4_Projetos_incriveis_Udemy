@@ -6,3 +6,5 @@
     }
 
     $resultado = array_reduce($arr, "soma");
+
+    echo $resultado . "<br>";
