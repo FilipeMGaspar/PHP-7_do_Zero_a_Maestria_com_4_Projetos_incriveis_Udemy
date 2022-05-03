@@ -17,7 +17,7 @@
 
     $nomesRev = array_reverse($nomes);
 
-    echo "Array Original: <br>";
+    echo "<br><br>Array Original: <br>";
     print_r($nomes);
     echo "<br><br>";
 
