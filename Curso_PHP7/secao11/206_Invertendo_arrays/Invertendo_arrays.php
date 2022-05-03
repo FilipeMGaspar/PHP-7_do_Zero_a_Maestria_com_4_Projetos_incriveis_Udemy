@@ -12,3 +12,9 @@
     echo "Array Invertido: <br>";
     print_r($arrRev);
     echo "<br<<br>";
+
+    $nome = ["Ti Maria" ,"Filipe", "Ana", "Jorge", "Maria", "Zélia", "Cristina"];
+
+    echo "Array Original: <br>";
+    print_r($arr);
+    echo "<br><br>";
