@@ -18,7 +18,7 @@
 
     arsort($pontuacao);
     //print_r($pontuacao);
-    echo "<br><br>";
+    echo "<h2>Ranking:</h2>";
     echo "<ol>";
     foreach($pontuacao as $nome => $pontos){
         echo "<li>$nome ..: $pontos pontos</li>";
