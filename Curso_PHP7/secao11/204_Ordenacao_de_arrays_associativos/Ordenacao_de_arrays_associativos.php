@@ -18,9 +18,9 @@
     arsort($arr);
     echo "<strong>Ordem decrescente:</strong><br>";
     print_r($arr);
-    echo "<br>";
+    echo "<br><br>";
 
     ksort($arr);
-    echo "<strong>Ordem pelo valor das chaves:</strong><br>";
+    echo "<strong>Ordem alfabética do valor das chaves:</strong><br>";
     print_r($arr);
     echo "<br>";
