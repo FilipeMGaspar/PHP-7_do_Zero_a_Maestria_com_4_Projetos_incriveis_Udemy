@@ -13,8 +13,14 @@
     print_r($arrRev);
     echo "<br<<br>";
 
-    $nome = ["Ti Maria" ,"Filipe", "Ana", "Jorge", "Maria", "Zélia", "Cristina"];
+    $nomes = ["Ti Maria" ,"Filipe", "Ana", "Jorge", "Maria", "Zélia", "Cristina"];
+
+    $nomesRev = array_reverse($nomes);
 
     echo "Array Original: <br>";
-    print_r($arr);
+    print_r($nomes);
     echo "<br><br>";
+
+    echo "Array Invertido: <br>";
+    print_r($nomesRev);
+    echo "<br<<br>";
