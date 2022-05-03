@@ -10,6 +10,6 @@
         "Maria" => 12
     ];
 
-    arsort($arr);
+    asort($arr);
     print_r($arr);
     echo "<br>";
