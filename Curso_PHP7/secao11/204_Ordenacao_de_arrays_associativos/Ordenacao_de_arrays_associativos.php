@@ -11,11 +11,11 @@
     ];
 
     asort($arr);
-    echo "Ordem crescente <br>";
+    echo "<strong>Ordem crescente:</strong><br>";
     print_r($arr);
     echo "<br><br>";
 
     arsort($arr);
-    echo "Ordem decrescente <br>";
+    echo "<strong>Ordem decrescente:</strong><br>";
     print_r($arr);
     echo "<br>";
