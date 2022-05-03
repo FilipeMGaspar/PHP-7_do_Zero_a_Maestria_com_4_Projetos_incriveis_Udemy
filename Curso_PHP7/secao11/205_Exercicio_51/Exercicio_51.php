@@ -10,7 +10,10 @@
         "Luisa" => 100,
         "Manuel" => 115,
         "Cristina" => 155,
-        "Pedro" => 75
+        "Pedro" => 75,
+        "Zulmira" => 105,
+        "Filipe" => 60,
+        "Ti Maria" => 160
     ];
 
     arsort($pontuacao);
