@@ -18,6 +18,6 @@
     echo "<br><br>";
     echo "<ul>";
     foreach($pontuacao as $nome => $pontos){
-        echo "<li>$nome ..:      $pontos</li>";
+        echo "<li>$nome ..: $pontos pontos</li>";
     }
     echo "<ul>";
