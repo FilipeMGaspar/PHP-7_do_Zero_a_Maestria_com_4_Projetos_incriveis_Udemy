@@ -21,6 +21,11 @@
     echo "<br><br>";
 
     ksort($arr);
-    echo "<strong>Ordem alfabética do valor das chaves:</strong><br>";
+    echo "<strong>Ordem crescente alfabética do valor das chaves:</strong><br>";
+    print_r($arr);
+    echo "<br><br>";
+
+    krsort($arr);
+    echo "<strong>Ordem decrescente alfabética do valor das chaves:</strong><br>";
     print_r($arr);
     echo "<br>";
