@@ -14,3 +14,4 @@
  ];
 
  arsort($pontuacao);
+ print_r($pontuacao);
