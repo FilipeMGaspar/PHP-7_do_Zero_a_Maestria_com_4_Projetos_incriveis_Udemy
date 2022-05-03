@@ -9,3 +9,7 @@
         "Pedro" => 18,
         "Maria" => 12
     ];
+
+    arsort($arr);
+    print_r($arr);
+    echo "<br>";
