@@ -7,7 +7,7 @@
 
     echo "Array Original: <br>";
     print_r($arr);
-    echo "<br<<br>";
+    echo "<br><br>";
 
     echo "Array Invertido: <br>";
     print_r($arrRev);
