@@ -4,3 +4,11 @@
  *  Ordene os dados do maior para o menor
  *  Exiba uma lista, simulando um ranking, em HTML;
  */
+
+ $pontuacao = [
+    "Jorge" => 120,
+    "Luisa" => 100,
+    "Manuel" => 115,
+    "Cristina" => 155,
+    "Pedro" => 75
+ ];
