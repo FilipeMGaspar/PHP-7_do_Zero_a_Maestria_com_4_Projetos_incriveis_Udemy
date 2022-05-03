@@ -5,13 +5,19 @@
  *  Exiba uma lista, simulando um ranking, em HTML;
  */
 
- $pontuacao = [
-    "Jorge" => 120,
-    "Luisa" => 100,
-    "Manuel" => 115,
-    "Cristina" => 155,
-    "Pedro" => 75
- ];
+    $pontuacao = [
+        "Jorge" => 120,
+        "Luisa" => 100,
+        "Manuel" => 115,
+        "Cristina" => 155,
+        "Pedro" => 75
+    ];
 
- arsort($pontuacao);
- print_r($pontuacao);
+    arsort($pontuacao);
+    print_r($pontuacao);
+    echo "<br><br>";
+    echo "<ul>";
+    foreach($pontuacao as $nome => $pontos){
+        echo "<li>$nome  ..: $pontos</li>";
+    }
+    echo "<ul>";
