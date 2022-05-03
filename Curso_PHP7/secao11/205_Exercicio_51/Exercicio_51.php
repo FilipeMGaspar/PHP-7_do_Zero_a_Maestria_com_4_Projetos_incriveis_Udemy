@@ -12,3 +12,5 @@
     "Cristina" => 155,
     "Pedro" => 75
  ];
+
+ arsort($pontuacao);
