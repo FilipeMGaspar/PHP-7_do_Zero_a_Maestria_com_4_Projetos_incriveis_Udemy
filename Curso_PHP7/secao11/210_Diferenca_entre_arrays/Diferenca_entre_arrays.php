@@ -10,9 +10,9 @@
 
     $dif = array_diff($arr2, $arr); // Diferença do arr2 para o arr
     print_r($dif);
-    echo "<br>";
+    echo "<br><br>";
 
-    $arr3 = [4, 6];
+    $arr3 = [4];
     $dif = array_diff($arr2, $arr, $arr3); 
     print_r($dif);
     echo "<br>";
