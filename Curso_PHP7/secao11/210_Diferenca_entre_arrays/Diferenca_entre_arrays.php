@@ -11,3 +11,8 @@
     $dif = array_diff($arr2, $arr); // Diferença do arr2 para o arr
     print_r($dif);
     echo "<br>";
+
+    $arr3 = [4, 6];
+    $dif = array_diff($arr2, $arr, $arr3); 
+    print_r($dif);
+    echo "<br>";
