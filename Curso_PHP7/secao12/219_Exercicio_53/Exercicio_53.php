@@ -9,4 +9,8 @@
         function latir(){
             echo "ão, ão, ão, auuuuuuuuuuu <br>";
         }
+
+        function andar($d){
+            echo "O cachorro andou $d metros<br>";
+        }
     }
