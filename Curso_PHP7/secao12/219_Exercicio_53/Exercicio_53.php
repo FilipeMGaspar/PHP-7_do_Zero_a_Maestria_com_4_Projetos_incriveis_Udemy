@@ -20,5 +20,5 @@
     $boby->andar(3);
 
     $lacy = new Cachorro;
-    $lacy_>andar(15);
+    $lacy->andar(15);
     $lacy->latir();
