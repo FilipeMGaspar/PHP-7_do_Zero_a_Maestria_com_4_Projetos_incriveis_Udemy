@@ -18,3 +18,7 @@
     $boby = new Cachorro; 
     $boby->latir();
     $boby->andar(3);
+
+    $lacy = new Chachorro:
+    $lacy_>andar(15);
+    $lacy->latir();
