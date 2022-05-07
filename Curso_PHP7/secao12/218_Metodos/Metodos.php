@@ -18,3 +18,4 @@
 
     $joao = new Pessoa;
     $joao->falar();
+    $joao->somar(25, 50);
