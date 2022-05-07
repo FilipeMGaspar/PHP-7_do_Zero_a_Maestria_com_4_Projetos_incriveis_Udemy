@@ -9,4 +9,5 @@
      }
 
      $peugeot = new Car;
-     
+     $ford = new Car;
+     $bmw = new Car;
