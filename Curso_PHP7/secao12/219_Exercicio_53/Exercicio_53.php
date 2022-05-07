@@ -6,5 +6,7 @@
  */
 
     class Cachorro{
-        
+        function latir(){
+            echo "ão, ão, ão, auuuuuuuuuuu <br>";
+        }
     }
