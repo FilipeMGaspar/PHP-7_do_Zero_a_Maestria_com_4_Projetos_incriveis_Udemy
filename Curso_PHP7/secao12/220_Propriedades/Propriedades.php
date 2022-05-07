@@ -9,3 +9,4 @@
     echo $ferrari->aro . "<br>";
     echo $ferrari->rodas ."<br>";
     $ferrari->cor="Azul";
+    echo $ferrari->cor . "<br>";
