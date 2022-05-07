@@ -14,3 +14,7 @@
             echo "O cachorro andou $d metros<br>";
         }
     }
+
+    $boby = new Cachorro; 
+    $boby->latir();
+    $boby->andar(3);
