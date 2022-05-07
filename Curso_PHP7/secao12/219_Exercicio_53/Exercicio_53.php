@@ -19,6 +19,6 @@
     $boby->latir();
     $boby->andar(3);
 
-    $lacy = new Chachorro:
+    $lacy = new Cachorro:
     $lacy_>andar(15);
     $lacy->latir();
