@@ -6,3 +6,4 @@
 
     $ferrari = new Car;
     echo $ferrari->aro . "<br>";
+    echo $ferrari->rodas ."<br>";
