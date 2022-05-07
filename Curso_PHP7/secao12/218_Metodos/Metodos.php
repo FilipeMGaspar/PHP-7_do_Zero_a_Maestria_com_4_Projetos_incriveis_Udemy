@@ -11,4 +11,5 @@
     $matheu->falar();
     $matheu->falar();
 
-    
+    $joao = new Pessoa;
+    $joao->falar();
