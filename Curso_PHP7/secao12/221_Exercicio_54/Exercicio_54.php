@@ -10,6 +10,6 @@
          public $idade;
 
          function andar($m){
-
+            echo "Andou $m metros <br>";
          }
      }
