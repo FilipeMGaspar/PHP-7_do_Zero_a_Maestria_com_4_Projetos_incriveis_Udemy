@@ -8,4 +8,8 @@
      class Pessoa{
          public $nome;
          public $idade;
+
+         function andar($m){
+
+         }
      }
