@@ -17,4 +17,4 @@
      $joao = new Pessoa;
      $joao->nome = "João";
      $joao->idade = 25;
-     echo "O $joao->nome tem $joao->idade<br>";
+     echo "O $joao->nome tem $joao->idade anos de idade<br>";
