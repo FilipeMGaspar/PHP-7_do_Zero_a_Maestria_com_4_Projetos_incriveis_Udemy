@@ -18,3 +18,9 @@
      $joao->nome = "João";
      $joao->idade = 25;
      echo "O $joao->nome tem $joao->idade anos de idade<br>";
+     $joao->andar(500);
+
+     $maria = new Pessoa;
+     $maria->nome = "Maria";
+     $maria->idade = 37;
+     echo "O $maria->nome tem $maria->idade anos de idade<br>";
