@@ -13,3 +13,8 @@
             echo "Andou $m metros <br>";
          }
      }
+
+     $joao = new Pessoa;
+     $joao->nome = "João";
+     $joao->idade = 25;
+     echo "O $joao->nome tem $joao->idade<br>";
