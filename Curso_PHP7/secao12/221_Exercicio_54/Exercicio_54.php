@@ -24,3 +24,4 @@
      $maria->nome = "Maria";
      $maria->idade = 37;
      echo "O $maria->nome tem $maria->idade anos de idade<br>";
+     $maria->andar(2500);
