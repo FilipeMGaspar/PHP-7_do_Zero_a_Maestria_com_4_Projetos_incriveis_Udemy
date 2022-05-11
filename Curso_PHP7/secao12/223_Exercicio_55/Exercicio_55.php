@@ -11,4 +11,8 @@
         public $modelo;
         public $cor;
         public $velocidade_maxima;
+
+        function setVelocidadeMaxima($velMax) {
+            $this->setVelocidadeMaxima = $velMax;
+        }
      }
