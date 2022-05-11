@@ -5,3 +5,7 @@
      *  Crie o método setVelocidadeMaxima, onde é possivel alterar a velocidade máxima do carro
      *  e também get VelocidadeMáxima onde é possivel imprimeir a velocidade do carro
      */
+
+     class Carro {
+        
+     }
