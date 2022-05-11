@@ -7,5 +7,6 @@
     }
 
     $frida = new Animal;
-    echo "O nome do animal é ";
+    echo "O nome do animal é $frida->nome <br>";
     $frida->escolherNome("Frida");
+    echo "O nome do animal é $frida->nome <br>";
