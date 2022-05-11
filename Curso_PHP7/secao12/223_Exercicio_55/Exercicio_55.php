@@ -7,5 +7,8 @@
      */
 
      class Carro {
-        
+        public $marca;
+        public $modelo;
+        public $cor;
+        public $velocidade_maxima;
      }
