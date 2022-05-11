@@ -24,7 +24,7 @@
      $peugeot = new Carro;
      $peugeot->marca = "Peugeot";
      $peugeot->modelo = "306 2.0 HDI";
-     $peugeot->cor = "Azul cinsa"
+     $peugeot->cor = "Azul cinsa";
      $peugeot->setVelocidadeMaxima(180);
      
      echo $peugeot->marca . " ";
