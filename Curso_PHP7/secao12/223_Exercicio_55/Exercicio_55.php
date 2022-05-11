@@ -13,6 +13,12 @@
         public $velocidade_maxima;
 
         function setVelocidadeMaxima($velMax) {
-            $this->setVelocidadeMaxima = $velMax;
+            $this->velocidade_maxima = $velMax;
+        }
+
+        function getVelocidadeMaxima(){
+            return $this->velocidade_maxima;
         }
      }
+
+     
