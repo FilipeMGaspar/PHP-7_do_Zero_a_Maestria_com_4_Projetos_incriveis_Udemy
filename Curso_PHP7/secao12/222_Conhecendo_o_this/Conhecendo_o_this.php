@@ -14,3 +14,4 @@
     echo "O nome do animal é $frida->nome <br>";
     $frida->escolherNome("Frida");
     echo "O nome do animal é $frida->nome <br>";
+    $frida->latir();
