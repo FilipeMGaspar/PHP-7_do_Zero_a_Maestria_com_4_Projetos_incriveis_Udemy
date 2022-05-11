@@ -27,5 +27,7 @@
      $peugeot->cor = "Azul cinsa"
      $peugeot->setVelocidadeMaxima(180);
      
-     echo $peugeot->marca;
-     
+     echo $peugeot->marca . " ";
+     echo $peugeot->modelo . " ";
+     echo $peugeot->cor . " ";
+     echo $peugeot->getVelocidadeMaxima() . " ";
