@@ -19,3 +19,4 @@
     $frida->escolherNome("Frida");
     echo "O nome do animal é $frida->nome <br>";
     echo $frida->latir();
+    echo $frida->latirForte();
