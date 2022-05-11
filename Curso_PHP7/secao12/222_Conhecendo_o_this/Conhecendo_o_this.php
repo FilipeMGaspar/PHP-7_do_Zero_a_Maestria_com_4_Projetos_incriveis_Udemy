@@ -4,6 +4,10 @@
         function escolherNome($nome){
             $this->nome = $nome;
         }
+
+        function latir(){
+            echo "Au au <br>";
+        }
     }
 
     $frida = new Animal;
