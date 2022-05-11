@@ -6,7 +6,11 @@
         }
 
         function latir(){
-            echo "Au au <br>";
+           return "Au au <br>";
+        }
+
+        function latirForte(){
+            
         }
     }
 
@@ -14,4 +18,4 @@
     echo "O nome do animal é $frida->nome <br>";
     $frida->escolherNome("Frida");
     echo "O nome do animal é $frida->nome <br>";
-    $frida->latir();
+    echo $frida->latir();
