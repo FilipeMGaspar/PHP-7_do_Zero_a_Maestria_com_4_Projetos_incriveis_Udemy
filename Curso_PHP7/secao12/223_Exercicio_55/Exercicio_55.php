@@ -3,7 +3,7 @@
      *  Crie uma classe Carro
      *  Crie algumas propriedades e também a propriedade velocidade_maxima
      *  Crie o método setVelocidadeMaxima, onde é possivel alterar a velocidade máxima do carro
-     *  e também get VelocidadeMáxima onde é possivel imprimeir a velocidade do carro
+     *  e também getVelocidadeMáxima onde é possivel imprimeir a velocidade do carro
      */
 
      class Carro {
@@ -21,4 +21,11 @@
         }
      }
 
+     $peugeot = new Carro;
+     $peugeot->marca = "Peugeot";
+     $peugeot->modelo = "306 2.0 HDI";
+     $peugeot->cor = "Azul cinsa"
+     $peugeot->setVelocidadeMaxima(180);
+     
+     echo $peugeot->marca;
      
