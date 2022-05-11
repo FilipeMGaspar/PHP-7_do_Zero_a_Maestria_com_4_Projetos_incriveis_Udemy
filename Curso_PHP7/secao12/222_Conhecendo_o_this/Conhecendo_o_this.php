@@ -10,7 +10,7 @@
         }
 
         function latirForte(){
-            
+            return strtoupper($this->latir());
         }
     }
 
