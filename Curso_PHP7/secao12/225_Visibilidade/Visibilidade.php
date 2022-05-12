@@ -38,3 +38,5 @@
 
     //$matheus->colocarPelicula($carro, "Pelicula G20");
     echo $carro->getVidro() . "<br>"; 
+
+    echo $carro->portas;
