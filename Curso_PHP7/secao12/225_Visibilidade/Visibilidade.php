@@ -36,5 +36,5 @@
     //$matheus->colocarPelicula($carro, "Pelicula G20");
     //echo $carro->vidro . "<br>";
 
-    $carro->peliculaDeFabrica("G10");
+    //$matheus->colocarPelicula($carro, "Pelicula G20");
     echo $carro->getVidro() . "<br>"; 
