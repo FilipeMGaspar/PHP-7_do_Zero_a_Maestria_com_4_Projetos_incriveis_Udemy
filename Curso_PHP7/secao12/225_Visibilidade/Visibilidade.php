@@ -1,7 +1,11 @@
 <?php
     class Car{
         public $rodas = 4;
-        protected $vidro = "Sem Pelicula";
+        private $vidro = "Sem Pelicula";
+
+        public function peliculaDeFabrica($pelicula) {
+            $this->vidro = $pelicula;
+        }
     }
 
     class Mecanico{
