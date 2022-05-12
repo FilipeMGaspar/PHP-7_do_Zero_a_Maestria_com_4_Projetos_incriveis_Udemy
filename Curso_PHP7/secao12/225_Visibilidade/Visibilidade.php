@@ -3,9 +3,13 @@
         public $rodas = 4;
         private $vidro = "Sem Pelicula";
 
+        public function getVidro(){
+            return $this->vidro;
+        }
         public function peliculaDeFabrica($pelicula) {
             $this->vidro = $pelicula;
         }
+
     }
 
     class Mecanico{
@@ -31,4 +35,4 @@
     //echo $carro->vidro . "<br>";
 
     $carro->peliculaDeFabrica("G10");
-    echo $carro->vidro . "<br>"; 
+    echo $carro->getVidro() . "<br>"; 
