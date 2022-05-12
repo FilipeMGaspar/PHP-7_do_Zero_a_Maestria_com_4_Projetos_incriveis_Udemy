@@ -10,7 +10,7 @@
         }
 
         public function colocarPelicula($carro, $pelicula) {
-            $carro->$vidro = $pelicula;
+            $carro->vidro = $pelicula;
         }
     }
 
