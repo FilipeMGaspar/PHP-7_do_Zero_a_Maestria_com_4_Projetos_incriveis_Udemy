@@ -9,8 +9,8 @@
             $carro->rodas = 10;
         }
 
-        public function colocarPelicula($carro) {
-            $carro->$vidro = "Pelicula G20";
+        public function colocarPelicula($carro, $pelicula) {
+            $carro->$vidro = $pelicula;
         }
     }
 
@@ -20,3 +20,7 @@
     $matheus = new Mecanico;
     $matheus->alterarRodas($carro);
     echo $carro->rodas . "<br>";
+
+    echo $matheus->vidro . "<br>";
+    $matheus->colocarPelicula($carro, "Pelicula G20");
+    echo $matheus->vidro . "<br>";
