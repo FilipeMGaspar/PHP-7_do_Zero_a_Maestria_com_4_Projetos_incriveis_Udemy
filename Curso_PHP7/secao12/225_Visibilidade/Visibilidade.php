@@ -1,6 +1,7 @@
 <?php
     class Car{
         public $rodas = 4;
+        public $vidro = "Sem Pelicula";
     }
 
     class Mecanico{
