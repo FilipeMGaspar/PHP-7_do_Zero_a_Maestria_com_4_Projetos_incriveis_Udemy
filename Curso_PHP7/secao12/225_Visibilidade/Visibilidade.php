@@ -2,6 +2,7 @@
     class Car{
         public $rodas = 4;
         private $vidro = "Sem Pelicula";
+        protected $portas = 4;
 
         public function getVidro(){
             return $this->vidro;
@@ -35,5 +36,5 @@
     //$matheus->colocarPelicula($carro, "Pelicula G20");
     //echo $carro->vidro . "<br>";
 
-    //$carro->peliculaDeFabrica("G10");
+    $carro->peliculaDeFabrica("G10");
     echo $carro->getVidro() . "<br>"; 
