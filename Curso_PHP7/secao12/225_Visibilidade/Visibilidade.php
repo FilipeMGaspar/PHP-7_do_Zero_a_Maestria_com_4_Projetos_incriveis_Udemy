@@ -13,4 +13,5 @@
     echo $carro->rodas . "<br>";
 
     $matheus = new Mecanico;
-    $matheus->alterarRodas();
+    $matheus->alterarRodas($carro);
+    echo $carro->rodas . "<br>";
