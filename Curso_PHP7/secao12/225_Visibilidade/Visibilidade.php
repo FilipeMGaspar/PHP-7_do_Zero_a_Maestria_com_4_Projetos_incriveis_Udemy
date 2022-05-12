@@ -6,9 +6,10 @@
         public function getVidro(){
             return $this->vidro;
         }
-        public function peliculaDeFabrica($pelicula) {
+
+       /* public function peliculaDeFabrica($pelicula) {
             $this->vidro = $pelicula;
-        }
+        }*/
 
     }
 
@@ -34,5 +35,5 @@
     //$matheus->colocarPelicula($carro, "Pelicula G20");
     //echo $carro->vidro . "<br>";
 
-    $carro->peliculaDeFabrica("G10");
+    //$carro->peliculaDeFabrica("G10");
     echo $carro->getVidro() . "<br>"; 
