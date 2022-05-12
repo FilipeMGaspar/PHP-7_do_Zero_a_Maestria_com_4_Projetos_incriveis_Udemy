@@ -5,8 +5,12 @@
     }
 
     class Mecanico{
-        public function alterarRodas($obj){
-            $obj->rodas = 10;
+        public function alterarRodas($carro) {
+            $carro->rodas = 10;
+        }
+
+        public function colocarPelicula($carro) {
+            $carro->$vidro = "Pelicula Antracite";
         }
     }
 
