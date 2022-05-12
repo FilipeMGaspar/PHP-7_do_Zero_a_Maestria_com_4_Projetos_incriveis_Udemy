@@ -25,6 +25,10 @@
     $matheus->alterarRodas($carro);
     echo $carro->rodas . "<br>";
 
-    echo $carro->vidro . "<br>";
-    $matheus->colocarPelicula($carro, "Pelicula G20");
-    echo $carro->vidro . "<br>";
+    // não pode ser alterado pois é privado
+    //echo $carro->vidro . "<br>";
+    //$matheus->colocarPelicula($carro, "Pelicula G20");
+    //echo $carro->vidro . "<br>";
+
+    $carro->peliculaDeFabrica("G10");
+    echo $carro->vidro . "<br>"; 
