@@ -4,3 +4,5 @@
     }
 
     $carro = new Car;
+
+    echo $carro->rodas . "<br>";
