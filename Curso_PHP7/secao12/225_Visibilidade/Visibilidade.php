@@ -10,7 +10,7 @@
         }
 
         public function colocarPelicula($carro) {
-            $carro->$vidro = "Pelicula Antracite";
+            $carro->$vidro = "Pelicula G20";
         }
     }
 
