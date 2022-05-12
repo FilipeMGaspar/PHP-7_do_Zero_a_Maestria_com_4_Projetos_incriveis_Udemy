@@ -8,7 +8,7 @@
             return $this->vidro;
         }
 
-        public function Portas(){
+        public function getPortas(){
             return $this->portas;
         }
     }
@@ -38,4 +38,4 @@
     //$matheus->colocarPelicula($carro, "Pelicula G20");
     echo $carro->getVidro() . "<br>"; 
 
-    echo $carro->portas;
+    echo $carro->getPortas() . "<br>";
