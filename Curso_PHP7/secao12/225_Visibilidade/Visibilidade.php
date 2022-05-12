@@ -8,10 +8,9 @@
             return $this->vidro;
         }
 
-       /* public function peliculaDeFabrica($pelicula) {
-            $this->vidro = $pelicula;
-        }*/
-
+        public function Portas(){
+            return $this->portas;
+        }
     }
 
     class Mecanico{
