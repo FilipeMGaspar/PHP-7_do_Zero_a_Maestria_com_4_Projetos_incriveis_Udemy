@@ -23,4 +23,4 @@
 
     echo $carro->vidro . "<br>";
     $matheus->colocarPelicula($carro, "Pelicula G20");
-    echo $matheus->vidro . "<br>";
+    echo $carro->vidro . "<br>";
