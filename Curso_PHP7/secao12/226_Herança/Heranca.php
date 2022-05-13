@@ -7,7 +7,11 @@
         }
 
         private function grtitar(){
-            
+            echo "PHP É MUITO BOM! <br>";
+        }
+
+        public function acessaGritar(){
+            $this->gritar();
         }
     }
 
