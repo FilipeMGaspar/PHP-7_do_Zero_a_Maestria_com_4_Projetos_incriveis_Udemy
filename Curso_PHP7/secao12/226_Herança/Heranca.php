@@ -5,6 +5,10 @@
         public function falar(){
             echo "Olá, Mundo! <br>";
         }
+
+        private function grtitar(){
+            
+        }
     }
 
     class Programador extends Humano {
