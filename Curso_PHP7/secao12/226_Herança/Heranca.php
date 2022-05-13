@@ -13,3 +13,7 @@
 
     $ze = new Humano;
     $ze->falar();
+
+    $matheus = new Programador;
+
+    $matheus->falar();
