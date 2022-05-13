@@ -14,7 +14,9 @@
             $this->gritar();
         }
 
-        
+        protected function falrBaixinho(){
+            echo "sussurro ... <br>";
+        }
     }
 
     class Programador extends Humano {
@@ -24,6 +26,7 @@
     $ze = new Humano;
     $ze->falar();
     $ze->acessaGritar();
+    $ze->falrBaixinho();
 
     $matheus = new Programador;
     echo $matheus->idade . "<br>";
