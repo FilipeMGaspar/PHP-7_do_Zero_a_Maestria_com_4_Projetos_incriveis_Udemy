@@ -24,7 +24,9 @@
     }
 
     class Programador extends Humano {
-
+        public function acessaFalarBaixinhoProgramador(){
+            $this->falarBaixinho();
+        }
     }
 
     $ze = new Humano;
@@ -37,3 +39,4 @@
     $matheus->falar();
     $matheus->acessaGritar();
     $matheus->acessaFalarBaixinho();
+    $matheus->acessaFalarBaixinhoProgramador();
