@@ -7,5 +7,9 @@
         }
     }
 
+    class Programador extends Humano {
+
+    }
+
     $ze = new Humano;
     $ze->falar();
