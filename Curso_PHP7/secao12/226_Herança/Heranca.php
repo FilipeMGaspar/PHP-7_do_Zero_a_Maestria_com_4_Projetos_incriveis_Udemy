@@ -15,5 +15,5 @@
     $ze->falar();
 
     $matheus = new Programador;
-
+    echo $matheus->idade . "<br>";
     $matheus->falar();
