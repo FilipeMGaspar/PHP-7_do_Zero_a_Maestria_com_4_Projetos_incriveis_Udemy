@@ -6,7 +6,7 @@
             echo "Olá, Mundo! <br>";
         }
 
-        private function grtitar(){
+        private function gritar(){
             echo "PHP É MUITO BOM! <br>";
         }
 
