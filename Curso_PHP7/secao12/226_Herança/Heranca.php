@@ -17,6 +17,10 @@
         protected function falrBaixinho(){
             echo "sussurro ... <br>";
         }
+
+        public function acessaFalarBaixinho(){
+            $this->falrBaixinho();
+        }
     }
 
     class Programador extends Humano {
@@ -26,7 +30,7 @@
     $ze = new Humano;
     $ze->falar();
     $ze->acessaGritar();
-    $ze->falrBaixinho();
+    $ze->acessaFalarBaixinho();
 
     $matheus = new Programador;
     echo $matheus->idade . "<br>";
