@@ -30,10 +30,10 @@
     $ze = new Humano;
     $ze->falar();
     $ze->acessaGritar();
-    $ze->acessaFalarBaixinho();
+   // $ze->acessaFalarBaixinho();
 
     $matheus = new Programador;
     echo $matheus->idade . "<br>";
     $matheus->falar();
     $matheus->acessaGritar();
-    $matheus->acessaFalarBaixinho();
+    //$matheus->acessaFalarBaixinho();
