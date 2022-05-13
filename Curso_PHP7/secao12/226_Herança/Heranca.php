@@ -32,3 +32,4 @@
     echo $matheus->idade . "<br>";
     $matheus->falar();
     $matheus->acessaGritar();
+    $matheus->falrBaixinho();
