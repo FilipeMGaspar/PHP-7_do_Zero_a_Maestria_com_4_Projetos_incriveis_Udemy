@@ -14,12 +14,12 @@
             $this->gritar();
         }
 
-        protected function falrBaixinho(){
+        protected function falarBaixinho(){
             echo "sussurro ... <br>";
         }
 
         public function acessaFalarBaixinho(){
-            $this->falrBaixinho();
+            $this->falarBaixinho();
         }
     }
 
@@ -36,4 +36,4 @@
     echo $matheus->idade . "<br>";
     $matheus->falar();
     $matheus->acessaGritar();
-    $matheus->falrBaixinho();
+    $matheus->acessaFalarBaixinho();
