@@ -5,7 +5,7 @@
      * Exiba os valores das propriedades da classe pais e também utilize os métodos
      */
 
-     class Humano(){
+     class Humano {
          public $bracos = 2;
          public $pernas = 2;
 
@@ -14,7 +14,7 @@
          }
      }
 
-     class Professor extends Humano(){
+     class Professor extends Humano {
         public $disciplina;
 
         function lecionar(){
