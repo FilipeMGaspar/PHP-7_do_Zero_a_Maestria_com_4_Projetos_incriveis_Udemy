@@ -20,5 +20,5 @@
     if($turca instanceof Humano){
         echo "Turca é um Humano <br>";
     } else {
-        echo "Turca Não é um Humano <br>";
+        echo "Turca não é um Humano <br>";
     }
