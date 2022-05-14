@@ -4,8 +4,10 @@
 }
 
 div#corpo{
-    height: 150px;
-    width: 150px;
+    height: 600px;
+    width: 800px;
     background-color: whitesmoke;
     margin: auto;
+    border-radius: 3px;
+    box-shadow: 0px 0px 30px solid black;
 }
