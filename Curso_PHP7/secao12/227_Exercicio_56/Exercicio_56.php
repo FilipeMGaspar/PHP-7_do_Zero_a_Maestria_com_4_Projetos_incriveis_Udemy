@@ -21,3 +21,6 @@
             echo "Estou a lecionar! ";
         }
      }
+
+     $joao = new Professor;
+     $joao->
