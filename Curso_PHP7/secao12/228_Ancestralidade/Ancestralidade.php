@@ -7,6 +7,10 @@
 
     }
 
+    class  Professor extends Humano{
+
+    }
+    
     $marcos = new Humano;
 
     if($marcos instanceof Humano){
