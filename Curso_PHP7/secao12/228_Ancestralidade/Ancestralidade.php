@@ -29,13 +29,13 @@
 
     $pedro = new Professor;
 
-    if($turca instanceof Humano){
+    if($pedro instanceof Humano){
         echo "Pedro é um Humano <br>";
     } else {
         echo "Pedro não é um Humano <br>";
     }
 
-    if($turca instanceof Professor){
+    if($pedro instanceof Professor){
         echo "Pedro é um Professor <br>";
     } else {
         echo "Pedro não é um Professor <br>";
