@@ -6,5 +6,10 @@
      */
 
      class Humano(){
+         public $bracos = 2;
+         public $pernas = 2;
          
+         public function falar(){
+             echo "Olá! É um prazer. Seja bem vindo!<br>";
+         }
      }
