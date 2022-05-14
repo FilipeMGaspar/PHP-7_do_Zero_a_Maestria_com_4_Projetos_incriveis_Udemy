@@ -8,8 +8,16 @@
      class Humano(){
          public $bracos = 2;
          public $pernas = 2;
-         
+
          public function falar(){
              echo "Olá! É um prazer. Seja bem vindo!<br>";
          }
+     }
+
+     class Professor extends Humano(){
+        public $disciplina;
+
+        function lecionar(){
+            echo "Estou a lecionar! ";
+        }
      }
