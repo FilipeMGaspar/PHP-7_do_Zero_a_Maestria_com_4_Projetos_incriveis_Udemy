@@ -10,4 +10,5 @@ div#corpo{
     margin: auto;
     border-radius: 3px;
     box-shadow: 0px 0px 30px grey;
+    text-align: center;
 }
