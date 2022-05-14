@@ -18,9 +18,11 @@
         public $disciplina;
 
         function lecionar(){
-            echo "Estou a lecionar! ";
+            echo "Estou a lecionar a disciplina de $this->disciplina <br>";
         }
      }
 
      $joao = new Professor;
-     $joao->
+     $joao->disciplina = "Matemática";
+     $joao->falar();
+     $joao->lecionar();
