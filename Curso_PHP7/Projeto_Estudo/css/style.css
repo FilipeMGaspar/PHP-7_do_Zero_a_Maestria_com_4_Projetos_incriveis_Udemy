@@ -2,3 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+
+div#corpo{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    margin: auto;
+}
