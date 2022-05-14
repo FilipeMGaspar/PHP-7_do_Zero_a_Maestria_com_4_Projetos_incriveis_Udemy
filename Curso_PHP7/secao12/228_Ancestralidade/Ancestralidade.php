@@ -3,6 +3,10 @@
 
     }
 
+    class Animal {
+
+    }
+
     $marcos = new Humano;
 
     if($marcos instanceof Humano){
