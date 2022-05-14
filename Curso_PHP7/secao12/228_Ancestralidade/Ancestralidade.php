@@ -40,3 +40,9 @@
     } else {
         echo "Pedro não é um Professor <br>";
     }
+
+    if($turca instanceof Professor){
+        echo "Turca é um Professor <br>";
+    } else {
+        echo "Turca não é um Professor <br>";
+    }
