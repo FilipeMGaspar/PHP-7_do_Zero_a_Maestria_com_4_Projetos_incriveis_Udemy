@@ -15,7 +15,7 @@
 
     class Central {
         use Objeto;
-        use Testando:
+        use Testando;
     }
 
     $x = new Central;
