@@ -20,3 +20,4 @@
 
     $matheus = new Humano;
     $matheus->falar();
+    $matheus->dizerNome();
