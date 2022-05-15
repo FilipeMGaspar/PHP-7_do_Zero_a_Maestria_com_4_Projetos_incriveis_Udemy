@@ -15,7 +15,9 @@
 
     class Central {
         use Objeto;
+        use Testando:
     }
 
     $x = new Central;
     $x->teste();
+    $x->traitTeste();
