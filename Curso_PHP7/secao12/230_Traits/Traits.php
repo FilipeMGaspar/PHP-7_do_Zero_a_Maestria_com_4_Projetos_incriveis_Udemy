@@ -22,3 +22,4 @@
     $x = new Central;
     $x->teste();
     $x->traitTeste();
+    echo $x->y . "<br>";
