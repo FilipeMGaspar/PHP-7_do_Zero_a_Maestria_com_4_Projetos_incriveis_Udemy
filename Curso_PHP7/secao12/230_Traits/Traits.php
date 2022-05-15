@@ -7,6 +7,12 @@
         }
     }
 
+    trait Testando{
+        public function traitTeste(){
+            echo "";
+        }
+    }
+
     class Central {
         use Objeto;
     }
