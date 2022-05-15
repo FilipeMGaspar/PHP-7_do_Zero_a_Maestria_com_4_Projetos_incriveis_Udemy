@@ -12,3 +12,4 @@
     }
 
     $matheus = new Humano;
+    $matheus->falar();
