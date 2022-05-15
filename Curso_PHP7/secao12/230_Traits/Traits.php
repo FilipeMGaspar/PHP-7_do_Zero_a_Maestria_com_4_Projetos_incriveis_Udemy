@@ -1,6 +1,6 @@
 <?php
 
-    class Objeto{
+    trait Objeto{
 
         public function teste() {
             echo "Testando trait de objeto <br>";
@@ -12,4 +12,4 @@
     }
 
     $x = new Central;
-    
+    $x->teste();
