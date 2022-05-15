@@ -14,7 +14,7 @@
         }
 
         public function dizerNome(){
-            
+            echo "O meu nome é " . self::nome . "<br>";
         }
     }
 
