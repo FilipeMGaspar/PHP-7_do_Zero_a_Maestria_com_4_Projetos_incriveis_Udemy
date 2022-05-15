@@ -1,6 +1,7 @@
 <?php
 
     trait Objeto{
+        public $y= 10;
 
         public function teste() {
             echo "Testando trait de objeto <br>";
