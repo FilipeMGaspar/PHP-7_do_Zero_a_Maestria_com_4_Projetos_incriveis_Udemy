@@ -9,7 +9,7 @@
 
     trait Testando{
         public function traitTeste(){
-            echo "";
+            echo "Este método é da trait Testando <br>";
         }
     }
 
