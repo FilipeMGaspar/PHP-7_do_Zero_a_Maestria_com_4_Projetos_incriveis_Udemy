@@ -26,5 +26,6 @@
     $boby = new Cachorro("Rafeiro", "Beje", 2);
     $boby->mostrarDados();
 
+    echo "<br>";
     $max = new Cachorro("Pastor Alemão", "CAstanho", 1);
     $max->mostrarDados();
