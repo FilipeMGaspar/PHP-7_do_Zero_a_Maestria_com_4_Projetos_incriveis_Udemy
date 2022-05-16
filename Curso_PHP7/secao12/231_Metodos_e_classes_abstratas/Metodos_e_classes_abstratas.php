@@ -19,4 +19,4 @@
     Teste::testandoClasseAbstrata();
 
     $n = new Nova;
-    
+    $n->testeAbs();
