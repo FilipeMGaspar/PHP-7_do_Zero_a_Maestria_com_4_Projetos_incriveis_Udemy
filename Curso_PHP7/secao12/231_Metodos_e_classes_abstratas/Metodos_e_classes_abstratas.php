@@ -10,10 +10,13 @@
     }
 
     class Nova extends Teste {
-
+        public function testeAbs() {
+            echo "Teste método abstato <br>";
+        }
     }
 
     //$t = new Teste;
     Teste::testandoClasseAbstrata();
 
     $n = new Nova;
+    
