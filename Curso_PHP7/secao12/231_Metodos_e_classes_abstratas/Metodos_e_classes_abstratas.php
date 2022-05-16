@@ -6,3 +6,6 @@
             echo "Este método é de uma classe abstrata <br>";
         }
     }
+
+    $t = new Teste;
+    
