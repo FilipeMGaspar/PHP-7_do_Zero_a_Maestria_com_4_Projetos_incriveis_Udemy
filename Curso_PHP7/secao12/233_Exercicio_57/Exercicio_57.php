@@ -23,4 +23,5 @@
         }
     }
 
-    
+    $boby = new Cachorro("Rafeiro", "Castanho", 2);
+    $boby->mostrarDados();
