@@ -12,3 +12,5 @@
     }
 
     $ferrari = new Car(4, "Vermelha", "Ferrari");
+
+    echo "O carro é da marca $ferrari->marca e tem a cor $ferrari->cor<br>";
