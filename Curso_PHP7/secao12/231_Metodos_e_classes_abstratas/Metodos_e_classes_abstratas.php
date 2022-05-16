@@ -2,7 +2,7 @@
 
     abstract class Teste {
 
-        public function testandoClasseAbstrata(){
+        public static function testandoClasseAbstrata(){
             echo "Este método é de uma classe abstrata <br>";
         }
     }
