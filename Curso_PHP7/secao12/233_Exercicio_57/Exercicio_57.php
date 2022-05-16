@@ -10,7 +10,7 @@
         private $cor;
         private $idade;
 
-        public __construct($raca, $cor, $idade){
+        function __construct($raca, $cor, $idade){
             $this->raca = $raca;
             $this->cor = $cor;
             $this->idade = $idade;
