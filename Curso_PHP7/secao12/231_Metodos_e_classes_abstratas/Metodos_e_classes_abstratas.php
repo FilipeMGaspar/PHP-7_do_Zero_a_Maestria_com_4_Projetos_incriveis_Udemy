@@ -1,6 +1,6 @@
 <?php
 
-    abstract class Teste {
+    abstract class Teste {  // As classes abstact não podem ser instanciadas
 
         public static function testandoClasseAbstrata(){
             echo "Este método é de uma classe abstrata <br>";
