@@ -10,3 +10,5 @@
             $this->marca = $marca;
        }
     }
+
+    $ferrari = new Car(4, "Vermelha", "Ferrari");
