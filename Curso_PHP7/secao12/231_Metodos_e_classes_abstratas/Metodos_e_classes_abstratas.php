@@ -16,4 +16,4 @@
     //$t = new Teste;
     Teste::testandoClasseAbstrata();
 
-    
+    $n = new Nova;
