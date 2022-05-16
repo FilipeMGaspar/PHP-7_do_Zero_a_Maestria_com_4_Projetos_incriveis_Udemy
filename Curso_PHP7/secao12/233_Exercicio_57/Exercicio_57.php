@@ -23,5 +23,8 @@
         }
     }
 
-    $boby = new Cachorro("Rafeiro", "Castanho", 2);
+    $boby = new Cachorro("Rafeiro", "Beje", 2);
     $boby->mostrarDados();
+
+    $max = new Cachorro("Pastor Alemão", "CAstanho", 1);
+    $max->mostrarDados();
