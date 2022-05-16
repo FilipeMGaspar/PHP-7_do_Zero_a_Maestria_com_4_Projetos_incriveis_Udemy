@@ -6,5 +6,7 @@
 
        function __construct($portas, $cor, $marca){
             $this->portas = $portas;
+            $this->cor = $cor;
+            $this->marca = $marca;
        }
     }
