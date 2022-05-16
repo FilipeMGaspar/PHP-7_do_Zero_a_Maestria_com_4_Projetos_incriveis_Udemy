@@ -18,6 +18,9 @@
 
         public function mostrarDados() {
             echo "Raça ..: $this->raca <br>";
-            echo "Cor do Pelo: $this->cor <br>";
+            echo "Cor do Pelo ..: $this->cor <br>";
+            echo "Idade ..: $this->idade anos <br>";
         }
     }
+
+    
