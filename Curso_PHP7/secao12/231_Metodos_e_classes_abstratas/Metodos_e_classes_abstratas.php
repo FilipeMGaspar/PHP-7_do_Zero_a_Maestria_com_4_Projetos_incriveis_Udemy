@@ -7,5 +7,5 @@
         }
     }
 
-    $t = new Teste;
-    
+    //$t = new Teste;
+    Teste::testandoClasseAbstrata();
