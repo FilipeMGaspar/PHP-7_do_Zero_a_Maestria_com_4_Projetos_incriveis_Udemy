@@ -15,4 +15,9 @@
             $this->cor = $cor;
             $this->idade = $idade;
         }
+
+        public function mostrarDados() {
+            echo "Raça ..: $this->raca <br>";
+            echo "Cor do Pelo: $this->cor <br>";
+        }
     }
