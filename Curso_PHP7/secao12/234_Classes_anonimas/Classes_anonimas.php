@@ -1,2 +1,4 @@
 <?php
-    
+    $pessoa = new class() {
+
+    };
