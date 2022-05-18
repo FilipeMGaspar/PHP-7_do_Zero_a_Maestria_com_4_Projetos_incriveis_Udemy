@@ -18,4 +18,8 @@
         echo "A classe não existe <br>";
     }
 
+    echo "<br>";
     print_r(get_class_vars("Humano"));
+    echo "<br>";
+    print_r(get_class_methods("Humano"));
+    echo "<br>";
