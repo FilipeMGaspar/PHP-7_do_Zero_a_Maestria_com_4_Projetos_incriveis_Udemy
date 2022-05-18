@@ -28,9 +28,13 @@ table tr, td{
 }
 
 table td:nth-last-child(1){
-    width: 100px;
+    width: 200px;
 }
 
 table td:nth-last-child(2){
-    width: 250px;
+    width: 350px;
+}
+
+table td:nth-last-child(3){
+    width: 400px;
 }
