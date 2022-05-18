@@ -18,3 +18,4 @@
         echo "A classe não existe <br>";
     }
 
+    print_r(get_class_vars("Humano"));
