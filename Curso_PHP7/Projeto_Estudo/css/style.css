@@ -17,6 +17,12 @@ div#corpo h2 {
     padding: 15px;
 }
 
-table th, td{
+table {
+    margin: auto;
+   text-align: center;
+    border: 1px solid black;
+}
+
+table tr, td{
         border: 1px solid black;
 }
