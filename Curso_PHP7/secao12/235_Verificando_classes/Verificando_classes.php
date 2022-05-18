@@ -4,6 +4,14 @@
         public $idade;
         public $nome;
         public $profissao;
+
+        public function falar(){
+
+        }
+
+        public function andar(){
+            
+        }
     }
 
     if(class_exists("Humano")) {
