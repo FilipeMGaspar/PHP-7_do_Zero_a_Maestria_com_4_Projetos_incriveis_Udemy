@@ -24,7 +24,8 @@ table {
 }
 
 table tr, td{
-        border: 1px solid black;
+        border: none;
+        padding: 5px;
 }
 
 table td:nth-last-child(1){
