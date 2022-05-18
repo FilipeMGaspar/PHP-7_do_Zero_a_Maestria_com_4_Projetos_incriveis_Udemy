@@ -17,6 +17,6 @@ div#corpo h2 {
     padding: 15px;
 }
 
-table tr{
-    border: 1px solid black;
+table th, td{
+        border: 1px solid black;
 }
