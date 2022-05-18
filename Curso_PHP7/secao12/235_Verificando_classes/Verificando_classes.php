@@ -1,7 +1,9 @@
 <?php
 
     class Humano {
-
+        public $idade;
+        public $nome;
+        public $profissao;
     }
 
     if(class_exists("Humano")) {
@@ -15,3 +17,4 @@
     } else {
         echo "A classe não existe <br>";
     }
+
