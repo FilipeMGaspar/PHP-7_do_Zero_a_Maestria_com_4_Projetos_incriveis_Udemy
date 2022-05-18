@@ -29,3 +29,9 @@
     } else {
         echo "O método falar não existe <br>";
     }
+
+    if(method_exists($matheus, "asb")){
+        echo "O método asb existe<br>";
+    } else {
+        echo "O método asb não existe <br>";
+    }
