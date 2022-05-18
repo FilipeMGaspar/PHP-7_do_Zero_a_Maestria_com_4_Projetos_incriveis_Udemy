@@ -21,3 +21,11 @@
     } else {
         echo "Não é um objeto <br>";
     }
+
+    echo get_class($matheus) . "<br>";
+
+    if(method_exists($matheus, "falar")){
+        echo "O método falar existe<br>";
+    } else {
+        echo "O método falar não existe <br>";
+    }
