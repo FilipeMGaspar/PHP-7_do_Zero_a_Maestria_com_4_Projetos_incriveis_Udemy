@@ -1,5 +1,9 @@
 <?php
 
-    $cincodias = strtotime("5 days");
+    $cincoDias = strtotime("5 days");
 
-    echo $cincodias . "<br>";
+    echo $cincoDias . "<br>";
+
+    $dezDias = strtotime("10 days");
+
+    echo $dezDias . "<br>"
