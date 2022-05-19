@@ -6,4 +6,4 @@
 
     $dezDias = strtotime("10 days");
 
-    echo $dezDias . "<br>"
+    echo $dezDias . "<br>";
