@@ -7,3 +7,6 @@
 
     $d2 = date('d, M - Y');
     echo $d2 ."<br>";
+
+    $d2 = date('d/m/Y');
+    echo $d2 ."<br>";
