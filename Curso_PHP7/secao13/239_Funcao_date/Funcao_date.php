@@ -13,3 +13,6 @@
 
     $d = date('l, m - Y');
     echo $d ."<br>";
+
+    $d = date('l, F - Y');
+    echo $d ."<br>";
