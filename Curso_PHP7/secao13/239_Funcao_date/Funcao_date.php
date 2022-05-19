@@ -10,3 +10,6 @@
 
     $d = date('d/m/Y');
     echo $d ."<br>";
+
+    $d = date('l, m - Y');
+    echo $d ."<br>";
