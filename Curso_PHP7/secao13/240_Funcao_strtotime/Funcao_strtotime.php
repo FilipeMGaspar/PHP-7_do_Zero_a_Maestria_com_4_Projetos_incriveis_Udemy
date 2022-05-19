@@ -8,3 +8,6 @@
 
     $datAtualMais5 = date('d/m/Y', $cincoDias);
     echo $datAtualMais5 . "<br>";
+
+    $datAtualMais10 = date('d/m/Y', $dezDias);
+    echo $datAtualMais10 . "<br>";
