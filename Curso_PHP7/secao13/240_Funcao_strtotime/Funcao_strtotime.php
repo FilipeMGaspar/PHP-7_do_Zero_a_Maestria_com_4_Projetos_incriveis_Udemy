@@ -15,5 +15,6 @@
     $dataAtualMais2Meses = date('d/m/Y', $doisMeses);
     echo $dataAtualMais2Meses . "<br><br>";
 
-    echo $dozeAnos = strtotime("12 years") . "<br>";
+    $dozeAnos = strtotime("12 years") ;
+    echo $dozeAnos . "<br>";
     echo date('d/m/Y', $dozeAnos) . "<br><br>";
