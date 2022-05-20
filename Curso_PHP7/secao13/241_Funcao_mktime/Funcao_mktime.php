@@ -4,3 +4,8 @@
 
     $dataNascimentoFormatada = date('d/m/Y', $dataNascimento);
     echo $dataNascimentoFormatada . "<br>";
+
+    $dataEspecifica = mktime(12, 30, 59, 02, 28, 2045);
+    echo $dataEspecifica ."<br>";
+    $dataEspecificaFormatada = data('d/m/Y', $dataEspecifica);
+    echo $dataEspecificaFormatada . "<br>";
