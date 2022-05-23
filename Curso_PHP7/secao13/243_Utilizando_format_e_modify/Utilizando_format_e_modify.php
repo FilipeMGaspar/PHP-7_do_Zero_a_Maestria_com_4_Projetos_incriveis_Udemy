@@ -7,4 +7,5 @@
 
     echo $data->format('l d, F - Y') . "<br>";
 
-    echo $data->modify('+5 days') . "<br>";
+   $data->modify('+5 days');
+   echo $data->format('l d, F - Y') . "<br>";
