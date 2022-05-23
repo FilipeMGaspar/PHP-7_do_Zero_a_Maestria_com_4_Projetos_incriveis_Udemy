@@ -13,5 +13,5 @@
     echo $data->format('l d, F - Y') . "<br>";
 
     echo "<br>Data atual mais 2 meses ..: <br>";
-    $data->modify('+5 months');
+    $data->modify('+2 months');
     echo $data->format('l d, F - Y') . "<br>";
