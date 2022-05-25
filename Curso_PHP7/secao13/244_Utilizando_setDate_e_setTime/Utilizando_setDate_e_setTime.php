@@ -11,3 +11,5 @@
     $data->setTime(05, 12, 10); // Horas, Minutos, Segundos
     print_r($data);
     echo "<br><br>";
+
+    echo $data->format('d/m/Y') . "<br><br>";
