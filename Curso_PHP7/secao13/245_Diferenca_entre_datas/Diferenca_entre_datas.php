@@ -9,3 +9,7 @@
     echo "<br><br>";
     print_r($dataB);
     echo "<br><br>";
+
+    $diferenca = $dataA->diff($dataB);
+    print_r($diferenca);
+    echo "<br><br>";
