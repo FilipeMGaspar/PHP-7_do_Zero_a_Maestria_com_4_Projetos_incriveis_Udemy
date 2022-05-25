@@ -8,7 +8,7 @@
     $dataB->setTime(01, 10, 10);
 
     $dataC->setDate(2024, 10, 10);
-    $dataB->setTime(01, 10, 10);
+    $dataC->setTime(01, 10, 10);
 
     if($dataB > $dataA) {
         echo "A data B é maior que a data A";
