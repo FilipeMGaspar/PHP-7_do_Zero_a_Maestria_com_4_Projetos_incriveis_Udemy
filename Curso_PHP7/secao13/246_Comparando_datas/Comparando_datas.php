@@ -8,3 +8,7 @@
     if($dataB > $dataA) {
         echo "A data B é maior que a data A";
     } 
+
+    if($dataA < $dataB) {
+        echo "A data A é menor que a data A";
+    } 
