@@ -13,3 +13,5 @@
     $diferenca = $dataA->diff($dataB);
     print_r($diferenca);
     echo "<br><br>";
+    echo $diferenca->format("%a days");
+    echo "<br><br>";
