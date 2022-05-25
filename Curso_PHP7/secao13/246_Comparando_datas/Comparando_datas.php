@@ -22,3 +22,5 @@
     if($dataB == $dataC) {
         echo "A data B e C são iguais";
     } 
+
+    echo "<br><br>";
