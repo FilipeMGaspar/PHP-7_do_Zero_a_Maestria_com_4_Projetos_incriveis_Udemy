@@ -13,7 +13,7 @@
             <input type="text" name="marca" placeholder = "Marca do Carro">
         </div>
         <div>
-            <input type="number" name="preco" placeholder = "0.0€" nim = 0>
+            <input type="number" name="preco" placeholder="0.00€" min=0  step="0.01" size=7> €
         </div>
         <div>
             <input type="submit" value="Enviar">
