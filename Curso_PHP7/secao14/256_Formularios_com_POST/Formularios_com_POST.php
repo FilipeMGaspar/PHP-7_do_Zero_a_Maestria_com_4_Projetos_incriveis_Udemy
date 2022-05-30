@@ -16,6 +16,12 @@
             <input type="number" name="preco" placeholder="0.00€" min=0  step="0.01" size=7> €
         </div>
         <div>
+            <input type="checkbox" name="opcionais[]" value="Teto panorâmico">
+        </div>
+        <div>
+            <input type="checkbox" name="opcionais[]" value="Ar condicionado">
+        </div>
+        <div>
             <input type="submit" value="Enviar">
         </div>
     </form>    
