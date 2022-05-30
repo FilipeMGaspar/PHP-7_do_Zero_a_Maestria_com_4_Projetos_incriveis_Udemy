@@ -7,6 +7,8 @@
     <title>255. Formulários com GET</title>
 </head>
 <body>
-    
+    <form action="processamento.php" method="get">
+        
+    </form>
 </body>
 </html>
