@@ -8,7 +8,9 @@
 </head>
 <body>
     <form action="processamento.php" method="get">
-        
+        <div>    
+            <input type="text" name="nome" placeholder="Preencha o seu nome">
+        </div>
     </form>
 </body>
 </html>
