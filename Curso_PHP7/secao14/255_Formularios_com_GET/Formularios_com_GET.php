@@ -9,11 +9,13 @@
 </head>
 <body>
     <form action="processamento.php" method="get">
-        <div>    
+        <div> 
+            <label for="nome">Nome: </label>   
             <input type="text" name="nome" placeholder="Preencha o seu nome">
         </div>
-        <div>    
-            <input type="number" name="idade" placeholder="Digite a sua idade">
+        <div>   
+            <label for="idade">Idade: </label> 
+            <input type="number" name="idade" placeholder="1">
         </div>
         <div>
             <input type="submit" value="Enviar">
