@@ -11,6 +11,9 @@
         <div>    
             <input type="text" name="nome" placeholder="Preencha o seu nome">
         </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
     </form>
 </body>
 </html>
