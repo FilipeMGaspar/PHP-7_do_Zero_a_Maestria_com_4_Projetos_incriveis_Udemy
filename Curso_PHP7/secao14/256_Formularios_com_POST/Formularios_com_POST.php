@@ -14,6 +14,9 @@
         <div>
             <input type="number" name="preco" placeholder = "0.0€" nim = 0>
         </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
     </form>    
 </body>
 </html>
