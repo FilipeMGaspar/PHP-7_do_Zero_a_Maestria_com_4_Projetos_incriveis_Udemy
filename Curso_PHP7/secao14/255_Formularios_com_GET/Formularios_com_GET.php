@@ -15,7 +15,7 @@
         </div>
         <div>   
             <label for="idade">Idade: </label> 
-            <input type="number" name="idade" placeholder="1">
+            <input type="number" name="idade" placeholder="0" size="3" min="0"> Anos
         </div>
         <div>
             <input type="submit" value="Enviar">
