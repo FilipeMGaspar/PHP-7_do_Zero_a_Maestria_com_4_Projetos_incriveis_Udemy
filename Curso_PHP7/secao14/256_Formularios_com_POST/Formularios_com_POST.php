@@ -22,6 +22,9 @@
             <input type="checkbox" name="opcionais[]" value="Ar condicionado">
         </div>
         <div>
+            <input type="checkbox" name="opcionais[]" value="Jantes Liga Leve">
+        </div>
+        <div>
             <input type="submit" value="Enviar">
         </div>
     </form>    
