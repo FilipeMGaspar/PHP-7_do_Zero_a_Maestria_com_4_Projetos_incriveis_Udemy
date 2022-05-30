@@ -16,12 +16,15 @@
             <input type="number" name="preco" placeholder="0.00€" min=0  step="0.01" size=7> €
         </div>
         <div>
+            Teto panoramico 
             <input type="checkbox" name="opcionais[]" value="Teto panorâmico">
         </div>
         <div>
+            Ar condicionado
             <input type="checkbox" name="opcionais[]" value="Ar condicionado">
         </div>
         <div>
+            Jantes de Liga Leve 
             <input type="checkbox" name="opcionais[]" value="Jantes Liga Leve">
         </div>
         <div>
