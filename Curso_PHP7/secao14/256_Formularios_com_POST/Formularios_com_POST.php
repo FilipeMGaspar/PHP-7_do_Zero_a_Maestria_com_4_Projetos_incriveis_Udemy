@@ -6,7 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários com POST</title>
 </head>
-<body>
-    
+<body> 
+    <form action="cadastro.php" method="post">
+        <div>
+            <input type="text" name="marca" placeholder = "Marca do Carro">
+        </div>
+        <div>
+            <input type="number" name="preco" placeholder = "0.0€" nim = 0>
+        </div>
+    </form>    
 </body>
 </html>
