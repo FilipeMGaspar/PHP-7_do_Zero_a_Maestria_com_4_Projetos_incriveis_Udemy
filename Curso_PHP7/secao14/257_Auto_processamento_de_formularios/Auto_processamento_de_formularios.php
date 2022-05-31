@@ -26,6 +26,7 @@
     <?php
         else:
     ?>
+    <h1>O seu nome é <?= $nome ?></h1>
     <?php
         endif;
     ?>
