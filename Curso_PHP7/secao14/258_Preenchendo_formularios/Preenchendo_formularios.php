@@ -19,11 +19,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preenchendo formulários</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="">
         <div>
-            <input type="text" name="nome" placeholder="Digite o seu nome">
+            <input type="text" name="nome" placeholder="Digite o seu nome" value="<?=$nome ?>">
         </div>
     </form>
 </body>
