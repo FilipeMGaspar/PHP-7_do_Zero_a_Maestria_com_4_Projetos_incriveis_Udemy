@@ -1,10 +1,13 @@
 <?php
     $method = $_SERVER['REQUEST_METHOD'];
-    $nome = $_POST['nome'];
 
+    if(isset($_POST['nome'])){
+        $nome = $_POST['nome'];
+    }    
 ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
