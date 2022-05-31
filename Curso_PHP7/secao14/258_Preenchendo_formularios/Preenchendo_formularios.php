@@ -27,10 +27,10 @@
             <input type="text" name="nome" placeholder="Digite o seu nome" value="<?=$nome ?>">
         </div>
         <div>
-            <input type="number" min=0 step=1 placholder=0 value="<?=$idade ?>">
+            <input type="number" name="idade" min=0 step=1 placholder=0 value="<?=$idade ?>"> Anos
         </div>
         <div>
-            <input type="text">
+            <input type="text" name="profissao" placeholder="A sua Profissão" value="<?=$profissao ?>">
         </div>
     </form>
 </body>
