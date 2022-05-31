@@ -26,6 +26,12 @@
         <div>
             <input type="text" name="nome" placeholder="Digite o seu nome" value="<?=$nome ?>">
         </div>
+        <div>
+            <input type="number" min=0 step=1 placholder=0 value="<?=$idade ?>">
+        </div>
+        <div>
+            <input type="text">
+        </div>
     </form>
 </body>
 </html>
