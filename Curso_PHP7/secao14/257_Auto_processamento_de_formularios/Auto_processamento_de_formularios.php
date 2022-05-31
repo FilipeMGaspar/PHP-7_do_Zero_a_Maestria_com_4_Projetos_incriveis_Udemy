@@ -1,5 +1,6 @@
 <?php
     $method = $_SERVER['REQUEST_METHOD'];
+    $nome = $_POST['nome'];
 
 ?>
 <!DOCTYPE html>
