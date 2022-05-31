@@ -11,7 +11,12 @@
 </head>
 <body>
     <form action="Auto_processamento_de_formularios.php" method="POST">
-
+        <div>
+            <input type="text" name="nome" placeholder="Digite o seu nome">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
     </form>
 </body>
 </html>
