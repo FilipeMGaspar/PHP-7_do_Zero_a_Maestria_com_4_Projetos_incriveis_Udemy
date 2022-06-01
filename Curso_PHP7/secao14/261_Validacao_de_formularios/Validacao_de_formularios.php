@@ -3,9 +3,13 @@
 
     if(count($_POST) > 0) {
 
-        if(!isset($_POST['name'])) {
+        if(!isset($_POST['nome'])) {
             $validacoes[] = "Por favor, preencha o seu nome";
         } 
+
+        if(!isset($_POST['email'])) {
+            $validacoes[] = "Por favor, preencha o e-mail";
+        }
     }
 ?>
 
