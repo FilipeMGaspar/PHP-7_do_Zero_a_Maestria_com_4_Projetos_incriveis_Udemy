@@ -14,6 +14,15 @@
         <div>
             <input type="checkbox" name="ingredientes" id="ingredientes" value="Abóbora"> Abóbora
         </div>
+        <div>
+            <input type="checkbox" name="ingredientes" id="ingredientes" value="Feijão"> Feijão
+        </div>
+        <div>
+            <input type="checkbox" name="ingredientes" id="ingredientes" value="Alface"> Alface
+        </div>
+        <div>
+            <input type="checkbox" name="ingredientes" id="ingredientes" value="Cebola"> Cebola
+        </div>
     </form>
 </body>
 </html>
