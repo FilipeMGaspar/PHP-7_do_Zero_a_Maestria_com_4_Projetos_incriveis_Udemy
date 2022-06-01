@@ -15,7 +15,13 @@
             <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
         </div>
         <div>
-            <input type="email" name="nome" id="nome" placeholder="Digite o seu email@mail.pt">
+            <input type="email" name="email" id="email" placeholder="Digite o seu email@mail.pt">
+        </div>
+        <div>
+            <input type="password" name="senha" id="senha" placeholder="Digite a sua password">
+        </div>
+        <div>
+            <input type="password" name="senha" id="senha" placeholder="Confirme a sua password">
         </div>
     </form>
 </body>
