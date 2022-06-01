@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validação de formulários</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="" method="post">
@@ -22,6 +23,9 @@
         </div>
         <div>
             <input type="password" name="confimSenha" id="confimSenha" placeholder="Confirme a sua password">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
         </div>
     </form>
 </body>
