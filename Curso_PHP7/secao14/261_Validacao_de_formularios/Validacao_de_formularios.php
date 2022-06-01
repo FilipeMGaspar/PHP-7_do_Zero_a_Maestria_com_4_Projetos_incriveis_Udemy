@@ -1,6 +1,11 @@
 <?php
     if(count($_POST) > 0) {
-        echo "teste <br>";
+        
+        $validacoes = [];
+
+        if(!isset(['name'])) {
+            $validacoes[] = "Por favor, preencha o seu nome";
+        } 
     }
     
 ?>
@@ -15,6 +20,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <?php
+        if(count($validacoes)):
+    ?>
     <form action="" method="post">
         <div>
             <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
