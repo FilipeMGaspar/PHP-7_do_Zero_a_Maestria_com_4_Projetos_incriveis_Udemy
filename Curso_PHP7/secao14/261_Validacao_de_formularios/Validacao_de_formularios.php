@@ -28,7 +28,7 @@
 </head>
 <body>
     <?php if(count($validacoes)): ?>
-        <div>
+        <div class="valida">
             <ul>
                 <?php foreach($validacoes as $validacao): ?>
                     <li><?=$validacao ?></li>
