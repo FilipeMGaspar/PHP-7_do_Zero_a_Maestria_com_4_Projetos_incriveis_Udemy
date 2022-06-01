@@ -9,9 +9,11 @@
 <body>
     <form action="Input_com_multiplos_valores.php" method="post">
         <div>
-            <input type="checkbox" name="ingredientes" id="ingredientes" value="tomate"> Tomate
+            <input type="checkbox" name="ingredientes" id="ingredientes" value="Tomate"> Tomate
         </div>
-
+        <div>
+            <input type="checkbox" name="ingredientes" id="ingredientes" value="Abóbora"> Abóbora
+        </div>
     </form>
 </body>
 </html>
