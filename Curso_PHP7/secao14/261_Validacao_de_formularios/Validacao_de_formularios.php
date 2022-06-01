@@ -28,11 +28,13 @@
 </head>
 <body>
     <?php if(count($validacoes)): ?>
+        <div id="Lista">
         <ul>
             <?php foreach($validacoes as $validacao): ?>
                 <li><?=$validacao ?></li>
             <?php endforeach; ?>    
         </ul>
+        </div>
     <?php endif; ?>    
     <form action="" method="post">
         <div>
