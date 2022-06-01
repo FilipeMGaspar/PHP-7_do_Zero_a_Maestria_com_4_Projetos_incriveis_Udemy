@@ -20,9 +20,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <?php
-        if(count($validacoes)):
-    ?>
+    <?php if(count($validacoes)): ?>
+        <ul>
+            <?php
+                foreach
+            ?>
+        </ul>
+    <?php endif; ?>    
     <form action="" method="post">
         <div>
             <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
