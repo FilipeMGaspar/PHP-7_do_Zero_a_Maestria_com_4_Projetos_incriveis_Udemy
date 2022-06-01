@@ -1,13 +1,12 @@
 <?php
+    $validacoes = [];
+
     if(count($_POST) > 0) {
-        
-        $validacoes = [];
 
         if(!isset(['name'])) {
             $validacoes[] = "Por favor, preencha o seu nome";
         } 
     }
-    
 ?>
 
 <!DOCTYPE html>
@@ -22,9 +21,9 @@
 <body>
     <?php if(count($validacoes)): ?>
         <ul>
-            <?php
-                foreach
-            ?>
+            <?php foreach($validacoes as $validacao): ?>
+                <li><?=$validacao ?></li>
+            <?php endforeach; ?>    
         </ul>
     <?php endif; ?>    
     <form action="" method="post">
