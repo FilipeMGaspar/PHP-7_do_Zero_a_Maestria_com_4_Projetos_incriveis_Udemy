@@ -1,4 +1,8 @@
 <?php
+    if(count($_POST) > 0) {
+        echo "teste <br>";
+    }
+    
 ?>
 
 <!DOCTYPE html>
