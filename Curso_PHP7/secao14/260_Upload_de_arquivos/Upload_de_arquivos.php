@@ -16,7 +16,7 @@
 <body>
     <form action="Upload_de_arquivos.php" method="post" enctype="multipart/form-data">
         <div>
-            <input type="file">
+            <input type="file" name="imagem">
         </div>
         <div>
             <input type="submit" value="Enviar">
