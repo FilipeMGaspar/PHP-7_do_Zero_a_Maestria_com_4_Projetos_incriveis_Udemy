@@ -10,6 +10,13 @@
     <title>Validação de formulários</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        <div>
+            <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+        </div>
+        <div>
+            <input type="email" name="nome" id="nome" placeholder="Digite o seu email@mail.pt">
+        </div>
+    </form>
 </body>
 </html>
