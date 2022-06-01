@@ -3,12 +3,16 @@
 
     if(count($_POST) > 0) {
 
-        if(!isset($_POST['nome'])) {
+        if($_POST['nome'] === "") {
             $validacoes[] = "Por favor, preencha o seu nome";
         } 
 
-        if(!isset($_POST['email'])) {
+        if($_POST['email'] === "") {
             $validacoes[] = "Por favor, preencha o e-mail";
+        }
+
+        if($_POST['senha'] === "" || $_POST['confimSenha'] === "") {
+            $validacoes[] = "Os campos de senha devem ser preeenchidos";
         }
     }
 ?>
