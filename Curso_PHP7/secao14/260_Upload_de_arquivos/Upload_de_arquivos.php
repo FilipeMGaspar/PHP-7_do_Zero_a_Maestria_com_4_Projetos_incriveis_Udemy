@@ -13,8 +13,13 @@
     <title>Upload de arquivos</title>
 </head>
 <body>
-    <form action="Upload_de_arquivos.php" method="post">
-        
+    <form action="Upload_de_arquivos.php" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="file">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
     </form>
 </body>
 </html>
