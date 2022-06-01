@@ -11,11 +11,11 @@
             $validacoes[] = "Por favor, preencha o e-mail";
         }
 
-        /*if($_POST['senha'] === "" || $_POST['confimSenha'] === "") {
+        if($_POST['senha'] === "" || $_POST['confimSenha'] === "") {
             $validacoes[] = "Os campos de senha devem ser preeenchidos";
-        } */
+        } 
         
-        if($_POST['senha'] === $_POST['confimSenha']) {
+        if($_POST['senha'] !== $_POST['confimSenha']) {
             $validacao = "As Senhas devem coincidir!";
         }
     }
