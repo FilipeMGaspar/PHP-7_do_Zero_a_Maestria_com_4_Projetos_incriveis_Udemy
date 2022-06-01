@@ -14,6 +14,9 @@
         if($_POST['senha'] === "" || $_POST['confimSenha'] === "") {
             $validacoes[] = "Os campos de senha devem ser preeenchidos";
         } 
+
+        echo $_POST['confimSenha'] . "<br><br>";
+        echo $_POST['senha'] . "<br><br>";
         
         if($_POST['senha'] !== $_POST['confimSenha']) {
             $validacao = "As Senhas devem coincidir!";
