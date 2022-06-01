@@ -21,7 +21,7 @@
             <input type="password" name="senha" id="senha" placeholder="Digite a sua password">
         </div>
         <div>
-            <input type="password" name="senha" id="senha" placeholder="Confirme a sua password">
+            <input type="password" name="confimSenha" id="confimSenha" placeholder="Confirme a sua password">
         </div>
     </form>
 </body>
