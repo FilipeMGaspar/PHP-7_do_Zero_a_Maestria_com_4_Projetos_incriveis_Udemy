@@ -3,7 +3,7 @@
 
     if(count($_POST) > 0) {
 
-       /* if($_POST['nome'] === "") {
+        if($_POST['nome'] === "") {
             $validacoes[] = "Por favor, preencha o seu nome";
         } 
 
@@ -13,7 +13,7 @@
 
         if($_POST['senha'] === "" || $_POST['confimSenha'] === "") {
             $validacoes[] = "Os campos de senha devem ser preeenchidos";
-        } */
+        }
 
         echo $_POST['confimSenha'] . "<br><br>";
         echo $_POST['senha'] . "<br><br>";
@@ -21,14 +21,6 @@
         if($_POST['senha'] !== $_POST['confimSenha']) {
             echo "Senha errada! Repita por favor!";
         }
-
-       /* if($_POST['senha'] != $_POST['confimSenha']) {
-            $validacao = "As Senhas devem coincidir!";
-        } else {
-            echo "Melga! Cheguei aqui!";
-            echo $_POST['confimSenha'] . "<br><br>";
-            echo $_POST['senha'] . "<br><br>";
-        }*/
     }
 ?>
 
