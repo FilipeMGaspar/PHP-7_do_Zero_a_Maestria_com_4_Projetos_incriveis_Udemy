@@ -18,8 +18,8 @@
         echo $_POST['confimSenha'] . "<br><br>";
         echo $_POST['senha'] . "<br><br>";
         
-        if($_POST['senha'] == $_POST['confimSenha']) {
-            echo "Sucesso, ok!";
+        if($_POST['senha'] != $_POST['confimSenha']) {
+            echo "Senha errada! Repita por favor!";
         }
 
        /* if($_POST['senha'] != $_POST['confimSenha']) {
