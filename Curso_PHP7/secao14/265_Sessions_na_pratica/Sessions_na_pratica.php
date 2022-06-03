@@ -1,4 +1,7 @@
 <?php
+    session_start();
+
+    print_r($_SESSION);
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +13,6 @@
     <title>Sessions na prática</title>
 </head>
 <body>
-    
+    <h1>Olá Session!</h1>
 </body>
 </html>
