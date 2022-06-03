@@ -16,5 +16,6 @@
 </head>
 <body>
     <h1>Olá Session!</h1>
+    <p><a href="paginaSession.php">Entrar</a></p>
 </body>
 </html>
