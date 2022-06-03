@@ -1,3 +1,6 @@
+<?php
+    include_once "helpers/url.php";
+?> 
 <!DOCTYPE html>
 <html lang="pt-pt">
 <head>
