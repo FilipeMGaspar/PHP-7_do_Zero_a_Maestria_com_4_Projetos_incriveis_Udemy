@@ -4,6 +4,8 @@
     if(isset($_COOKIE['nome'])) {
         $nome = $_COOKIE['nome'];
     }
+
+    print_r($_COOKIE);
 ?>
 
 <!DOCTYPE html>
