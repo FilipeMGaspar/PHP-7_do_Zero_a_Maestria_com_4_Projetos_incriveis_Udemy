@@ -16,9 +16,9 @@
     <title>Conhecendo os Cookies</title>
 </head>
 <body>
-    <h1>Olá Mundo!</h1>
+    <h1>Página!</h1>
     <?php if($nome != ""): ?>
-        <p>Seja bem vindo, <?= $nome ?></p>
+        <p><?= $nome ?>, temos uma super oferta para si!</p>
     <?php endif; ?>    
 </body>
 </html>
