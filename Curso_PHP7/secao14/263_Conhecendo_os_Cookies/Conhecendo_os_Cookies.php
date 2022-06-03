@@ -18,5 +18,8 @@
 </head>
 <body>
     <h1>Olá Mundo!</h1>
+    <?php if($nome != ""): ?>
+        <p>Seja bem vindo, <?= $nome ?></p>
+    <?php endif; ?>    
 </body>
 </html>
