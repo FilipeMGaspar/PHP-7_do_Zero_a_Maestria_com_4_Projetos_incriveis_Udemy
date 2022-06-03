@@ -1,5 +1,9 @@
 <?php
     setcookie("nome", "Matheus", time() + 1300);
+
+    if(isset($_COOKIE['nome'])) {
+        $nome = $_COOKIE['nome'];
+    }
 ?>
 
 <!DOCTYPE html>
