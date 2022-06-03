@@ -1,5 +1,5 @@
 <?php
-    setcookie("nome", "Matheus", 1300);
+    setcookie("nome", "Matheus", time() + 1300);
 ?>
 
 <!DOCTYPE html>
