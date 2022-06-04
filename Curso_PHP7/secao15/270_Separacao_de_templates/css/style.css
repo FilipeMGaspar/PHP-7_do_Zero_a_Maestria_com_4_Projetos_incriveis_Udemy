@@ -35,3 +35,7 @@ main {
     list-style: none;
 }
 
+#navbar li {
+    margin: 0 10px;
+    padding: 5px;
+}
