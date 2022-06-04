@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">    
 </head>
-<body><header>
-    <p>Template cabeçalho</p>
-</header>
+<body>
+    <header>
+        <a href="<?= $BASE_URL ?>" id="logo">
+        <img src="<?= $BASE_URL ?>/img/logo.svg" alt="" srcset="">
+        </a>
+    </header>
