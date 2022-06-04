@@ -51,4 +51,5 @@ main {
 #navbar .nav-link:hover {
     color: #8589D5;
     font-size: 16px;
+    text-decoration: underline;
 }
