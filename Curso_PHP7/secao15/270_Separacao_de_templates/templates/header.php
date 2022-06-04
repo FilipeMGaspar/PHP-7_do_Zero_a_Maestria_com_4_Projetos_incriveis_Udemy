@@ -17,10 +17,9 @@
 </head>
 <body>
     <header>
-        <?php echo $_BASE_URL . "img/"; ?>
-
-        <a href="<?= $BASE_URL; ?>" id="logo">
-            <img src="<?= $BASE_URL; ?>img/logo.svg" alt="blog codar">
+        <img src="img/logo.svg" alt="">
+        <a href="<?= $_BASE_URL; ?>" id="logo">
+            <img src="<?= $_BASE_URL; ?>img/logo.svg" alt="blog codar">
         </a>
         <nav>
 
