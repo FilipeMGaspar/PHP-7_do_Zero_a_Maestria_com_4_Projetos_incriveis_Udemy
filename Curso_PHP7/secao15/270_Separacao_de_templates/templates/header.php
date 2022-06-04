@@ -21,6 +21,11 @@
             <img src="<?= $_BASE_URL; ?>img/logo.svg" alt="blog codar">
         </a>
         <nav>
-            
+            <ul id="navbar">
+                <li><a href="<?= $_BASE_URL; ?>">Home</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="<?= $_BASE_URL; ?>contato.php">Contatos</a></li>
+            </ul>
         </nav>
     </header>
