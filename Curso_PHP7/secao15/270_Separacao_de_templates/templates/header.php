@@ -16,5 +16,5 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">    
 </head>
 <body><header>
-    <h2>Template cabeçalho</h2>
+    <p>Template cabeçalho</p>
 </header>
