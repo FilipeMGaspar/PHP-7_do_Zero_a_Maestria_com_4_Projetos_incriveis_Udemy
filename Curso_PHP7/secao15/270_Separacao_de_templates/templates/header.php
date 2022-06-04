@@ -17,11 +17,10 @@
 </head>
 <body>
     <header>
-        <img src="img/logo.svg" alt="">
         <a href="<?= $_BASE_URL; ?>" id="logo">
             <img src="<?= $_BASE_URL; ?>img/logo.svg" alt="blog codar">
         </a>
         <nav>
-
+            
         </nav>
     </header>
