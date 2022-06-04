@@ -29,7 +29,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0D0D0D;
+    background-color: #F7ECE1;
     padding: 20px;
     text-transform: uppercase;
     list-style: none;
@@ -42,13 +42,13 @@ main {
 
 #navbar .nav-link {
     font-weight: 700;
-    color: #fff;
+    color: #5956A6;
     text-decoration: none;
     transition: 0.5s;
     font-size: 15px;
 }
 
 #navbar .nav-link:hover {
-    color: #9195D9;
+    color: #8589D5;
     font-size: 16px;
 }
