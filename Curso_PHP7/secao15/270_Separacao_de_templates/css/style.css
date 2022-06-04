@@ -2,8 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    background-color: rgb(226, 226, 226);
+html {
+    min-height: 100vh;
+    position: relative;
+}
+
+main {
+    margin-bottom: 250px;
+}
+
+/* Estilo do cabeçalho NAVBAR*/
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 9.5%;
+}
+
+#logo img {
+    width: 50px;
 }
