@@ -11,7 +11,16 @@
             }
         }
     ?>
-    <h1><?= $currentPost['title'] ?></h1>
+    
+    <main id="post-container">
+        <div class="content-container">
+            <h1 id="main-title"><?= $currentPost['title'] ?></h1>
+            <p id="post-description"><?= $currentPost['description'] ?></p>
+            <div class='img-container'>
+                <img src="<?= $_BASE_URL; ?>/img/<?= $post['img'] ?>" alt="<?= $post['title'] ?>">
+            </div>
+        </div>
+    </main>
 <?php
     require_once "templates/footer.php"
 ?>
