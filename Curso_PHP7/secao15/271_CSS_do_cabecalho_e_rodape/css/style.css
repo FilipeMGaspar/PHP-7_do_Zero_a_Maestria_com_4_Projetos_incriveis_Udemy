@@ -41,17 +41,18 @@ main {
 }
 
 #navbar .nav-link {
-    font-weight: 700;
+    font-weight: 900;
     color: #5956A6;
     text-decoration: none;
     transition: 0.5s;
-    font-size: 15px;
+    font-size: 18px;
+    letter-spacing: 1.2px;
 }
 
 #navbar .nav-link:hover {
     color: #8589D5;
-    font-size: 16px;
     text-decoration: underline;
+    letter-spacing: 3px;
 }
 
 /* Personalização do rodapé footer */
