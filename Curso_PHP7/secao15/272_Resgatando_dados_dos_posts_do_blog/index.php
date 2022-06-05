@@ -11,7 +11,8 @@
 
             <?php foreach ($posts as $post): ?>
                 <div class="post-box">
-                    <img src="<?= $_BASE_URL; ?>/img/<?= $post['img'] ?>" alt="<?= $post['title'] ?>">
+                    <img src="<?php $_BASE_URL; ?>/img/<?= $post['img'] ?>" alt="<?php $post['title'] ?>">
+                    <h2 class="post-title"><?php ?></h2>
                 </div>
             <?php endforeach; ?>    
         </div>

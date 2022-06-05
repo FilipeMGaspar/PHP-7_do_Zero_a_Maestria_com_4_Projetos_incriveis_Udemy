@@ -19,15 +19,15 @@
 </head>
 <body>
     <header>
-        <a href="<?= $_BASE_URL; ?>" id="logo">
-            <img src="<?= $_BASE_URL; ?>img/logo.svg" alt="blog codar">
+        <a href="<?php $_BASE_URL; ?>" id="logo">
+            <img src="<?php $_BASE_URL; ?>img/logo.svg" alt="blog codar">
         </a>
         <nav>
             <ul id="navbar">
-                <li><a href="<?= $_BASE_URL; ?> " class="nav-link">Home</a></li>
+                <li><a href="<?php $_BASE_URL; ?> " class="nav-link">Home</a></li>
                 <li><a href="#" class="nav-link">Categorias</a></li>
                 <li><a href="#" class="nav-link">Sobre</a></li>
-                <li><a href="<?= $_BASE_URL; ?>contato.php" class="nav-link">Contatos</a></li>
+                <li><a href="<?php $_BASE_URL; ?>contato.php" class="nav-link">Contatos</a></li>
             </ul>
         </nav>
     </header>
