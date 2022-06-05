@@ -8,7 +8,6 @@
             <p>O seu blog de programação!</p>
         </div>
         <div id="post-container">
-
             <?php foreach ($posts as $post): ?>
                 <div class="post-box">
                     <img src="<?= $_BASE_URL; ?>/img/<?= $post['img'] ?>" alt="<?= $post['title'] ?>">
