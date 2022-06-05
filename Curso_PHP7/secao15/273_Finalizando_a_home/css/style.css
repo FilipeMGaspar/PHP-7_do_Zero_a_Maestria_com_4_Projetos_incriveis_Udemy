@@ -86,8 +86,11 @@ main {
 
 .post-box {
     flex: 1 1 0;
-    margin: 0 1%;
     margin-bottom: 20px;
+}
+
+.post-box:nth-child(3) {
+    margin: 0 1%;
 }
 
 .post-box img {
@@ -105,7 +108,7 @@ main {
 }
 
 .post-box .post-title a:hover {
-    color: #5956A6;
+    color: #8589D5;
 }
 
 .post-box .post-description {
@@ -117,7 +120,10 @@ main {
 }
 
 .tags-container a{
-    
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    margin-right: 7px;
 }
 
 /* Personalização do rodapé footer */
