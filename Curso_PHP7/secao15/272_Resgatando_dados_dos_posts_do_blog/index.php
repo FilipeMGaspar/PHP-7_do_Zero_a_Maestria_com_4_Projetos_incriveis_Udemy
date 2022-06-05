@@ -12,7 +12,9 @@
             <?php foreach ($posts as $post): ?>
                 <div class="post-box">
                     <img src="<?= $_BASE_URL; ?>/img/<?= $post['img'] ?>" alt="<?= $post['title'] ?>">
-                    <h2 class="post-title"><?= $post['title'] ?></h2>
+                    <h2 class="post-title">
+                        <a href="<?= $_BASE_URL; ?>post.php/id=<?= $post['id'] ?>"><?= $post['title'] ?></a>
+                    </h2>
                 </div>
             <?php endforeach; ?>    
         </div>
