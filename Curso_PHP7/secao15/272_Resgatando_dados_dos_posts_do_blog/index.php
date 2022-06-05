@@ -1,10 +1,12 @@
 
     <?php
         require_once "templates/header.php";
-
-        print_r($posts);
     ?>
-    <h1>Olá, Mundo!</h1>
+    <main>
+        <div id="title-container">
+            <h1>Blog Codar</h1>
+        </div>
+    </main>
     <?php
         require_once "templates/footer.php";
     ?>
