@@ -52,7 +52,7 @@ main {
 #navbar .nav-link:hover {
     color: #8589D5;
     text-decoration: underline;
-    letter-spacing: 3px;
+    letter-spacing: 3.5px;
 }
 
 /* Personalização do rodapé footer */
