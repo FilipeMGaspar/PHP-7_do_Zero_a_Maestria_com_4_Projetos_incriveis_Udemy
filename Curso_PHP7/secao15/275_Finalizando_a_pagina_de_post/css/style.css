@@ -166,6 +166,24 @@ main {
    width: 60%;
 }
 
+/* Personalização do asside post asid*/
+#nav-container {
+    grid-area: sidebar;
+}
+
+#tags-title,
+#categories-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: #f7ece1d8;
+    color: #5956A6;
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+}
+
+
+
 /* Personalização do rodapé footer */
 footer{
     width: 100%;
