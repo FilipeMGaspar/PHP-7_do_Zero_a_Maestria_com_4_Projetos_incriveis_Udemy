@@ -158,6 +158,14 @@ main {
     margin: 10px 0;
 }
 
+.img-container {
+    margin-bottom: 30px;
+}
+
+.img-container img {
+   width: 60%;
+}
+
 /* Personalização do rodapé footer */
 footer{
     width: 100%;
