@@ -139,6 +139,20 @@ main {
     margin-bottom: 250px;
 }
 
+.content-container {
+    grid-area: main;
+}
+
+#main-title{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#post-description {
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
 
 
 /* Personalização do rodapé footer */
