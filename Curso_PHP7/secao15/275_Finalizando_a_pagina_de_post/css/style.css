@@ -176,13 +176,33 @@ main {
     font-size: 24px;
     margin-bottom: 10px;
     background-color: #f7ece1d8;
-    color: #413e8d;
+    color: #2e2c61;
     text-align: center;
     padding: 10px;
     font-weight: 400;
 }
 
+#tag-list,
+#categories-list {
+    list-style: none;
+}
 
+#tag-list li,
+#categories-list li {
+    margin-bottom: 10px;
+}
+
+#tag-list a,
+#categories-list a {
+    color: #5956A6;
+    transition: 0.5s;
+}
+
+#tag-list a:hover,
+#categories-list a:hover {
+    color: #2e2c61;
+    transition: 0.5s;
+}
 
 /* Personalização do rodapé footer */
 footer{
