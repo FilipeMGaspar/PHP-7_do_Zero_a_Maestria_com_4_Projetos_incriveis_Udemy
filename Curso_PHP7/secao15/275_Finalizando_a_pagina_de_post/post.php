@@ -12,7 +12,7 @@
         }
     ?>
     
-    <main id="post-container">
+    <main id="posts-container">
         <div class="content-container">
             <h1 id="main-title"><?= $currentPost['title'] ?></h1>
             <p id="post-description"><?= $currentPost['description'] ?></p>

@@ -127,7 +127,7 @@ main {
 }
 
 /*Personalização da página de posts*/
-#post-container {
+#posts-container {
     display: grid;
     grid-template-columns: 75% 25%;
     grid-template-rows: auto;
@@ -196,12 +196,14 @@ main {
 #categories-list a {
     color: #131327;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 #tag-list a:hover,
 #categories-list a:hover {
-    color: #2e2c61;
+    color: #5956A6;
     transition: 0.5s;
+    text-decoration: underline;
 }
 
 /* Personalização do rodapé footer */
