@@ -33,7 +33,7 @@
 
         <aside id="nav-container">
             <h3 id="tags-title">Tags</h3>
-            <ul class="tag-list">
+            <ul id="tag-list">
                 <?php foreach($currentPost['tags'] as $tag): ?>
                     <li><a href="#"><?= $tag ?></a></li>
                 <?php endforeach; ?>    
