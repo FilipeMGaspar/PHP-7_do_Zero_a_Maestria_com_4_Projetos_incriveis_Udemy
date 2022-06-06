@@ -246,5 +246,21 @@ footer{
     #ost-container {
         margin-top: 20px;
     }
-    
+
+    .post-box {
+        flex: 100% 1 0;
+        padding: 15px;
+    }
+
+    /* Post */
+    #posts-container{
+        grid-template-columns: 100%;
+        padding: 15px;
+        grid-template-areas: "main"
+        "sidebar";
+    }
+
+   .img-container {
+        width: 100%;
+    }
 }
