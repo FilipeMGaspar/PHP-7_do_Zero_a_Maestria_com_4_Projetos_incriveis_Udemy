@@ -126,6 +126,16 @@ main {
     margin-right: 7px;
 }
 
+/*Personalização da página de posts*/
+#post-container {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: "main sidebar";
+}
+
+
+
 /* Personalização do rodapé footer */
 footer{
     width: 100%;
