@@ -217,3 +217,21 @@ footer{
     font-weight: 700;
     padding: 50px 0;
 }
+
+/* Reponsividade  MOBILE */
+@media(max-width: 480px) {
+
+    /* Home */
+    header{
+        width: 100%;
+    }
+
+    #logo {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+    }
+
+    
+}
