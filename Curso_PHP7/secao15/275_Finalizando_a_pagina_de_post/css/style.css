@@ -153,7 +153,10 @@ main {
     margin-bottom: 40px;
 }
 
-
+.post-content {
+    line-height: 1.8;
+    margin: 10px 0;
+}
 
 /* Personalização do rodapé footer */
 footer{
