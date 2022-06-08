@@ -1,3 +1,3 @@
 DROP DATABASE testando;
 
-DROP DATABASE cursophp:
+DROP DATABASE cursophp;
