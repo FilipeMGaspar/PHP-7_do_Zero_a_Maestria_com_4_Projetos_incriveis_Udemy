@@ -1,1 +1,3 @@
-CREATE DATABASe cursophp;
+CREATE DATABASE cursophp;
+
+CREATE DATABASE testando;
