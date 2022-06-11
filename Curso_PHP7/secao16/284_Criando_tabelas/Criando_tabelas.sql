@@ -1,5 +1,5 @@
 CREATE TABLE pessoas(
-	nome VARCHA(200),
+	nome VARCHAR(200),
 	idade INT
 );
 
