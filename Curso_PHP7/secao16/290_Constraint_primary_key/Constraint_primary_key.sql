@@ -7,3 +7,6 @@ CREATE TABLE itens(
 INSERT INTO itens (nome, descricao) VALUES ("Abajur", "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry... ");
 
 INSERT INTO itens (nome, descricao) VALUES ("Caneta", "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry... ");
+
+INSERT INTO itens (nome, descricao) VALUES ("Caderno", "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry... ");
+
