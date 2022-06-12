@@ -3,4 +3,8 @@ CREATE TABLE notnull (
 	idade INT
 );
 
-INSERT INTO notnull (nome, idade) VALUES ("Filipe");
+INSERT INTO notnull (nome) VALUES ("Filipe");
+
+INSERT INTO notnull (nome, idade) VALUES ("Maria", 12);
+
+INSERT INTO notnull (idade) VALUES (37);
