@@ -1,0 +1,1 @@
+SELECT * FROM itens WHERE id = '5';
