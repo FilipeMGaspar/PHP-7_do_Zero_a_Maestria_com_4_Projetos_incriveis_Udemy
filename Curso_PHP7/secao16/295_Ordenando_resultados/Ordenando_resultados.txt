@@ -1,0 +1,4 @@
+SELECT * FROM itens;
+
+SELECT * FROM itens ORDER BY id;
+
