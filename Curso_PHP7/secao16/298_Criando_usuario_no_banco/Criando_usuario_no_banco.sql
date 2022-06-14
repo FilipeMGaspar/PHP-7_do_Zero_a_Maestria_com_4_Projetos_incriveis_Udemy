@@ -5,3 +5,5 @@ CREATE USER 'filipe'@'localhost' IDENTIFIED BY 'teste123';
 GRANT ALL PRIVILEGES ON *.* TO 'filipe'@'localhost';
 
 FLUSH PRIVILEGES;
+
+SELECT * FROM mysql.user;
