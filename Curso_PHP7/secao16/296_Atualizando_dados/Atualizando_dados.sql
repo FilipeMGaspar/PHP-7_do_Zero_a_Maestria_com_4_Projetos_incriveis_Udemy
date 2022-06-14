@@ -7,3 +7,5 @@ UPDATE mailmarketing set nome = "Maria" WHERE email = "Maria@mail.pt";
 UPDATE mailmarketing set nome = "Ninita" WHERE email = "Nita@mail.pt";
 
 UPDATE itens SET nome  = "Caneta Azul 0.7", descricao = "Caneta Azul de ponta 0.7" WHERE id = 8;
+
+UPDATE itens SET nome  = "Caneta Vermelha 1", descricao = "Caneta Azul de ponta 1" WHERE id = 8;
