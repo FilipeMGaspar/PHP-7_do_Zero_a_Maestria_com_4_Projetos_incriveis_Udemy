@@ -8,5 +8,5 @@
 
     if($conn->connect_errno){
         echo "Erro na conexão! <br>";
-        echo "Erro: " . mysqli_connect_error();
+        echo "Erro: " . mysqli_connect_error(); // $conn->connect_error;
     }
