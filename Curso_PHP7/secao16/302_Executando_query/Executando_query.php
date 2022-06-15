@@ -6,8 +6,10 @@
 
     $conn = new mysqli($host, $user, $pass, $db);
 
-    $query = "SELECT * From itens";
+    $sqlQuery = "SELECT * From itens";
 
-    $conn->query($query);
-    
+    $resultado = $conn->query($sqlQuery);
+
+    print_r($resultado);
+
     $conn->close();
