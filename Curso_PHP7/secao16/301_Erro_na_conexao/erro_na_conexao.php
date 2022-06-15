@@ -1,8 +1,8 @@
 <?php
     $host = "localhost";
     $user = "root";
-    $pass = "";
-    $db = "cursophpa";
+    $pass = "123";
+    $db = "cursophp";
 
     $conn = new mysqli($host, $user, $pass, $db);
 
