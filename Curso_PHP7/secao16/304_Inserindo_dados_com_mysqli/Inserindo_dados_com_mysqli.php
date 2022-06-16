@@ -6,4 +6,6 @@
 
     $conn = new mysqli($host, $user, $pass, $db);
 
+    $passencode = base64_encode($pass);
     
+    echo $passencode . "<br>";
