@@ -15,7 +15,7 @@
     $item = $resultado->fetch_assoc(); // Método para extrair os dados trás apenas um resultado fetch_assoc
     print_r($item);
 
-    echo "<br><hr><br><br>";
+    echo "<br><br><hr><br><br>";
 
     //todos os resultados
     $itens = $resultado->fetch_all(); // trás todos os dados dad tabela itens método fetch_all
