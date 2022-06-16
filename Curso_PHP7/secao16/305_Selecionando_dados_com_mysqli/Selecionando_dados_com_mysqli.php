@@ -8,4 +8,9 @@
 
     $query = "SELECT * FROM itens";
 
+    $resultado = $conn->query($query);
+
+    $itens = $resultado->fetch_assoc(); // Método para extrair os dados 
+    print_r($itens);
+
     $conn->close();
