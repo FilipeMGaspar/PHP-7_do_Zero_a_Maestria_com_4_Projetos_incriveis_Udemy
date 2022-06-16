@@ -10,7 +10,14 @@
 
     $resultado = $conn->query($query);
 
-    $itens = $resultado->fetch_assoc(); // Método para extrair os dados 
-    print_r($itens);
+    $conn->close(); // Fecha a ligação á base de dados
 
-    $conn->close();
+    $item = $resultado->fetch_assoc(); // Método para extrair os dados trás apenas um resultado fetch_assoc
+    print_r($item);
+
+    echo "<br><hr><br><br>";
+
+    //todos os resultados
+    $itens = $resultado->fetch_all(); // trás todos os dados dad tabela itens método fetch_all
+
+    print_r($itens);
