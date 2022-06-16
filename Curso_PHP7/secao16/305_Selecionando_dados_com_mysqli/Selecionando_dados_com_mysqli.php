@@ -4,4 +4,4 @@
     $pass = "";
     $db = "cursophp";
 
-    $conn = new mysqli($hos, $user, $pass, $db); // Ligação á base de dados
+    $conn = new mysqli($host, $user, $pass, $db); // Ligação á base de dados
