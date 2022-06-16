@@ -1,11 +1,7 @@
 <?php
     $host = "localhost";
     $user = "filipe";
-    $pass = "teste123";
+    $pass = "dGVzdGUxMjM=";
     $db = "cursophp";
 
-    $conn = new mysqli($host, $user, $pass, $db);
-
-    $passencode = base64_encode($pass);
-    
-    echo $passencode . "<br>";
+    $conn = new mysqli($host, $user, base64_decode($pass), $db);
