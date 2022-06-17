@@ -10,7 +10,7 @@
 
     $stmt = $conn->prepare("SELECT * FROM itens WHERE id > ?");
 
-    $stmt->bin_param("i", $id); // subtitui o ? pelo valor da variavel $id
+    $stmt->bind_param("i", $id); // subtitui o ? pelo valor da variavel $id
 
     $stmt->execute(); // Execução dq query
 
