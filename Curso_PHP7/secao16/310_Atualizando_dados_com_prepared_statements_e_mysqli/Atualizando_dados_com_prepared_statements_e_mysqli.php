@@ -17,4 +17,8 @@
 
     $stmt->execute();
 
+    if($stmt->error){
+        echo "Erro: " . $stmt->error . " <br>";
+    }
+
     $conn->close();
