@@ -6,7 +6,7 @@
 
     $conn = new mysqli($host, $user, $pass, $db);
 
-    $id = 11;
+    $id = 9;
 
     $stmt = $conn->prepare("UPDATE itens SET nome = ?, descricao = ? WHERE id = ?");
 
