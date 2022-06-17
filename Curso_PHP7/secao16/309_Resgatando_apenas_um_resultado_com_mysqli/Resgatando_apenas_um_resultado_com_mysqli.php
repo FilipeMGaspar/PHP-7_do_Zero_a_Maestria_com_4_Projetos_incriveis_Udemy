@@ -8,7 +8,7 @@
 
     $id = 6;
 
-    $stmt = $conn->prepare("SELECT * FROM itens WHERE id = :id");
+    $stmt = $conn->prepare("SELECT * FROM itens WHERE id = ?");
 
     $stmt->bind_param("i", $id); 
 
