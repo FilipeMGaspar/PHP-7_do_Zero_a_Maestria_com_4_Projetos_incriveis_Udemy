@@ -6,7 +6,7 @@
 
     $conn = new mysqli($host, $user, $pass, $db);
 
-    $id = 6;
+    $id = 8;
 
     $stmt = $conn->prepare("SELECT * FROM itens WHERE id = ?");
 
