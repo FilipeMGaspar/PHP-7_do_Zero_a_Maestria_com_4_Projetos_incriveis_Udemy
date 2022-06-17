@@ -6,9 +6,9 @@
 
     $conn = new mysqli($host, $user, $pass, $db);
 
-    $id = 4;
+    $id = 6;
 
-    $stmt = $conn->prepare("SELECT * FROM itens WHERE id > ?");
+    $stmt = $conn->prepare("SELECT * FROM itens WHERE id = ?");
 
     $stmt->bind_param("i", $id);
 
