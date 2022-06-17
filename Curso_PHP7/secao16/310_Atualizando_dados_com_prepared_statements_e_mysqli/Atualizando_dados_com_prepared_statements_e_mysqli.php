@@ -8,9 +8,12 @@
 
     $id = 11;
 
-    $stmt = $conn->prepare("SELECT * FROM itens WHERE id = ?");
+    $stmt = $conn->prepare("UPDATE itens SET nome = ?, descricao = ? WHERE id = ?");
 
-    $stmt->bind_param("i", $id);
+    $nome = "Sofá";
+    $descricao = "Sofá semi novo, com madeira de demolição";
+
+    $stmt->bind_param("ssi", $nome, $descricao, $id);
 
     $stmt->execute();
 
