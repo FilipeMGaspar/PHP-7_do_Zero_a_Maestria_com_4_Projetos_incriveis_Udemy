@@ -7,7 +7,13 @@
     /*
     *   Utilizando o Xampp temos de adicionar as variaveis de ambiente
 
-    *   code runner
+    *   Code runner
 
     *   DotENV
+
+    *   EditorConfig for VS Code
+
+    *   Path Intellisense
+
+    
     */
