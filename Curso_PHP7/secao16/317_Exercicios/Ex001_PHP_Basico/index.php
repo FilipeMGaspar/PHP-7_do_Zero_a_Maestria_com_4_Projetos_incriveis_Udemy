@@ -23,7 +23,13 @@
 
         *    PHP Intelephense -> Em utilização
 
+        *   PHP Getters & Setters -> Em utilização
+
+
+        *   PHP DocBlocker -> Para documentar  projetos  , não estou a utilizar
 
         *   PHP Debug -> requer configuração, não estou a utilizar
+
+        *   PHP sniffer -> Para padronização psr12 , não estou a ttilizar
 
     */
