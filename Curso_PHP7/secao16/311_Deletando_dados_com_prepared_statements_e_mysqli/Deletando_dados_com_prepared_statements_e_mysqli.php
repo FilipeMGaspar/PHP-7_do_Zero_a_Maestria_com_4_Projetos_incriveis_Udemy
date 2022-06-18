@@ -12,6 +12,6 @@
 
     $stmt->bind_param("i", $id);
 
-    
+    $stmt->excute();
 
     $conn->close();
