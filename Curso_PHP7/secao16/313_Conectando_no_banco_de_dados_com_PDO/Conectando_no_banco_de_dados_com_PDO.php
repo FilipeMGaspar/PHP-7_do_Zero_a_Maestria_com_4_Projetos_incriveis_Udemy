@@ -1,10 +1,10 @@
 <?php
 $host = "localhost";
-$db = "cursophp"
+$db = "cursophp";
 $user = "root";
 $pass = "";
 
 
 //$conn = new PDO("mysql:host=localhost;dbname=cursophp", $user, $pass);
 
-$conn = new PDO("mysql:host=$host;dbname=$db"); // ligação á base de dados com PDO
+$conn = new PDO("mysql:host=$host;dbname=$db", $user, $pass); // ligação á base de dados com PDO
