@@ -7,13 +7,23 @@
     /*
     *   Utilizando o Xampp temos de adicionar as variaveis de ambiente
 
-    *   Code runner
+    *   Twig   //Não gostei e não estou a utilizar
+  
 
-    *   DotENV
+    *   DotENV -> Não estou a utilizar
 
-    *   EditorConfig for VS Code
+    *   EditorConfig for VS Code -> Não estou a utilizar
 
-    *   Path Intellisense
+    *   Code runner -> Em utilização
 
-    
+    *   Path Intellisense -> Em utilização
+
+
+    * // Especificas para o PHP
+
+        *    PHP Intelephense -> Em utilização
+
+
+        *   PHP Debug -> requer configuração, não estou a utilizar
+
     */
