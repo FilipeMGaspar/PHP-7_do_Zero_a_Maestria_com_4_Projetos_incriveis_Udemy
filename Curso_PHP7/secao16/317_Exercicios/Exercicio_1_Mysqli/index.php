@@ -2,6 +2,6 @@
     $host = "localhost";
     $user = "filipe";
     $pass = "teste123";
-    $db = "";
+    $db = "cursophp";
 
     $conn = new mysqli($host, $user, $pass, $db);
