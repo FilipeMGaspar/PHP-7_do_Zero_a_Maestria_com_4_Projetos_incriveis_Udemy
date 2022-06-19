@@ -17,3 +17,8 @@
     $data = $stmt->fetch(PDO::FETCH_ASSOC); // Recebe apenas a primeira linha
 
     print_r($data);
+    echo "<br><br><hr><br><br>";
+
+
+    $itens = $stmt->fetchAll(PDO::FETCH_ASSOC); // REcebe todos os dados da tabela itens
+    print_r($itens);
