@@ -11,4 +11,9 @@
     $stmt = $conn->prepare("SELECT * FROM itens WHERE id > :id");
 
     $stmt->bindParam(":id", $id);
-    
+
+    $stmt->execute();
+
+    $data = $stmt->fetch(PDO::FETCH_ASSOC); // Recebe apenas a primeira linha
+
+    print_r($data);
