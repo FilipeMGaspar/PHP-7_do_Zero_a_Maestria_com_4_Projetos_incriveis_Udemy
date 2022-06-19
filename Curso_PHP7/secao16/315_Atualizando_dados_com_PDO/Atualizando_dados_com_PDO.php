@@ -10,7 +10,7 @@
     $nome = "Smartphone Xiaomi";
     $descricao = "Xiaomi Note 12 pro";
 
-    $stmt = $conn->prepare("UPDATE itnes SET nome = :nome, descricao = :descricao WHERE id = :id");
+    $stmt = $conn->prepare("UPDATE itens SET nome = :nome, descricao = :descricao WHERE id = :id");
 
     $stmt->bindParam(":id", $id);
     $stmt->bindParam(":nome", $nome);
