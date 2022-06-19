@@ -8,8 +8,8 @@
 
     
     $id = 5;
-    $nome = "Readmi";
-    $descricao = "Readmi Note 12 Pro, novo em caixa, com todos os acessórios";
+    $nome = "SmartPhone Xiaomi";
+    $descricao = "Xiaomi 12 Pro, usado com caixa e todos os acessórios, Grade A";
 
     $stmt = $conn->prepare("UPDATE itens SET nome = :nome, descricao = :descricao WHERE id = :id");
 
