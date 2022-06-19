@@ -7,8 +7,8 @@
     $conn = new PDO("mysql:host0$host;dbname=$db", $user, $pass);
 
     $id = 5;
-    $nome = "Smartphone Xiaomi";
-    $descricao = "Xiaomi Note 12 pro";
+    $nome = "Readmi";
+    $descricao = "Readmi Note 12 pro";
 
     $stmt = $conn->prepare("UPDATE itens SET nome = :nome, descricao = :descricao WHERE id = :id");
 
