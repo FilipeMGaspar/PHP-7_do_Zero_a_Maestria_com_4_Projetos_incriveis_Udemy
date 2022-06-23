@@ -21,7 +21,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a href="<?= $BASE_URL ?>">
+            <a href="<?= $BASE_URL ?>index.php">
                 <img src="<?= $BASE_URL ?>img/logo.svg" alt="Agenda">
             </a>
         </nav>
