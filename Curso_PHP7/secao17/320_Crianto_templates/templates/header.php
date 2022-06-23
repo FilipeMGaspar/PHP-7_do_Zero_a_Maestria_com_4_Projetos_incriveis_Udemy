@@ -18,3 +18,4 @@
     <!-- CSS do projeto -->
     <link rel="stylesheet" href="<?= $BASE_URL ?>css/styles.css">
 </head>
+<body>
