@@ -19,3 +19,8 @@
     <link rel="stylesheet" href="<?= $BASE_URL ?>css/styles.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a href="<?=$BASE_URL ?>img/logo.svg"></a>
+        </nav>
+    </header>
