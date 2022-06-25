@@ -4,5 +4,6 @@ CREATE DATABASE agenda;
 CREATE TABLE contacts(
 	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL,
 	name VARCHAR(150),
-	phone VARCHAR
+	phone VARCHAR(20),
+	observations TEXT
 );
