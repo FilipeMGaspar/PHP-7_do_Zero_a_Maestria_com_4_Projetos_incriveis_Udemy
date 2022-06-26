@@ -1,5 +1,5 @@
 <?php
-    $hots = "localhost";
+    $host = "localhost";
     $dbname = "agenda";
     $user = "root";
     $pass = "";
