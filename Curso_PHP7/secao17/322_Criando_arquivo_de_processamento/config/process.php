@@ -9,3 +9,7 @@
     $query = "SELECT * FROM contacts";
 
     $stmt = $conn->prepare($query); // prepare da query a base de dados
+
+    $stmt->execute(); // Execução da query na base de dados
+
+    $contacts = $stmt->fetchAll(); // Recolha de todos os dados vindos 
