@@ -25,6 +25,7 @@
                         <tr>
                             <td scope="row"><?= $contact["id"] ?></td>
                             <td scope="row"><?= $contact["name"] ?></td>
+                            <td scope="row"><?= $contact["phone"] ?></td>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
