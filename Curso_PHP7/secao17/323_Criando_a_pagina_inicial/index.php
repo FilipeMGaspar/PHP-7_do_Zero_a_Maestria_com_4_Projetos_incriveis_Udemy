@@ -12,7 +12,7 @@
         <?php if(count($contacts) > 0): ?>
             <p>Tem contatos</p>
         <?php else: ?>
-            <p id="empty-list-text">A sua agenda ainda não possui contatos. <a href="<?= $BASE_URL ?>create.php"></a></p>    
+            <p id="empty-list-text">A sua agenda ainda não possui contatos. <a href="<?= $BASE_URL ?>create.php">Adicionar novo contato</a></p>    
         <?php endif; ?>
     </div>
 
