@@ -4,6 +4,8 @@
     require_once("connection.php");
     require_once("url.php");
 
+    $contacts = []; // iniciando o contacts como array vazio
+
     /*Seleção de todos os dados da tabela contacts */
 
     $query = "SELECT * FROM contacts";
