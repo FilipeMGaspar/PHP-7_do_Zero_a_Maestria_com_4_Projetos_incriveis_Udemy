@@ -1,6 +1,6 @@
 <?php
     require_once "config/url.php";
-    require_once "config/connection.php";
+    require_once "config/process.php";
 ?>
 <!DOCTYPE html>
 <html lang="pt-pt">
