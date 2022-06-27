@@ -12,4 +12,6 @@
 
     $stmt->execute(); // Execução da query na base de dados
 
-    $contacts = $stmt->fetchAll(); // Recolha de todos os dados vindos 
+    $contacts = $stmt->fetchAll(); // Recolha de todos os dados vindos do select
+
+    
