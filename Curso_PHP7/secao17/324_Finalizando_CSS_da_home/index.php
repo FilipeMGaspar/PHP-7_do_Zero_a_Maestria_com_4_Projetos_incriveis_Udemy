@@ -10,7 +10,6 @@
         <h1 id="main-title">A Minha Agenda</h1>
         
         <?php if(count($contacts) > 0): ?>
-            <hr>
             <table class="table" id="contacts-table">
                 <thead>
                     <tr>
