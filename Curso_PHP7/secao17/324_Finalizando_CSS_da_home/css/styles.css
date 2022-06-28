@@ -14,3 +14,12 @@
     max-width: 800px;
     margin: 0 auto;
 }
+
+#contacts-table thead {
+    color: #fff;
+    background: #007bff;
+}
+
+#empty-list-text {
+    text-align: center;
+}
