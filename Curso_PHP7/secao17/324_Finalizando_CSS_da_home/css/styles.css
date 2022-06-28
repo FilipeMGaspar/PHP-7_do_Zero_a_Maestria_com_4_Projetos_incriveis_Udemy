@@ -30,6 +30,18 @@
     margin-right: 5px;
 }
 
+.check-icon {
+    color: #1e7e34;
+}
+
+.edit-icon {
+    color: #1e7e34;
+}
+
+.delete-icon {
+    color: #1e7e34;
+}
+
 #empty-list-text {
     text-align: center;
 }
