@@ -20,6 +20,16 @@
     background: #007bff;
 }
 
+.actions {
+    text-align: right;
+    width: 150px;
+}
+
+.actions i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
 #empty-list-text {
     text-align: center;
 }
