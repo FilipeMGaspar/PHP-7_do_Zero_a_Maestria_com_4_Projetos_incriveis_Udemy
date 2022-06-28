@@ -45,6 +45,7 @@
 .delete-btn {
     background: transparent;
     border: none;
+    padding: 0;
 }
 
 #empty-list-text {
