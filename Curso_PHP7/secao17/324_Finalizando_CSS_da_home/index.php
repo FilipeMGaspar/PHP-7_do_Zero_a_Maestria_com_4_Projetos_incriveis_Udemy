@@ -3,6 +3,7 @@
 ?>
    
    <div class="container">
+   <p id="msg">Teste sistema de mensagens</p> 
         <?php if(isset($printMsg) && $printMsg != ""): ?>
            <p id="msg"><?= $printMsg ?></p> 
         <?php endif; ?>
