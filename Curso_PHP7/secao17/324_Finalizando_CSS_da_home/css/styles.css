@@ -35,11 +35,16 @@
 }
 
 .edit-icon {
-    color: #1e7e34;
+    color: #007bff;
 }
 
 .delete-icon {
-    color: #1e7e34;
+    color: #bd2130;
+}
+
+.delete-btn {
+    background: transparent;
+    border: none;
 }
 
 #empty-list-text {
