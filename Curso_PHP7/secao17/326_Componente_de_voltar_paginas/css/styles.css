@@ -78,3 +78,14 @@
 .bold{
     font-weight: bold;
 }
+
+/* Estilo do botão voltar */
+#back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+}
+
+#back-link {
+    border: 1px solid #007bff;
+}
