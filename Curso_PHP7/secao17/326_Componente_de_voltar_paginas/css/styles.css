@@ -90,12 +90,12 @@
     border: 1px solid #007bff;
     color: #007bff;
     border-radius: 4px;
-    padding: 5px;
+    padding: 8px;
     text-decoration: none;
     transition: ease-in 0.4s;
 }
 
 #back-link:hover {
-    background: #0053ac;
+    background: #0263ca;
     color: #d4edda;
 }
