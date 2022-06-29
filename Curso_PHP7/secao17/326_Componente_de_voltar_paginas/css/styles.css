@@ -91,4 +91,11 @@
     color: #007bff;
     border-radius: 4px;
     padding: 5px;
+    text-decoration: none;
+    transition: ease-in 0.4s;
+}
+
+#back-link:hover {
+    background: #0053ac;
+    color: #d4edda;
 }
