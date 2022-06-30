@@ -99,3 +99,10 @@
     background: #0263ca;
     color: #d4edda;
 }
+
+/* Adicionar contatos */
+#create-form ,
+#edit-form {
+    max-width: 500px;
+    margin: 0 auto;
+}

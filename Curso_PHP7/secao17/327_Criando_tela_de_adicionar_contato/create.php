@@ -5,7 +5,7 @@
     <?php require_once "templates/backbtn.php"; ?>
         <h1 id="main-title">Adicionar novo contato</h1>
 
-        <form action="<?= $BASE_URL ?>config/process.php" method="post">
+        <form action="<?= $BASE_URL ?>config/process.php" method="post" id="create-form">
             <input type="hidden" name="type" value="create">
            
             <div class="form-group">
