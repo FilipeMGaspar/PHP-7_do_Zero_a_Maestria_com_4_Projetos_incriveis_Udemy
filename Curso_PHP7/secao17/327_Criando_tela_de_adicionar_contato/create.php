@@ -7,10 +7,13 @@
 
         <form action="<?= $BASE_URL ?>config/process.php" method="post">
             <input type="hidden" name="type" value="create">
+           
             <div class="form-group">
-                <label for="name">Nome</label>
-                <input type="text" name="name" id="name" class="form-control">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Digite o seu nome" require>
             </div>
+
+            <button type="submit" class="btn btn-primary">Adicionar</button>
         </form>
     </div>
 <?php
