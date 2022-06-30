@@ -106,3 +106,7 @@
     max-width: 500px;
     margin: 0 auto;
 }
+
+.form-group{
+    padding-bottom: 15px;
+}
