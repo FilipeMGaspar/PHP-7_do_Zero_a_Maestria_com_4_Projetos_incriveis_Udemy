@@ -10,7 +10,17 @@
            
             <div class="form-group">
                 <label for="name">Nome:</label>
-                <input type="text" name="name" id="name" class="form-control" placeholder="Digite o seu nome" required>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Digite o nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type="text" name="phone" id="phone" class="form-control" placeholder="Digite o telefone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="observations">Observações:</label>
+                <textarea type="text" name="observations" id="observations" class="form-control" placeholder="Insira observações"></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary">Adicionar</button>
