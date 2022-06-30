@@ -23,7 +23,7 @@
                 <textarea type="text" name="observations" id="observations" class="form-control" placeholder="Insira observações" rows="3"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Adicionar</button>
+            <button id="btn_forms" type="submit" class="btn btn-primary">Adicionar</button>
         </form>
     </div>
 <?php
