@@ -9,7 +9,12 @@
     // Modificações no Banco
     if(!empty($data)){
         print_r($data);
-        exit;
+        
+        // Criar contato
+        if($data["type"] === "create") {
+            echo "CRIAR DADO";
+        }
+
     // Seleção de dados
     } else {
 
