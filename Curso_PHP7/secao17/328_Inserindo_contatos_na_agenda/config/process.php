@@ -17,8 +17,12 @@
             $observations = $data["observations"];
 
             $query = "INSERT INTO contacts (name, phone, observations) VALUES (:name, :phone, :observations)";
-            
+
             $stmt = $conn->prepare($query);
+
+            $stmt->bindParam(":name", $name);
+            $stmt->bindParam(":phone", $phone);
+            $stmt->bindParam(":observations", $observations);
         }
 
     // Seleção de dados
