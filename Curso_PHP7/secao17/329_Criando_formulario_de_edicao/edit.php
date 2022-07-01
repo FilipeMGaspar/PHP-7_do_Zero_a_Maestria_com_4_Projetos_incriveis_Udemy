@@ -21,7 +21,7 @@
 
             <div class="form-group">
                 <label for="observations">Observações:</label>
-                <textarea type="text" name="observations" id="observations" class="form-control" placeholder="Insira observações" rows="3"></textarea>
+                <textarea type="text" name="observations" id="observations" class="form-control" placeholder="Insira observações" rows="3"><?= $contact['observations'] ?></textarea>
             </div>
 
             <button id="btn_forms" type="submit" class="btn btn-primary">Atualizar</button>
