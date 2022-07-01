@@ -12,7 +12,9 @@
         
         // Criar contato
         if($data["type"] === "create") {
-            echo "CRIAR DADO";
+            $name = $data["name"];
+            $phone = $data["phone"];
+            $observations = $data["observations"];
         }
 
     // Seleção de dados
