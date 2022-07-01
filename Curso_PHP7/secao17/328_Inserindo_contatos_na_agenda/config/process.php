@@ -8,8 +8,7 @@
 
     // Modificações no Banco
     if(!empty($data)){
-        print_r($data);
-        
+              
         // Criar contato
         if($data["type"] === "create") {
             $name = $data["name"];
