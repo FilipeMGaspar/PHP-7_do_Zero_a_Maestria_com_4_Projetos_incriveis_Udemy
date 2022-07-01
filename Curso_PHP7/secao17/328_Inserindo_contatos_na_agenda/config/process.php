@@ -16,7 +16,7 @@
             $phone = $data["phone"];
             $observations = $data["observations"];
 
-            
+            $query = "INSERT INTO contacts (name, phone, observations) VALUES (:name, :phone, :observations)";
         }
 
     // Seleção de dados
