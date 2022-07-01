@@ -6,8 +6,11 @@
 
     $data = $_POST;
 
+    // Modificações no Banco
     if(!empty($data)){
-        
+        print_r($data);
+        exit;
+    // Seleção de dados
     } else {
 
         $id;
