@@ -16,7 +16,7 @@
 
             <div class="form-group">
                 <label for="phone">Telefone:</label>
-                <input type="text" name="phone" id="phone" class="form-control" placeholder="Digite o telefone" required>
+                <input type="text" name="phone" id="phone" class="form-control" placeholder="Digite o telefone"  value="<?= $contact['phone'] ?>" required>
             </div>
 
             <div class="form-group">
