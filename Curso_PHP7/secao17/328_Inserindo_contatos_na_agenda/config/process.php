@@ -23,6 +23,16 @@
             $stmt->bindParam(":name", $name);
             $stmt->bindParam(":phone", $phone);
             $stmt->bindParam(":observations", $observations);
+
+            try {
+                $stmt->execute();
+                $_SESSION["msg"] = "Contato criado com sucesso!";
+
+            }catch (PDOException $e) {
+                // erro na conexão
+                $error = $e->getMessage();
+                echo "Erro: $error";
+            }
         }
 
     // Seleção de dados
@@ -61,3 +71,6 @@
         }
         
     }
+
+    // Fechar Conexão
+    $conn = null;
