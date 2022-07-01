@@ -34,6 +34,9 @@
             }
         }
 
+        // Redirect Home -> redireciona para a home page
+        header("Location:" . $BASE_URL . "../index.php");
+
     // Seleção de dados
     } else {
 
