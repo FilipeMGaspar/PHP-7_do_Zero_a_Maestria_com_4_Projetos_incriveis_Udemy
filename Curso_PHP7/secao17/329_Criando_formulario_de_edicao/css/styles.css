@@ -122,8 +122,19 @@
 }
 
 /* Mobile */
+
+@media(max-width: 1080px){
+    .nav-link {
+        margin-right: 20px;
+    }
+}
+
 @media(max-width: 480px){
     #home-link{
         display: none;
+    }
+
+    .nav-link {
+        margin-right: 20px;
     }
 }
