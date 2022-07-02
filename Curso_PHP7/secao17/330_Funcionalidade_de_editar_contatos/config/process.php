@@ -39,7 +39,14 @@
             $observations = $data["observations"];
             $id = $data["id"];
 
-            $query = "UPDATE ";
+            $query = "UPDATE contacts SET name = :name, phone = :phone, observations  = :observations WHERE id = :id";
+
+            $stmt = $conn->prepare($query);
+
+            $stmt->bindParam(":name", $name);
+            $stmt->bindParam(":phone", $phone);
+            $stmt->bindParam(":observations", $observations);
+            $stmt->bindParam(":id", $id);
         }
 
         // Redirect Home -> redireciona para a home page
