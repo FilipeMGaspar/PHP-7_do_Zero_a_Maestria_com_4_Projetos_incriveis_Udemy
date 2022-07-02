@@ -47,6 +47,16 @@
             $stmt->bindParam(":phone", $phone);
             $stmt->bindParam(":observations", $observations);
             $stmt->bindParam(":id", $id);
+
+            try {
+                $stmt->execute();
+                $_SESSION["msg"] = "Contato atualizado com sucesso!";
+
+            }catch (PDOException $e) {
+                // erro na conexão
+                $error = $e->getMessage();
+                echo "Erro: $error";
+            }
         }
 
         // Redirect Home -> redireciona para a home page
