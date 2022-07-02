@@ -32,6 +32,8 @@
                 $error = $e->getMessage();
                 echo "Erro: $error";
             }
+        } else if($data["type"] === "edit") {
+            
         }
 
         // Redirect Home -> redireciona para a home page
