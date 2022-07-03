@@ -42,6 +42,11 @@
     color: #007bff;
 }
 
+/* Delete form na home page */
+.delete-form {
+    display: inline-block;
+}
+
 .delete-icon {
     color: #bd2130;
 }
@@ -121,7 +126,8 @@
    margin-top: 10px;
 }
 
-/* Mobile */
+
+/* Mobile resposividade */
 
 @media(max-width: 1080px){
     .nav-link {
