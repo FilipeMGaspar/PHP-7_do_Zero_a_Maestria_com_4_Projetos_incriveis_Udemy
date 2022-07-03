@@ -57,6 +57,10 @@
                 $error = $e->getMessage();
                 echo "Erro: $error";
             }
+        } else if($data["type"] === "delete") {
+            $id = $data["id"];
+
+            
         }
 
         // Redirect Home -> redireciona para a home page
