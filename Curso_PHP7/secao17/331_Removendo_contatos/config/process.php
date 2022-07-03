@@ -60,7 +60,8 @@
         } else if($data["type"] === "delete") {
             $id = $data["id"];
 
-            
+            $query = "DELETE FROM contacts WHERE id = :id";
+            $stmt = $conn->prepare($query);
         }
 
         // Redirect Home -> redireciona para a home page
