@@ -24,6 +24,13 @@
             return $this->km;
         }
         public function setKm($km){
+            $this->km=$km;
+        }
 
+        public function getColor(){
+            return $this->color;
+        }
+        public function setColor($color){
+            $this->color = $color;
         }
     }
