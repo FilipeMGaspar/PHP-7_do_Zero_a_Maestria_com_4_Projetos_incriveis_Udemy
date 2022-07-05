@@ -34,6 +34,7 @@
             $this->color = $color;
         }
 
+        //Construtores
         public function __construct($brand, $km, $color) {
             $this->setBrand($brand);
             $this->setKm($km);
