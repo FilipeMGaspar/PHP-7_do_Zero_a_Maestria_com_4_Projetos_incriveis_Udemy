@@ -16,21 +16,27 @@
         public function getBrand() {
             return $this->brand;
         }
-        public function setBrand($brand){
+        private function setBrand($brand){
             $this->brand = $brand;
         }
 
         public function getKm () {
             return $this->km;
         }
-        public function setKm($km){
+        private function setKm($km){
             $this->km=$km;
         }
 
         public function getColor(){
             return $this->color;
         }
-        public function setColor($color){
+        private function setColor($color){
             $this->color = $color;
+        }
+
+        public function __construct($brand, $km, $color) {
+            $this->setBrand($brand);
+            $this->setKm($km);
+            $this->setColor($color);
         }
     }
