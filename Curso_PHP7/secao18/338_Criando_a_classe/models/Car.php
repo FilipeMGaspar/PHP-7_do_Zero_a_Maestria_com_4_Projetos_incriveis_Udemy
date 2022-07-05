@@ -13,5 +13,17 @@
             $this->id = $id;
         }
 
-        
+        public function getBrand() {
+            return $this->brand;
+        }
+        public function setBrand($brand){
+            $this->brand = $brand;
+        }
+
+        public function getKm () {
+            return $this->km;
+        }
+        public function setKm($km){
+
+        }
     }
