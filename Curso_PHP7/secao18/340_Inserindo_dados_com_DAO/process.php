@@ -2,7 +2,7 @@
     require_once "db.php";
     require_once "dao/CarDAO.php";
 
-    $car = new CarDAO($conn);
+    $carDAO = new CarDAO($conn);
 
     $brand = $_POST["brand"];
     $km = $_POST["km"];
@@ -14,6 +14,6 @@
     $newCar->setKm($km);
     $newCar->setColor($color);
 
-    $car->create($newCar);
+    $carDAO->create($newCar);
 
     header("Location: index.php");
