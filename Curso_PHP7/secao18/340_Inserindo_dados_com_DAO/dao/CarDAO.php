@@ -4,7 +4,7 @@ use CarDAO as GlobalCarDAO;
 
     require_once "models/Car.php";
 
-    class CarDAO implements CarDAO {
+    class CarDAO implements CarDAOInterface {
 
         private $conn;
 
