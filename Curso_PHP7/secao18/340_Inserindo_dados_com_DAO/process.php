@@ -13,3 +13,7 @@
     $newCar->setBrand($brand);
     $newCar->setKm($km);
     $newCar->setColor($color);
+
+    $carDao->create($newCar);
+
+    header("Location: index.php");
