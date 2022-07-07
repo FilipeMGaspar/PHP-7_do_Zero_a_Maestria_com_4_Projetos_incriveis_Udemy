@@ -1,5 +1,5 @@
 <?php
-    require_once "config.php";
+    require_once "db.php";
     require_once "dao/CarDAO.php";
 
     $car = new CarDAO($conn);
@@ -14,6 +14,6 @@
     $newCar->setKm($km);
     $newCar->setColor($color);
 
-    $carDao->create($newCar);
+    $car->create($newCar);
 
     header("Location: index.php");
