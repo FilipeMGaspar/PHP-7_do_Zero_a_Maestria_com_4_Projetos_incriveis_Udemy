@@ -43,3 +43,8 @@
         }
         */
     }
+
+    interface CarDAO {
+        public function create(Car $car);
+        
+    }
