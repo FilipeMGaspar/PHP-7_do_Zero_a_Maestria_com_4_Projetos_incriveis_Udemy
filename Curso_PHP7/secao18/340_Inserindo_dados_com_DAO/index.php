@@ -19,4 +19,6 @@
         <label for="color">Cor: </label>
         <input type="text" name="color" placeholder="Cor do carro">
     </div>
+
+    <input type="submit" value="guardar">
 </form>
