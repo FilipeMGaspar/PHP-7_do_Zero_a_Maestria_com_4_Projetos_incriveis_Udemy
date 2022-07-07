@@ -25,6 +25,8 @@ use CarDAO as GlobalCarDAO;
             $stmt->bindParam(":brand", $car->getBrand());
             $stmt->bindParam(":km", $car->getKm());
             $stmt->bindParam(":color", $car->getColor());
+
+            $stmt->execute();
         }
 
     }
