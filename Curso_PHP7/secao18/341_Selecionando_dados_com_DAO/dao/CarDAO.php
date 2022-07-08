@@ -21,13 +21,13 @@ use CarDAO as GlobalCarDAO;
 
             $data = $stmt->fetchAll();
 
-            foreach ($data as $car) {
+            foreach ($data as $carro) {
                 $car = new Car();
 
-                $car->setId($car["id"]);
-                $car->setBrand($car["brand"]);
-                $car->setKm($car["KM"]);
-                $car->setColor($car["color"]);
+                $car->setId($carro["id"]);
+                $car->setBrand($carro["brand"]);
+                $car->setKm($carro["KM"]);
+                $car->setColor($carro["color"]);
 
                 $car[] = $car;
             }
