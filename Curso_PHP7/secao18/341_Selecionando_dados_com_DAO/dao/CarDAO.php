@@ -14,9 +14,22 @@ use CarDAO as GlobalCarDAO;
         
         public function findAll() {
             
+            $cars = [];
+
             $query = "SELECT * FROM car";
-            
             $stmt = $this->conn->prepare($query);
+
+            $data = $stmt->fetchAll();
+
+            foreach ($data as $car) {
+                $car = new Car();
+
+                $car->setId($car["id"]);
+                $car->setBrand($car["brand"]);
+                $car->setKm($car["KM"]);
+                $car->setColor($car["color"]);
+            }
+            
         }
 
         public function create(Car $car)
