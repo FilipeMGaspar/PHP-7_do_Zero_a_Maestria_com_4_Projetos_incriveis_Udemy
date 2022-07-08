@@ -14,6 +14,9 @@ use CarDAO as GlobalCarDAO;
         
         public function findAll() {
             
+            $query = "SELECT * FROM car";
+            
+            $stmt = $this->conn->prepare($query);
         }
 
         public function create(Car $car)
