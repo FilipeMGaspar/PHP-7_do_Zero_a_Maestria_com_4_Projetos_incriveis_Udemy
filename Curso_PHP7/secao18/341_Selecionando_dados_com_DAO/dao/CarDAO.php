@@ -28,8 +28,11 @@ use CarDAO as GlobalCarDAO;
                 $car->setBrand($car["brand"]);
                 $car->setKm($car["KM"]);
                 $car->setColor($car["color"]);
+
+                $car[] = $car;
             }
             
+            return $cars;
         }
 
         public function create(Car $car)
