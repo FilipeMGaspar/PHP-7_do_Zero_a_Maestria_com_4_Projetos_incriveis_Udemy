@@ -18,6 +18,8 @@ use CarDAO as GlobalCarDAO;
 
             $query = "SELECT * FROM car";
             $stmt = $this->conn->prepare($query);
+           
+            $stmt->execute();
 
             $data = $stmt->fetchAll();
 
@@ -29,7 +31,7 @@ use CarDAO as GlobalCarDAO;
                 $car->setKm($carro["KM"]);
                 $car->setColor($carro["color"]);
 
-                $car[] = $car;
+                $cars[] = $car;
             }
             
             return $cars;
