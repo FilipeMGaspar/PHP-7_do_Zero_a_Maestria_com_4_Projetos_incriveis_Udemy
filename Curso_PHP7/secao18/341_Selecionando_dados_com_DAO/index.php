@@ -1,5 +1,10 @@
 <?php
     require_once "db.php";
+    require_once "dao/CarDAO.php";
+
+    $carDAO = new CarDAO($conn);
+
+    $cars = $carDao->findAll();
 
 ?>
 
@@ -22,3 +27,9 @@
 
     <input type="submit" value="guardar">
 </form>
+
+<ul>
+    <?php foreach ($cars as $car): ?>
+        <li><?= $car->getBrand() ?> - <?= $car->getKm() ?> - <?= $car->getColor() ?></li>
+    <?php endforeach; ?>
+</ul>
