@@ -4,7 +4,7 @@
 
     $carDAO = new CarDAO($conn);
 
-    $cars = $carDao->findAll();
+    $cars = $carDAO->findAll();
 
 ?>
 
