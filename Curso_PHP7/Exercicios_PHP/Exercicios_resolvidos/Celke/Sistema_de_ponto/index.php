@@ -8,6 +8,7 @@
 </head>
 <body>
     <h2>Registar ponto</h2>
-    
+
+    <a href="registar_ponto.php">Registar</a>
 </body>
 </html>
