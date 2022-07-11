@@ -10,9 +10,10 @@
     <h2>Registar ponto</h2>
 
     <br>
-    <p><?php echo date("d/m/Y H:i:s"); ?></p>
+    <p id="horario"><?php echo date("d/m/Y H:i:s"); ?></p>
 
     <a href="registar_ponto.php">Registar</a>
 
+  <script src="js/script.js"></script>
 </body>
 </html>
