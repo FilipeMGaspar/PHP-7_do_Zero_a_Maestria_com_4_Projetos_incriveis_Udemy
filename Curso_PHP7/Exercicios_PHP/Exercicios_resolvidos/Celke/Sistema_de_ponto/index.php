@@ -9,6 +9,10 @@
 <body>
     <h2>Registar ponto</h2>
 
+    <br>
+    <p><?php echo date("d/m/Y H:i:s"); ?></p>
+
     <a href="registar_ponto.php">Registar</a>
+
 </body>
 </html>
