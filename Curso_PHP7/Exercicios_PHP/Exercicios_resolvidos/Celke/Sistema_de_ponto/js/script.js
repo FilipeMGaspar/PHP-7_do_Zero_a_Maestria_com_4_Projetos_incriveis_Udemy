@@ -1,12 +1,12 @@
-var apHorario = document.querySelector("#horario")
+var apHorario = document.getElementById("horario")
 
 function atualizarHorario () {
-   var data = new Date().toLocaleDateString("pt-pt", {
+   var data = new Date().toLocaleString("pt-pt", {
         timeZone: "Europe/Lisbon"
    })
 
-   let formatarData = data.replace(", ", " - ")
-   apHorario.innerHTML += formatarData
+   var formatarData = data.replace(", ", " - ")
+   apHorario.innerHTML = formatarData
 }
 
 setInterval(atualizarHoratio, 1000)
