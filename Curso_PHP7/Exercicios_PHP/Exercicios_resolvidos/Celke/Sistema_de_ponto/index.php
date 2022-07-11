@@ -7,6 +7,7 @@
     <title>Sistema de ponto para cadastrar horário de entrada e saída - Celke</title>
 </head>
 <body>
+    <h2>Registar ponto</h2>
     
 </body>
 </html>
