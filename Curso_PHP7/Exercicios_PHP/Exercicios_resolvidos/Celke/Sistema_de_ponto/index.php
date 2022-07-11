@@ -10,26 +10,11 @@
     <h2>Registar ponto</h2>
 
     <br>
-    <p id="horario"><?php echo date("d/m/Y H:i:s"); ?></p>
+    <p id="horario"><?php echo date("d/m/Y - H:i:s"); ?></p>
 
     <a href="registar_ponto.php">Registar</a>
 
+    <!-- Javaxcript -->
     <script src="js/script.js"></script>
-    <!--
-  <script >
-        var apHorario = document.getElementById("horario")
-
-        function atualizarHorario () {
-        var data = new Date().toLocaleString("pt-PT", {
-                timeZone: "Europe/Lisbon"
-        })
-
-        var formatarData = data.replace(", ", " - ")
-        apHorario.innerHTML = formatarData
-        }
-
-        setInterval(atualizarHoratio, 1000)
-  </script>
-    -->
 </body>
 </html>

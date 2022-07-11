@@ -1,7 +1,7 @@
 var apHorario = document.querySelector("#horario");
 
 function atualizarHorario() {
-   var data = new Date().toLocaleString("pt-Pt", {
+  var data = new Date().toLocaleString("pt-Pt", {
         timeZone: "Europe/Lisbon"
    });
 
@@ -9,4 +9,4 @@ function atualizarHorario() {
    apHorario.innerHTML = formatarData;
 }
 
-setInterval(atualizarHoratio, 1000);
+setInterval(atualizarHorario, 1000);
