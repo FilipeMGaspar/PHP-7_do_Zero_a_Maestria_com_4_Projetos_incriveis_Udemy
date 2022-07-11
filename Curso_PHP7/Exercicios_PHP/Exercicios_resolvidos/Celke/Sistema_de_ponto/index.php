@@ -14,6 +14,8 @@
 
     <a href="registar_ponto.php">Registar</a>
 
+    <script src="js/script.js"></script>
+    <!--
   <script >
         var apHorario = document.getElementById("horario")
 
@@ -28,5 +30,6 @@
 
         setInterval(atualizarHoratio, 1000)
   </script>
+    -->
 </body>
 </html>

@@ -1,12 +1,12 @@
-var apHorario = document.getElementById("horario")
+var apHorario = document.querySelector("#horario");
 
-function atualizarHorario () {
-   var data = new Date().toLocaleString("pt-pt", {
+function atualizarHorario() {
+   var data = new Date().toLocaleString("pt-Pt", {
         timeZone: "Europe/Lisbon"
-   })
+   });
 
-   var formatarData = data.replace(", ", " - ")
-   apHorario.innerHTML = formatarData
+   var formatarData = data.replace(", ", " - ");
+   apHorario.innerHTML = formatarData;
 }
 
-setInterval(atualizarHoratio, 1000)
+setInterval(atualizarHoratio, 1000);
