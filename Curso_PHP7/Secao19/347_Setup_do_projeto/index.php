@@ -7,6 +7,9 @@
     <title>MovieStar - Projeto 3 - Hora de Codar</title>
     <!-- Icon -->
     <link rel="shortcut icon" href="img/moviestar.ico" type="image/x-icon">
+
+    <!-- CSS do projeto -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
