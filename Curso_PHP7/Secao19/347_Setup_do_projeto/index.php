@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieStar - Projeto 3 - Hora de Codar</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="img/moviestar.ico" type="image/x-icon">
 </head>
 <body>
     
