@@ -1,5 +1,11 @@
 CREATE DATABASE moviestar;
 
 CREATE TABLE users (
-	
+	id INT(11) UNSIGN AUTO_INCREMENT PRIMARY KEY NOT NULL,
+	name VARCHAR(100),
+	lastname VARCHAR(100),
+	password VARCHAR(200),
+	image VARCHAR(200),
+	token VARCHAR(200),
+	bio TEXT
 );
