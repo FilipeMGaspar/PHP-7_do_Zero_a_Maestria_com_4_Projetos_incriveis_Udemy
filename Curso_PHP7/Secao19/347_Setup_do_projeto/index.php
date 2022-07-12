@@ -20,7 +20,11 @@
 
 </head>
 <body>
+    
     <h1>Testando MovieStar</h1>
+
+    <i class="fa-solid fa-bed-pulse"></i>
+
 
     <!-- JavaScript BootStrap  - from cdnjs  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/js/bootstrap.js" integrity="sha512-kZzIlRPOhobf+l/HSLHKu5E6UVe34lDZKtQzNEMHRNdctaVhwIPVruz1ahHqtMUTuYxJaSmVIZyWjV7jlfpAyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
