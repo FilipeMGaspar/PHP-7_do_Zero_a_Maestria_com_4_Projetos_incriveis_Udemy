@@ -1,5 +1,7 @@
 CREATE DATABASE moviestar;
 
+USE moviestar;
+
 CREATE TABLE users (
 	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	name VARCHAR(100),
