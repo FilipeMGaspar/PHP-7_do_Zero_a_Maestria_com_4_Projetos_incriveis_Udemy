@@ -11,7 +11,7 @@
     <title>MovieStar - Projeto 3 - Hora de Codar</title>
    
     <!-- Icon -->
-    <link rel="shortcut icon" href="img/moviestar.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= $BASE_URL ?>img/moviestar.ico" type="image/x-icon">
 
     <!-- font-awesome - from cdnjs  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,15 +20,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.css" integrity="sha512-F5fn88UDJWd0T1GwpnIpbuFuSxCgXNnJhIihkiWeqYUyLt3oPUaYzL774VjL7eGj8ktZCZQS//txAxgokiz1Lw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- CSS do projeto -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?= $BASE_URL ?>css/style.css">
 
 </head>
 <body>
     
-    <h1>Testando MovieStar</h1>
+    <header>
+        <nav id="main-navbar" class="navbar navbar-expand-lg">
 
-    <i class="fa-solid fa-bed-pulse"></i>
-
+        </nav>
+    </header>
 
     <!-- JavaScript BootStrap  - from cdnjs  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/js/bootstrap.js" integrity="sha512-kZzIlRPOhobf+l/HSLHKu5E6UVe34lDZKtQzNEMHRNdctaVhwIPVruz1ahHqtMUTuYxJaSmVIZyWjV7jlfpAyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
