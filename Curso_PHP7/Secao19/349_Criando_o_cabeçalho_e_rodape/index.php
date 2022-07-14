@@ -51,6 +51,26 @@
         </nav>
     </header>
 
+    <div id="main-container" class="container-fluid">
+        <h1>Corpo do site</h1>
+    </div>
+
+    <footer id="footer">
+        <div class="social-container">
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
     <!-- JavaScript BootStrap  - from cdnjs  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/js/bootstrap.js" integrity="sha512-kZzIlRPOhobf+l/HSLHKu5E6UVe34lDZKtQzNEMHRNdctaVhwIPVruz1ahHqtMUTuYxJaSmVIZyWjV7jlfpAyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Jquery -->
