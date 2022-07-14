@@ -69,6 +69,16 @@
                 </li>
             </ul>
         </div>
+
+        <div id="footer-links-container">
+            <ul>
+                <li><a href="#">Adicionar filme</a></li>
+                <li><a href="#">Adicionar crítica</a></li>
+                <li><a href="#">Entrar / Registar</a></li>
+            </ul>
+        </div>
+
+        <p>&copy; 2022 Filipe Gaspar</p>
     </footer>
 
     <!-- JavaScript BootStrap  - from cdnjs  -->
