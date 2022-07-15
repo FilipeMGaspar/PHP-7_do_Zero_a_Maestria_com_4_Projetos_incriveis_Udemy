@@ -52,7 +52,7 @@
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #999;
+    color: #FFB33C;
 }
 
 .bold {
@@ -113,5 +113,5 @@
 }
 
 #footer-links-container ul li a:hover {
-    color: #333;
+    color: #FFB33C;
 }
