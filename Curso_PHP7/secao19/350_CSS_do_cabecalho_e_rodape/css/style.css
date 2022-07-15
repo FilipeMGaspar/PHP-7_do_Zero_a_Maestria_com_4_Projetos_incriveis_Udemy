@@ -107,5 +107,11 @@
 }
 
 #footer-links-container ul li a {
+    font-size: 18px;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+#footer-links-container ul li a:hover {
+    color: #333;
 }
