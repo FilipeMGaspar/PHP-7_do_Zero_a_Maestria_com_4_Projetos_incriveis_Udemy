@@ -59,6 +59,14 @@
     font-weight: bold;
 }
 
+/* Home */
+#main-container {
+    background: #000;
+    color: #fff;
+    min-height: 65vh;
+    padding: 40px;
+}
+
 /* Footer*/
 #footer {
     background: #000;
