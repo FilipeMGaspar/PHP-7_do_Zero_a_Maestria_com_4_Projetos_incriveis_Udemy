@@ -29,12 +29,14 @@
     display: inline-block;
     display: flex;
     flex-direction: row;
+    display: none;
 }
 
 #search-form .form-control {
     border: none;
     width: 90%;
     box-shadow: none;
+    display: none;
 }
 
 #navbar {
@@ -43,7 +45,7 @@
 
 .navbar-nav {
     display: flex;
-    justify-content: flex-end;
+    
     width: 100%;
 }
 
