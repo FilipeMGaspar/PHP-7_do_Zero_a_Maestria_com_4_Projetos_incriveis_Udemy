@@ -1,3 +1,8 @@
-body {
-    background: #ccc;
+/* Navbar */
+.navbar-brand {
+    position: relative;
+}
+
+#logo {
+    
 }
