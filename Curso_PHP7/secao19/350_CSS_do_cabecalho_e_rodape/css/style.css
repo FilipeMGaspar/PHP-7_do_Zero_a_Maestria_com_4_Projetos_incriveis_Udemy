@@ -15,18 +15,17 @@
     left: 55px;
     font-weight: bold;
 }
-/*
+
 #main-navbar {
     background: #121212;
 }
-*/
+
 #search-form {
     margin: 0 auto;
     background-color: #fff;
     border-radius: 5px;
     width: 50%;
     margin-left: 180px;
-    display: inline-block;
     display: flex;
     flex-direction: row;
 }
@@ -41,21 +40,17 @@
     min-width: 30%;
 }
 
-/*
-#navbar {
-    display: flex;
-    justify-content: flex-end; 
-    width: 100%;
-    color: #fff;
-}
-*/
 .navbar-nav {
     justify-content: flex-end;
     width: 100%;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 
 .bold {
     font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
 }
