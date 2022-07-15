@@ -60,3 +60,14 @@
 }
 
 /* Footer*/
+#footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.social-container {
+    
+}
