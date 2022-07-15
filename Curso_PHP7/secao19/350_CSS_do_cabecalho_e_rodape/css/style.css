@@ -41,18 +41,20 @@
     min-width: 30%;
 }
 
+/*
 #navbar {
     display: flex;
     justify-content: flex-end; 
     width: 100%;
     color: #fff;
 }
-/*
+*/
 .navbar-nav {
-    display: flex;
     justify-content: flex-end;
     width: 100%;
+    margin-right: 10px;
 }
+
 
 .bold {
     font-weight: bold;
