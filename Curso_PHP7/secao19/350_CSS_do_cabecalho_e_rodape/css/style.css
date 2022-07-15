@@ -28,7 +28,7 @@
     margin-left: 180px;
 }
 
-#search-form .from-control {
+#search-form .form-control {
     border: none;
     width: 90%;
     box-shadow: none;
@@ -41,4 +41,8 @@
 .navbar-nav {
     justify-content: flex-end;
     width: 100%;
+}
+
+.bold {
+    font-weight: bold;
 }
