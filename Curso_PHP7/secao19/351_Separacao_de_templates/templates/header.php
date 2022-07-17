@@ -57,3 +57,7 @@
     <?php if(empty($flassMessage["msg"])): ?>
     
     <?php endif; ?>    
+
+    <div class="msg-container">
+        <p class="msg">Testando Mensagem</p>
+    </div>
