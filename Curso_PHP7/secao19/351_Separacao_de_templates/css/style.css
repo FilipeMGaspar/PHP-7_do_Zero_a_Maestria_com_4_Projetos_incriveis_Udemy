@@ -68,7 +68,7 @@
 .msg {
     width: 60%;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 10px;
     border: solid 1px #000;
     text-align: center;
 }
