@@ -59,5 +59,5 @@
     <?php endif; ?>    
 
     <div class="msg-container">
-        <p class="msg">Testando Mensagem</p>
+        <p class="msg success">Testando Mensagem</p>
     </div>
