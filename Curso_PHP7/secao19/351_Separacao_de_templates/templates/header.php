@@ -54,10 +54,9 @@
         </nav>
     </header>
 
-    <?php if(empty($flassMessage["msg"])): ?>
-    
-    <?php endif; ?>    
-
+    <?php if(!empty($flassMessage["msg"])): ?>
+        
     <div class="msg-container">
-        <p class="msg success">Testando Mensagem</p>
+        <p class="msg <?= $flassMessage["type"] ?>"><?= $flassMessage["msg"] ?></p>
     </div>
+    <?php endif; ?>    
