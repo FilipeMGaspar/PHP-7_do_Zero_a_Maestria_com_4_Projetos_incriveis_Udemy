@@ -59,6 +59,21 @@
     font-weight: bold;
 }
 
+/* estilo do Sistema de mensagens */
+.msg-container {
+    background: #000;
+    padding: 15px;
+}
+
+.msg {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 10px;
+    border: solid 1px #000;
+    text-align: center;
+}
+/*Fim do estilo de sistema de Mensagens*/
+
 /* Home */
 #main-container {
     background: #000;
