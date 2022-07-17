@@ -72,6 +72,18 @@
     border: solid 1px #000;
     text-align: center;
 }
+
+.msg.error {
+    color: #842029;
+    background: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.msg.success {
+    color: #0f5132;
+    background: #d1e7dd;
+    border-color: #badbcc;
+}
 /*Fim do estilo de sistema de Mensagens*/
 
 /* Home */
