@@ -1,6 +1,8 @@
 <?php
     require_once "globals.php";
-    require_once "db.php"
+    require_once "db.php";
+
+    $flassMessage = [];
 ?>
 <!DOCTYPE html>
 <html lang="pt-pt">
@@ -51,3 +53,7 @@
             </div>
         </nav>
     </header>
+
+    <?php if(empty($flassMessage["msg"])): ?>
+    
+    <?php endif; ?>    
