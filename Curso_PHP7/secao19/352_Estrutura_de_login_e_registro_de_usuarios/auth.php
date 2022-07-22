@@ -53,6 +53,8 @@
                             <label for="confirmpassword">Confirme a Password:</label>
                             <input type="password" name="confirmpassword" id="confirmpassword" class="form-control" placeholder="Confirme a sua password" require>
                         </div>
+
+                        <input type="submit" value="Registar" class="btn card-btn">
                     </form>
                 </div>
             </div>
