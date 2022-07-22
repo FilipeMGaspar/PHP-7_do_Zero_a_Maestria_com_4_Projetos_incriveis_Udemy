@@ -8,15 +8,15 @@
                 <div class="col-md-4" id="login-container">
                     <h2>Entrar</h2>
                     <form action="" method="post">
-                        <input type="hidden" name="type" value="register">
+                        <input type="hidden" name="type" value="login">
                         <div class="form-group">
                             <label for="email">E-mail:</label>
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Digite o seu email">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Digite o seu email" required>
                         </div>
 
                         <div class="form-group">
                             <label for="password">Password:</label>
-                            <input type="password" name="password" id="password" class="form-control" placeholder="Digite a sua password">
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Digite a sua password" require>
                         </div>
 
                         <input type="submit" value="Entrar" class="btn card-btn">
@@ -27,6 +27,21 @@
                     <h2>Criar conta</h2>
                     <form action="" method="post">
                         <input type="hidden" name="type" value="register">
+
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Digite o seu email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Digite o seu nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastname">Nome:</label>
+                            <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Digite o seu sobrenome" required>
+                        </div>
                     </form>
                 </div>
             </div>
