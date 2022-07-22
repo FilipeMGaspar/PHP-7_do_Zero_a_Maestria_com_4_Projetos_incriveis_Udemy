@@ -39,8 +39,19 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="lastname">Nome:</label>
+                            <label for="lastname">Sobrenome:</label>
                             <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Digite o seu sobrenome" required>
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Digite a sua password" require>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Confirme a Password:</label>
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Digite a sua password" require>
                         </div>
                     </form>
                 </div>
