@@ -15,13 +15,16 @@
 
                         <div class="form-group">
                             <label for="password">Password:</label>
-                            <input type="password" name="password" id="password" class="form-control" placeholder="Digite o seu email">
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Digite a sua password">
                         </div>
+
+                        <input type="submit" value="Entrar" class="btn card-btn">
                     </form>
                 </div>
 
                 <div class="col-md-4" id="register-container">
                     <h2>Criar conta</h2>
+                    
                 </div>
             </div>
         </div>
