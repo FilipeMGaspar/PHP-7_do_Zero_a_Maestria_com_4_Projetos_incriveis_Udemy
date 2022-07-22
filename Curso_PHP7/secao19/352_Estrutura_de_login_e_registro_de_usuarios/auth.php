@@ -3,7 +3,11 @@
 ?>
 
     <div id="main-container" class="container-fluid">
-        <h1>Autenticação</h1>
+        <div class="col-md-12">
+            <div class="row">
+                
+            </div>
+        </div>
     </div>
 
 <?php
