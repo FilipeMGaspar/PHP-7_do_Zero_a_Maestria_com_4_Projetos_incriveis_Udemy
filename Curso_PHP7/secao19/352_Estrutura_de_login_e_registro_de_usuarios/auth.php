@@ -50,8 +50,8 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="password">Confirme a Password:</label>
-                            <input type="password" name="password" id="password" class="form-control" placeholder="Digite a sua password" require>
+                            <label for="confirmpassword">Confirme a Password:</label>
+                            <input type="password" name="confirmpassword" id="confirmpassword" class="form-control" placeholder="Confirme a sua password" require>
                         </div>
                     </form>
                 </div>
