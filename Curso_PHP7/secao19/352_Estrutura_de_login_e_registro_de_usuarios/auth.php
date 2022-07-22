@@ -8,6 +8,7 @@
                 <div class="col-md-4" id="login-container">
                     <h2>Entrar</h2>
                     <form action="" method="post">
+                        <input type="hidden" name="type" value="register">
                         <div class="form-group">
                             <label for="email">E-mail:</label>
                             <input type="email" name="email" id="email" class="form-control" placeholder="Digite o seu email">
@@ -24,7 +25,9 @@
 
                 <div class="col-md-4" id="register-container">
                     <h2>Criar conta</h2>
-                    
+                    <form action="" method="post">
+                        <input type="hidden" name="type" value="register">
+                    </form>
                 </div>
             </div>
         </div>
