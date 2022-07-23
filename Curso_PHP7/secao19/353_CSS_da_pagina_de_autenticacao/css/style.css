@@ -118,9 +118,13 @@
 
 #login-container input,
 #register-container input {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
+#login-container label,
+#register-container la  margin-bottom: 10px;bel {
+    margin-bottom: 10px;
+}
 
 .card-btn {
     color: #000;
