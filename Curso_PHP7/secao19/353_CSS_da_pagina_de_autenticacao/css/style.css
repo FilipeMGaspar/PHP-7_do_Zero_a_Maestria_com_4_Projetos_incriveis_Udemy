@@ -101,7 +101,7 @@
 }
 
 #login-container h2,
-#register-container H2 {
+#register-container h2 {
     text-align: center;
     border-bottom: 2px solid #f5c518;
     width: 200px;
@@ -109,9 +109,10 @@
     padding: 10px;
 }
 
-#login-container h2,
-#register-container H2 {
-    
+#login-container form,
+#register-container form {
+    max-width: 400px;
+    margin: 30px auto;
 }
 
 /* Footer*/
