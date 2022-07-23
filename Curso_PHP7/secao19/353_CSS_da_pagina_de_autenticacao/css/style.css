@@ -95,6 +95,9 @@
     padding: 40px;
 }
 
+/* Página de Login */
+
+
 /* Footer*/
 #footer {
     background: #000;
@@ -151,5 +154,3 @@
 #footer-links-container ul li a:hover {
     color: #FFB33C;
 }
-
-/* Página de autenticação */
