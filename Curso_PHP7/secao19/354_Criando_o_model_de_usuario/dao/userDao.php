@@ -17,12 +17,12 @@
 
             $user->id = $data["id"];
             $user->name = $data["name"];
-            $user->id = $data["id"];
-            $user->id = $data["id"];
-            $user->id = $data["id"];
-            $user->id = $data["id"];
-            $user->id = $data["id"];
-            $user->id = $data["id"];
+            $user->lastname = $data["lastname"];
+            $user->email = $data["email"];
+            $user->password = $data["password"];
+            $user->image = $data["image"];
+            $user->bio = $data["bio"];
+            $user->token = $data["token"];
         }
 
         public function create(User $user, $authUser = false){
