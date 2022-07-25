@@ -8,7 +8,7 @@
         public $image;
         public $bio;
         public $token;
-
+        
 
     }
 
@@ -20,7 +20,7 @@
         public function verifyToken($protected = false);
         public function setTokenToSession($token, $redirect = true);
         public function authenticateUser($email, $password);
-        
+
         public function findByEmail($email);
         public function findById($id);
         public function findByToken($token);
