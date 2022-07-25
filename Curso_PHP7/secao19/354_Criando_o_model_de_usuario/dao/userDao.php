@@ -23,6 +23,8 @@
             $user->image = $data["image"];
             $user->bio = $data["bio"];
             $user->token = $data["token"];
+
+            return $user;
         }
 
         public function create(User $user, $authUser = false){
