@@ -18,4 +18,5 @@
         public function update(User $user);
         public function findByToken($token);
         public function verifyToken($protected = false);
+        public function setTokenToSession($token, $redirect = true);
     }
