@@ -2,6 +2,7 @@
     require_once "../models/user.php";
 
     class UserDAO implements UserDAOInterface {
+        
         public function buildUser($data){
 
         }
@@ -41,5 +42,5 @@
         public function changePassword(User $user){
 
         }
-        
+
     }
