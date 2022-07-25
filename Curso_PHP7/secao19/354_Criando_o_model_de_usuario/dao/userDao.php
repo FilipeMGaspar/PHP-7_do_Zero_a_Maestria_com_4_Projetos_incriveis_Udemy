@@ -13,7 +13,16 @@
         }
 
         public function buildUser($data){
+            $user = new User();
 
+            $user->id = $data["id"];
+            $user->name = $data["name"];
+            $user->id = $data["id"];
+            $user->id = $data["id"];
+            $user->id = $data["id"];
+            $user->id = $data["id"];
+            $user->id = $data["id"];
+            $user->id = $data["id"];
         }
 
         public function create(User $user, $authUser = false){
