@@ -9,5 +9,11 @@
         public $bio;
         public $token;
 
-        
+
+    }
+
+    interface UserDAOInterface {
+        public function buildUser($data);
+        public function create(User $user, $authUser = false);
+        public function update(User $user);
     }
