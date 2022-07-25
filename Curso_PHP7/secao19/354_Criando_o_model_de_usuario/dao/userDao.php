@@ -2,7 +2,16 @@
     require_once "../models/user.php";
 
     class UserDAO implements UserDAOInterface {
-        
+
+        private $conn;
+        private $url;
+
+        public function __construct(PDO $conn, $url)
+        {
+            $this->conn = $conn;
+            $this->url = $url;
+        }
+
         public function buildUser($data){
 
         }
