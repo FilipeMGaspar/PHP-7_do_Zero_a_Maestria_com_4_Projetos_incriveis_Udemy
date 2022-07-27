@@ -11,5 +11,7 @@
 
     // Verificação do tipo de formulário
     if($type === "register") {
-        
-    }   
+
+    } else if ($type === "login") {
+
+    }
