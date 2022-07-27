@@ -1,10 +1,16 @@
 <?php
     require_once "globals.php";
     require_once "db.php";
+    require_once "../models/Message.php";
 
     $message = new Message($BASE_URL); // Instanciamento do sistema de mensagens
 
-    $flassMessage = $message->getMessage();
+    $flassMessage = $message->getMessage(); // Recebe as mensagem a serem apresentadas para o utilizador
+
+    if(!empty($flassMessage["msg"])){ // Verifica se a mensagem não está vazia
+        // Limpa a mensagem
+    }
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-pt">
