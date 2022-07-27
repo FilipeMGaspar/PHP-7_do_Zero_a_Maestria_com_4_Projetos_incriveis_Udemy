@@ -18,6 +18,14 @@
         $password = filter_input(INPUT_POST, "password");
         $confirmpassword = filter_input(INPUT_POST, "confirmpassword");
 
+        // Verificação de dados minimos
+        if($name && $lastname && $email && $password) { 
+
+        } else {
+            // Enviar uma mensagem de erro de dados em falta
+
+        }
+
     } else if ($type === "login") {   // Verifica o tipo do formulário ..: Register :.. ou ..: Login :..
 
     }
