@@ -23,7 +23,7 @@
 
         } else {
             // Enviar uma mensagem de erro de dados em falta
-
+            
         }
 
     } else if ($type === "login") {   // Verifica o tipo do formulário ..: Register :.. ou ..: Login :..
