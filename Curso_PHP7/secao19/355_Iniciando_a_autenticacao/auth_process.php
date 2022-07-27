@@ -3,8 +3,10 @@
     require_once "db.php";
     require_once "models/User.php";
     require_once "dao/UserDAO.php";
-   
+    require_once "models/Message.php";
   
+
+    $message = new Message($BASE_URL); // Instanciamento do sistema de mensagem passando a base url
 
     // Resgata o tipo do furmilário
     $type = filter_input(INPUT_POST, "type"); // Evita inserção de dados maliciosos pelo utilizador
@@ -23,7 +25,7 @@
 
         } else {
             // Enviar uma mensagem de erro de dados em falta
-            
+            $message->setMessage("Por favor preencha todos os campos", "error", "back");
         }
 
     } else if ($type === "login") {   // Verifica o tipo do formulário ..: Register :.. ou ..: Login :..
