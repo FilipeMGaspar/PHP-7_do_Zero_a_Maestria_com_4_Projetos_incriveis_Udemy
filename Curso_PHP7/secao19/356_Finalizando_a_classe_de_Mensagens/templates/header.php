@@ -2,7 +2,9 @@
     require_once "globals.php";
     require_once "db.php";
 
-    $flassMessage = [];
+    $message = new Message($BASE_URL); // Instanciamento do sistema de mensagens
+
+    $flassMessage = $message->getMessage();
 ?>
 <!DOCTYPE html>
 <html lang="pt-pt">
