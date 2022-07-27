@@ -1,7 +1,7 @@
 <?php
     require_once "globals.php";
     require_once "db.php";
-    require_once "../models/Message.php";
+    require_once "models/Message.php";
 
     $message = new Message($BASE_URL); // Instanciamento do sistema de mensagens
 
@@ -9,6 +9,7 @@
 
     if(!empty($flassMessage["msg"])){ // Verifica se a mensagem não está vazia
         // Limpa a mensagem
+        $message->clearMessage();
     }
 
 ?>
