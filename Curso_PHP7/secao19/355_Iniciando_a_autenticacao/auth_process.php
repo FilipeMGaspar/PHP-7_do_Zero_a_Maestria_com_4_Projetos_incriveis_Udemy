@@ -12,6 +12,9 @@
     // Verificação do tipo de formulário
     if($type === "register") {
 
+        $name = filter_input(INPUT_POST, "name");
+        
+
     } else if ($type === "login") {
 
     }

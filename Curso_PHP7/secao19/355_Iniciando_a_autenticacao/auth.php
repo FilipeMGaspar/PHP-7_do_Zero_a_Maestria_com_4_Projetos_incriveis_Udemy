@@ -1,7 +1,7 @@
 <?php
     require_once "templates/header.php";
 ?>
-
+    <!-- Formulário de LogIn -->
     <div id="main-container" class="container-fluid">
         <div class="col-md-12">
             <div class="row" id="auth-row">
@@ -23,6 +23,7 @@
                     </form>
                 </div>
 
+                <!-- Formulário de Registo -->
                 <div class="col-md-4" id="register-container">
                     <h2>Criar conta</h2>
                     <form action="<?= $BASE_URL ?>auth_process.php" method="post">
