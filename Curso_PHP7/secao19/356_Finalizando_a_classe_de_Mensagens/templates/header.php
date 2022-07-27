@@ -9,7 +9,7 @@
 
     if(!empty($flassMessage["msg"])){ // Verifica se a mensagem não está vazia
         // Limpa a mensagem
-        $message->clearMessage();
+        $message->clearMessage(); // Limpa a mensagem apresentada ao utilizador
     }
 
 ?>
