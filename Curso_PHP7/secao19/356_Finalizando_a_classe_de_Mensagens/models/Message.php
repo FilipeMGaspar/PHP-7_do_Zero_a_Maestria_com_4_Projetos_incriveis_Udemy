@@ -20,6 +20,14 @@
 
         public function getMessage() {
 
+            if(!empty($_SESSION["msg"])) { // Verifica se a mensagem de sessão não está vazia
+                return [
+                    "msg" => $_SESSION["msg"],
+                    "type" => $_SESSION["type"]
+                ];
+            } else {
+                return false;
+            }
         }
 
         public function clearMessage() {
