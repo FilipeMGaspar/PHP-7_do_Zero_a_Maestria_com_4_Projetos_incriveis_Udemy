@@ -14,7 +14,9 @@
 
         $name = filter_input(INPUT_POST, "name");
         $email = filter_input(INPUT_POST, "email");
-        
+        $lastname = filter_input(INPUT_POST, "lastname");
+        $password = filter_input(INPUT_POST, "password");
+        $confirmpassword = filter_input(INPUT_POST, "confirmpassword");
 
     } else if ($type === "login") {   // Verifica o tipo do formulário ..: Register :.. ou ..: Login :..
 
