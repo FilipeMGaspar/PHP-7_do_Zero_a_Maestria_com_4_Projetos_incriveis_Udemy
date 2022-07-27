@@ -4,17 +4,18 @@
     require_once "models/User.php";
     require_once "dao/UserDAO.php";
    
-    // Verifica o tipo do formulário ..: Register :.. ou ..: Login :..
+  
 
-    // REgata o tipo do furmilário
+    // Resgata o tipo do furmilário
     $type = filter_input(INPUT_POST, "type"); // Evita inserção de dados maliciosos pelo utilizador
 
     // Verificação do tipo de formulário
-    if($type === "register") {
+    if($type === "register") {   // Verifica o tipo do formulário ..: Register :.. ou ..: Login :..
 
         $name = filter_input(INPUT_POST, "name");
+        $email = filter_input(INPUT_POST, "email");
         
 
-    } else if ($type === "login") {
+    } else if ($type === "login") {   // Verifica o tipo do formulário ..: Register :.. ou ..: Login :..
 
     }
