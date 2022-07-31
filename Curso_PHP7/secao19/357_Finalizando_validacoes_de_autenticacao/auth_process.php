@@ -29,7 +29,8 @@
                 if($userDao->findByEmail($email) === false) {
 
                 } else {
-                    
+                    // Enviar uma mensagem de erro email já registado na base de dados
+                    $message->setMessage("Utilizador já resgistado. Teste um E-mail diferente.", "error", "back");
                 }
 
             } else {
