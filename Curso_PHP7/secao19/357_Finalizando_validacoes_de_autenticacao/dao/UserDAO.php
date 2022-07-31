@@ -48,12 +48,21 @@
         }
 
         public function findByEmail($email) {
-            if($email != "") {
+            if($email != "") { // Se o campo email não vir vazio
                 $stmt = $this->conn->prepare("SELECT * FROM users WHERE email = :email");
 
                 $stmt->bindParam(":email", $email);
 
                 $stmt->execute();
+
+                // Sem utilização do fetch
+                if($stmt->rowCount() > 0) { // se número de linhas maior que 0 quer dizer que achou registos com o email
+                    $data = $stmt->fetch();
+                    $user = 
+                } else {
+                    return false;
+                }
+
             } else {
                 return false;
             }
