@@ -25,9 +25,12 @@
             // Verificação de senhas, se as mesmas são iguais
             if($password === $confirmpassword) {
                 
+                // verificar se o e-mail já está registado na base de dados
+                
+
             } else {
                   // Enviar uma mensagem de erro por senhas diferentes
-            $message->setMessage("As passwords não são iguais", "error", "back");
+                $message->setMessage("As passwords não são iguais", "error", "back");
             }
         } else {
             // Enviar uma mensagem de erro de dados em falta
