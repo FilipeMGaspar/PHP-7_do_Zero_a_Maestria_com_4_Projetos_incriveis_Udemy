@@ -22,7 +22,13 @@
 
         // Verificação de dados minimos
         if($name && $lastname && $email && $password) { 
-
+            // Verificação de senhas, se as mesmas são iguais
+            if($password === $confirmpassword) {
+                
+            } else {
+                  // Enviar uma mensagem de erro por senhas diferentes
+            $message->setMessage("As passwords não são iguais", "error", "back");
+            }
         } else {
             // Enviar uma mensagem de erro de dados em falta
             $message->setMessage("Por favor preencha todos os campos", "error", "back");
