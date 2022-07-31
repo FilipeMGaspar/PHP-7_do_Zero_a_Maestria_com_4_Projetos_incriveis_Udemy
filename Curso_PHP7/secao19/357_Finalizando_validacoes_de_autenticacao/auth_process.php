@@ -26,7 +26,11 @@
             if($password === $confirmpassword) {
                 
                 // verificar se o e-mail já está registado na base de dados
-                
+                if($userDao->findByEmail($email) === false) {
+
+                } else {
+                    
+                }
 
             } else {
                   // Enviar uma mensagem de erro por senhas diferentes
