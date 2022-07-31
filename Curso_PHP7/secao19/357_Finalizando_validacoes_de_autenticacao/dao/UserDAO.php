@@ -50,6 +50,10 @@
         public function findByEmail($email) {
             if($email != "") {
                 $stmt = $this->conn->prepare("SELECT * FROM users WHERE email = :email");
+
+                $stmt->bindParam(":email", $email);
+
+                $stmt->execute();
             } else {
                 return false;
             }
