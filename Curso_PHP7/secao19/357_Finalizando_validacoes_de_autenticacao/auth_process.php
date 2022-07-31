@@ -8,6 +8,8 @@
 
     $message = new Message($BASE_URL); // Instanciamento do sistema de mensagem passando a base url
 
+    $userDao = new UserDAO($conn, $BASE_URL);
+
     // Resgata o tipo do furmilário
     $type = filter_input(INPUT_POST, "type"); // Evita inserção de dados maliciosos pelo utilizador
 
