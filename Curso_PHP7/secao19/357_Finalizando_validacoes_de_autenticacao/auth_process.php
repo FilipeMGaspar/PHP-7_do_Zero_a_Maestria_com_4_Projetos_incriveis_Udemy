@@ -31,7 +31,7 @@
                 
                 // verificar se o e-mail já está registado na base de dados
                 echo "!!!! **** Ligação á bd ..: ";
-                print_r($conn->$dbname);
+                print_r($dbname);
                 echo "<br><br>";
                 echo "userDAO ..:  ";
                 print_r($userDao);
