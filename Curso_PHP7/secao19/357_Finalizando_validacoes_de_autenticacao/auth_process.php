@@ -26,7 +26,9 @@
         if($name && $lastname && $email && $password) { 
             // Verificação de senhas, se as mesmas são iguais
             if($password === $confirmpassword) {
-                
+                echo "EMAIL ..:  $email <br><br>";
+                echo "TESTE ..: " . $userDao->findByEmail($email);
+                /*
                 // verificar se o e-mail já está registado na base de dados
                 if($userDao->findByEmail($email) === false) {
                     echo "Nenhum utilizador foi encontrado! Falta terminar de implemetar....";
@@ -34,6 +36,7 @@
                     // Enviar uma mensagem de erro email já registado na base de dados
                     $message->setMessage("Utilizador já resgistado. Teste um E-mail diferente.", "error", "back");
                 }
+                */
 
             } else {
                   // Enviar uma mensagem de erro por senhas diferentes

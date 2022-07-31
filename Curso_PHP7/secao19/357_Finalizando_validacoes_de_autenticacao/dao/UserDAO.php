@@ -48,8 +48,11 @@
         }
 
         public function findByEmail($email) {
+            echo " | FindByEmail | Recebi E-mail:.. $email";
+           
             if($email != "") { // Se o campo email não vir vazio
-                $stmt = $this->conn->prepare("SELECT * FROM users WHERE email = :email");
+
+               /* $stmt = $this->conn->prepare("SELECT * FROM users WHERE email = :email");
 
                 $stmt->bindParam(":email", $email);
 
@@ -64,10 +67,11 @@
 
                 } else {
                     return false;
-                }
-
+                }*/
+                echo "..: IF :.. Recebi E-mail:.. $email";
             } else {
-                return false;
+                echo "*** No ELSE Recebi E-mail:.. $email";
+                //return $email;
             }
         }
 
