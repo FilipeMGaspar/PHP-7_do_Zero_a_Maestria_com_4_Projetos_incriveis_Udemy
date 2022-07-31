@@ -26,7 +26,7 @@
         if($name && $lastname && $email && $password) { 
             // Verificação de senhas, se as mesmas são iguais
             if($password === $confirmpassword) {
-                echo "EMAIL ..:  $email <br><br>";
+                echo " !!! Passagen de E-MAIL ..:  $email <br><br>";
                 echo "TESTE ..: " . $userDao->findByEmail($email);
                 /*
                 // verificar se o e-mail já está registado na base de dados
