@@ -56,6 +56,8 @@
                 echo "Ligação a bd = ";
                 print_r($this->conn);
                 echo "<br><br>";
+                print_r($this->url);
+                echo "<br><br>";
 
                 /*
                 $stmt = $this->conn->prepare("SELECT * FROM users WHERE email = :email");

@@ -27,10 +27,16 @@
             // Verificação de senhas, se as mesmas são iguais
             if($password === $confirmpassword) {
                 echo " !!! Passagen de E-MAIL ..:  $email <br><br>";
-                echo "TESTE ..: " . $userDao->findByEmail($email);
+                echo "TESTE ..: " . $userDao->findByEmail($email) . "<br><br>";
                 
                 // verificar se o e-mail já está registado na base de dados
-                if($userDao->findByEmail($email) === false) {
+                echo "!!!! **** Ligação á bd ..: ";
+                print_r($conn->$dbname);
+                echo "<br><br>";
+                echo "userDAO ..:  ";
+                print_r($userDao);
+                echo "<br><br>";
+                if($userDao->findByEmail($email) !== false) {
                     echo "Nenhum utilizador foi encontrado! Falta terminar de implemetar....";
                 } else {
                     // Enviar uma mensagem de erro email já registado na base de dados
