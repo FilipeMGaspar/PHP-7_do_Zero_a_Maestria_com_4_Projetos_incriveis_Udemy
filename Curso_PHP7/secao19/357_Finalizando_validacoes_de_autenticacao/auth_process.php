@@ -8,7 +8,7 @@
 
     $message = new Message($BASE_URL); // Instanciamento do sistema de mensagem passando a base url
 
-    $userDao = new UserDAO($conn, $BASE_URL);
+    $userDao = new UserDAO($conn, $BASE_URL); // Instacia do UserDAO
 
     // Resgata o tipo do furmilário
     $type = filter_input(INPUT_POST, "type"); // Evita inserção de dados maliciosos pelo utilizador
@@ -29,7 +29,7 @@
                 
                 // verificar se o e-mail já está registado na base de dados
                 if($userDao->findByEmail($email) === false) {
-
+                    echo "Nenhum utilizador foi encontrado!";
                 } else {
                     // Enviar uma mensagem de erro email já registado na base de dados
                     $message->setMessage("Utilizador já resgistado. Teste um E-mail diferente.", "error", "back");
