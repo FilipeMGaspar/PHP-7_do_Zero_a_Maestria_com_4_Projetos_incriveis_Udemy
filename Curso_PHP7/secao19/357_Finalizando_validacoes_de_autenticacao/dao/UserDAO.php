@@ -58,7 +58,10 @@
                 // Sem utilização do fetch
                 if($stmt->rowCount() > 0) { // se número de linhas maior que 0 quer dizer que achou registos com o email
                     $data = $stmt->fetch();
-                    $user = 
+                    $user = $this->buildUser($data);
+
+                    return $user; // retorna o user para o front
+
                 } else {
                     return false;
                 }
