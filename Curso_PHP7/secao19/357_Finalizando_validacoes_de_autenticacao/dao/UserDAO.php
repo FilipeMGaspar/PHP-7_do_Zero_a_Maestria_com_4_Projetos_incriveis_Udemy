@@ -51,7 +51,7 @@
            
             if($email != "") { // Se o campo email não vier vazio
         
-                $stmt = $this->conn->prepare("SELECT * FROM users WHERE email = :email");
+                $stmt = $this->conn->prepare("SELECT * FROM users WHERE email = :email"); // Com erro não encontra a base de dados
 
                 $stmt->bindParam(":email", $email);
 
