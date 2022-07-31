@@ -50,10 +50,12 @@
         public function findByEmail($email) {
             echo " | FindByEmail | Recebi E-mail:.. $email <br><br>";
            
-            if($email != "") { // Se o campo email não vir vazio
+            if($email != "") { // Se o campo email não vier vazio
                 echo "..: IF :.. Recebi E-mail:.. $email <br><br>";
                 
-                echo "Ligação a bd = ". $this->conn . "<br><br>";
+                echo "Ligação a bd = ";
+                print_r($this->conn);
+                echo "<br><br>";
 
                 /*
                 $stmt = $this->conn->prepare("SELECT * FROM users WHERE email = :email");
