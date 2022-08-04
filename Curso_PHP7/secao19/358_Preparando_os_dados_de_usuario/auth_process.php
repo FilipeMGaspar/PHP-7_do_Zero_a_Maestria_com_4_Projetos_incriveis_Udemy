@@ -29,7 +29,12 @@
                 
                 // verificar se o e-mail já está registado na base de dados
                 if($userDao->findByEmail($email) === false) {
-                    echo "Nenhum utilizador foi encontrado! Falta terminar de implemetar....";
+                    
+                    $user = new User();
+
+                    //Criação de token e senha
+                    
+
                 } else {
                     // Enviar uma mensagem de erro email já registado na base de dados
                     $message->setMessage("Utilizador já resgistado. Teste um E-mail diferente.", "error", "back");
