@@ -45,7 +45,7 @@
                     //Autenticar o utilizador
                     $auth = true;
 
-                    
+                    $userDao->create($user, $auth); // Criação do utilizador utilizado o userDAO
                 } else {
                     // Enviar uma mensagem de erro email já registado na base de dados
                     $message->setMessage("Utilizador já resgistado. Teste um E-mail diferente.", "error", "back");
