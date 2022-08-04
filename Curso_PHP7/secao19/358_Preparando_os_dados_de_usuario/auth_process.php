@@ -33,9 +33,13 @@
                     $user = new User();
 
                     //Criação de token e senha
-                    $usertoken = $user->generateToken();
+                    $userToken = $user->generateToken(); // Token 
+                    $finalpassword = $user->generatePassword($password); // Senha encriptada
 
-                    $finalpassword = $user->generatePassword($password);
+                    $user->name = $name;
+                    $user->email = $email;
+                    $user->password = $finalpassword;
+                    $user->token = $userToken;
 
                 } else {
                     // Enviar uma mensagem de erro email já registado na base de dados
