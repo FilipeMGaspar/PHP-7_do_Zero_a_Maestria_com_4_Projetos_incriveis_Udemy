@@ -10,7 +10,7 @@
         public $token;
         
         public function generateToken() {
-            return bin2hex(random_bytes(50));
+            return bin2hex(random_bytes(50)); // Criação de token aleatório encriptado
         }
 
     }
