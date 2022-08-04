@@ -28,7 +28,7 @@
         }
 
         public function create(User $user, $authUser = false){
-
+            echo ""
         }
 
         public function update(User $user) {
