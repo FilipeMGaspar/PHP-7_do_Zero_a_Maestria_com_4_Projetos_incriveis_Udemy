@@ -36,11 +36,16 @@
                     $userToken = $user->generateToken(); // Token 
                     $finalpassword = $user->generatePassword($password); // Senha encriptada
 
+                    //Criação do utilizador
                     $user->name = $name;
                     $user->email = $email;
                     $user->password = $finalpassword;
                     $user->token = $userToken;
 
+                    //Autenticar o utilizador
+                    $auth = true;
+
+                    
                 } else {
                     // Enviar uma mensagem de erro email já registado na base de dados
                     $message->setMessage("Utilizador já resgistado. Teste um E-mail diferente.", "error", "back");
