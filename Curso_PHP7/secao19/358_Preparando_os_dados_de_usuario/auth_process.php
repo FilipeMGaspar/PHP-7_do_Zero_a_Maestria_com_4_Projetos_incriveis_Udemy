@@ -33,7 +33,9 @@
                     $user = new User();
 
                     //Criação de token e senha
-                    
+                    $usertoken = $user->generateToken();
+
+                    $finalpassword = password_hash();
 
                 } else {
                     // Enviar uma mensagem de erro email já registado na base de dados
