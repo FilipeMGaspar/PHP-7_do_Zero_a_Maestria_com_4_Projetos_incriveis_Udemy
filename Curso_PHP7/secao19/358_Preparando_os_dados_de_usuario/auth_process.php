@@ -35,7 +35,7 @@
                     //Criação de token e senha
                     $usertoken = $user->generateToken();
 
-                    $finalpassword = password_hash($password, PASSWORD_DEFAULT);
+                    $finalpassword = $user->generatePassword($password);
 
                 } else {
                     // Enviar uma mensagem de erro email já registado na base de dados
