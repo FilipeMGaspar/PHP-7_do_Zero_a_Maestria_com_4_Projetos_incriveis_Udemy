@@ -42,6 +42,9 @@
                 $stmt->execute();
 
                 //Autenticação do utilizador caso o authUser seja verdadeiro / TRUE
+                if ($authUser) {
+                    $this->setTokenToSession($user->token);
+                }
         }
 
         public function update(User $user) {
@@ -54,6 +57,7 @@
 
         public function setTokenToSession($token, $redirect = true){
 
+            
         }
 
         public function authenticateUser($email, $password){
