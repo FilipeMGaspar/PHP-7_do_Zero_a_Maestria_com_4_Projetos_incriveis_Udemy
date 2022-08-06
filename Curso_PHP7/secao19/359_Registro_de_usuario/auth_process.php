@@ -39,6 +39,7 @@
                     //Criação do utilizador
                     $user->name = $name;
                     $user->email = $email;
+                    $user->lastname = $lastname;
                     $user->password = $finalpassword;
                     $user->token = $userToken;
 
