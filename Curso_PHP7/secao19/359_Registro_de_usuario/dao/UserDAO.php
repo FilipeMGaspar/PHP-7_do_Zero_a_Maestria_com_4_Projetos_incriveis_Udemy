@@ -1,10 +1,12 @@
 <?php
     require_once "models/user.php";
+    require_once "models/Message.php";
 
     class UserDAO implements UserDAOInterface {
 
         private $conn;
         private $url;
+        private $message;
 
         public function __construct(PDO $conn, $url)
         {
@@ -57,7 +59,13 @@
 
         public function setTokenToSession($token, $redirect = true){
 
-            
+            // Salvar token na sessão
+            $_SESSION["token"] = $token;
+
+            if($redirect) {
+                // Redireciona para o perfil do utilizador
+                $this->message;
+            }
         }
 
         public function authenticateUser($email, $password){
