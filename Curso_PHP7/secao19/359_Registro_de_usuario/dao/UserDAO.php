@@ -40,6 +40,8 @@
                 $stmt->bindParam(":token", $user->token);
 
                 $stmt->execute();
+
+                //Autenticação do utilizador caso o authUser seja verdadeiro / TRUE
         }
 
         public function update(User $user) {
