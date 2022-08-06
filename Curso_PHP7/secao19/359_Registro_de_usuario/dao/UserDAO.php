@@ -29,8 +29,11 @@
 
         public function create(User $user, $authUser = false){
             
-            $stmt = $this-conn->prepare("INSERT INTO users ()
-            ");
+            $stmt = $this->conn->prepare("INSERT INTO users (
+                name, lastname, email, password, token)
+                VALUES (:name, :lastname, :email, :password, :token)"); // Query sql de inserção de dados
+
+                
         }
 
         public function update(User $user) {
