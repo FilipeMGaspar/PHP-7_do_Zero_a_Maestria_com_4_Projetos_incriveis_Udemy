@@ -35,7 +35,9 @@
 
                 $stmt->bindParam(":name", $user->name);
                 $stmt->bindParam(":lastname", $user->lastname);
-                
+                $stmt->bindParam(":email", $user->email);
+                $stmt->bindParam(":password", $user->password);
+                $stmt->bindParam(":token", $user->token);
         }
 
         public function update(User $user) {
