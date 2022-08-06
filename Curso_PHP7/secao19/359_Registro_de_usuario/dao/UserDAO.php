@@ -12,6 +12,7 @@
         {
             $this->conn = $conn;
             $this->url = $url;
+            $this->message = new Message($url);
         }
 
         public function buildUser($data){
