@@ -33,6 +33,8 @@
                 name, lastname, email, password, token)
                 VALUES (:name, :lastname, :email, :password, :token)"); // Query sql de inserção de dados
 
+                $stmt->bindParam(":name", $user->name);
+                $stmt->bindParam(":lastname", $user->lastname);
                 
         }
 
