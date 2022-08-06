@@ -65,7 +65,7 @@
 
             if($redirect) {
                 // Redireciona para o perfil do utilizador
-                $this->message;
+                $this->message->setMessage("Seja Bem-vindo!", "sucess", "editprofile.php");
             }
         }
 
