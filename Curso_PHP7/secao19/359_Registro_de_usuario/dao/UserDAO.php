@@ -38,6 +38,8 @@
                 $stmt->bindParam(":email", $user->email);
                 $stmt->bindParam(":password", $user->password);
                 $stmt->bindParam(":token", $user->token);
+
+                $stmt->execute();
         }
 
         public function update(User $user) {
