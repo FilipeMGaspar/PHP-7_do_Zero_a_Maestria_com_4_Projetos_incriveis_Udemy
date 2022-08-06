@@ -29,6 +29,8 @@
 
         public function create(User $user, $authUser = false){
             
+            $stmt = $this-conn->prepare("INSERT INTO users ()
+            ");
         }
 
         public function update(User $user) {
