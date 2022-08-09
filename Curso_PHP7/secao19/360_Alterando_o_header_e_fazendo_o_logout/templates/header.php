@@ -2,6 +2,7 @@
     require_once "globals.php";
     require_once "db.php";
     require_once "models/Message.php";
+    require_once "dao/User.php";
 
     $message = new Message($BASE_URL); // Instanciamento do sistema de mensagens
 
