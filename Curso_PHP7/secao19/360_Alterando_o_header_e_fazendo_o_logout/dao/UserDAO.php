@@ -61,6 +61,13 @@
 
             $user = $this->findByToken($token);
 
+            if($user) {
+                return $user;
+            } else{
+                 // Redireciona utilizador não autenticado
+                 $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "index.php");
+            }
+
             if(!empty($_SESSION["token"])) {
 
             } else {
@@ -114,6 +121,29 @@
         }
 
         public function findByToken($token) {
+                       
+            if($token != "") { // Se o campo token não vier vazio
+        
+                $stmt = $this->conn->prepare("SELECT * FROM users WHERE token = :token"); // Com erro não encontra a base de dados
+
+                $stmt->bindParam(":token", $token);
+
+                $stmt->execute();
+
+                // Sem utilização do fetch
+                if($stmt->rowCount() > 0) { // se número de linhas maior que 0 quer dizer que achou registos com o token
+                    $data = $stmt->fetch();
+                    $user = $this->buildUser($data);
+
+                    return $user; // retorna o user para o front
+
+                } else {
+                    return false;
+                }
+               
+            } else {
+               return false;
+            }
 
         }
 
