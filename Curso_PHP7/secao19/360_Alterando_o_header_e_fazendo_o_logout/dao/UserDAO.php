@@ -55,7 +55,7 @@
         }
        
         public function verifyToken($protected = false){
-
+            
         }
 
         public function setTokenToSession($token, $redirect = true){
