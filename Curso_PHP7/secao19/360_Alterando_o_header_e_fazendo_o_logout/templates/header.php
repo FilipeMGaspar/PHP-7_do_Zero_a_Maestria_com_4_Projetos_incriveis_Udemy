@@ -14,8 +14,8 @@
     }
 
     $userDao = new UserDAO($conn, $BASE_URL); // Instancia do userDao
-    $userData = $userDao->verifyToken();
-    
+    $userData = $userDao->verifyToken(false);
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-pt">
