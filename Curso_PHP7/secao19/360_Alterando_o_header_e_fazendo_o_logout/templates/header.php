@@ -2,7 +2,7 @@
     require_once "globals.php";
     require_once "db.php";
     require_once "models/Message.php";
-    require_once "dao/User.php";
+    require_once "dao/UserDAO.php";
 
     $message = new Message($BASE_URL); // Instanciamento do sistema de mensagens
 
@@ -15,6 +15,8 @@
 
     $userDao = new UserDAO($conn, $BASE_URL); // Instancia do userDao
     $userData = $userDao->verifyToken(false);
+
+    print_r($userData); exit;
 
 ?>
 <!DOCTYPE html>
