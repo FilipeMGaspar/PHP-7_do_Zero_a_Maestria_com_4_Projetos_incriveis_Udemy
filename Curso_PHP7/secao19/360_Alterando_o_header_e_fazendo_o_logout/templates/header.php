@@ -13,6 +13,9 @@
         $message->clearMessage(); // Limpa a mensagem apresentada ao utilizador
     }
 
+    $userDao = new UserDAO($conn, $BASE_URL); // Instancia do userDao
+    $userData = $userDao->verifyToken();
+    
 ?>
 <!DOCTYPE html>
 <html lang="pt-pt">
