@@ -55,7 +55,17 @@
         }
        
         public function verifyToken($protected = false){
-            
+
+            // Recebe o token da sessão/sission
+            $token = $_SESSION["token"];
+
+            $user = $this->findByToken($token);
+
+            if(!empty($_SESSION["token"])) {
+
+            } else {
+                return false;
+            }
         }
 
         public function setTokenToSession($token, $redirect = true){
