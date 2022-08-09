@@ -61,14 +61,14 @@
 
             $user = $this->findByToken($token);
 
-            if($user) {
-                return $user;
-            } else{
-                 // Redireciona utilizador não autenticado
-                 $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "index.php");
-            }
-
             if(!empty($_SESSION["token"])) {
+                
+                if($user) {
+                    return $user;
+                } else{
+                     // Redireciona utilizador não autenticado
+                     $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "index.php");
+                }
 
             } else {
                 return false;
