@@ -16,8 +16,6 @@
     $userDao = new UserDAO($conn, $BASE_URL); // Instancia do userDao
     $userData = $userDao->verifyToken(false);
 
-    print_r($userData); exit;
-
 ?>
 <!DOCTYPE html>
 <html lang="pt-pt">
@@ -62,7 +60,21 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav">
                   <?php if($userData): ?>
-                        <p>Fez login!</p>
+                        <li class="nav-item">
+                            <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar / Registar</a>
+                        </li>   
+
+                        <li class="nav-item">
+                            <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar / Registar</a>
+                        </li>   
+
+                        <li class="nav-item">
+                            <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar / Registar</a>
+                        </li>   
+
+                        <li class="nav-item">
+                            <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar / Registar</a>
+                        </li>   
                     <?php else: ?>
                         <li class="nav-item">
                             <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar / Registar</a>
