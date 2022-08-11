@@ -61,7 +61,9 @@
                 <ul class="navbar-nav">
                   <?php if($userData): ?>
                         <li class="nav-item">
-                            <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar / Registar</a>
+                            <a href="<?= $BASE_URL ?>newmovie.php" class="nav-link">
+                                <i class="far fa-plus-square"></i> Incluir filme
+                            </a>
                         </li>   
 
                         <li class="nav-item">
