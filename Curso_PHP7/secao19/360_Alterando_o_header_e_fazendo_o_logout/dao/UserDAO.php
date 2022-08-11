@@ -65,14 +65,15 @@
                 
                 if($user) {
                     return $user;
-                } else{
+                } else if($protected) {
                      // Redireciona utilizador não autenticado
                      $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "index.php");
                 }
 
-            } else {
-                return false;
-            }
+            } else if($protected) {
+                // Redireciona utilizador não autenticado
+                $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "index.php");
+           }
         }
 
         public function setTokenToSession($token, $redirect = true){
