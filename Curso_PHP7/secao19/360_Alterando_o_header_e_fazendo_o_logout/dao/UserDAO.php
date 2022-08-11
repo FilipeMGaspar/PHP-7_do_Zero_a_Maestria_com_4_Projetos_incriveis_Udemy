@@ -65,7 +65,7 @@
                 
                 if($user) {
                     return $user;
-                } else if($protected) {
+                } else if($protected){
                      // Redireciona utilizador não autenticado
                      $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "index.php");
                 }
@@ -76,7 +76,7 @@
            }
         }
 
-        public function setTokenToSession($token, $redirect = true){
+        public function setTokenToSession($token, $redirect = true) {
 
             // Salvar token na sessão
             $_SESSION["token"] = $token;
