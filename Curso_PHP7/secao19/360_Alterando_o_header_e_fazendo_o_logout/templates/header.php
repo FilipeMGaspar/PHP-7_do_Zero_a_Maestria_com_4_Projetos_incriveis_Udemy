@@ -61,9 +61,13 @@
             </form>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar / Registar</a>
-                    </li>
+                  <?php if($userData): ?>
+                        <p>Fez login!</p>
+                    <?php else: ?>
+                        <li class="nav-item">
+                            <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar / Registar</a>
+                        </li>    
+                    <?php endif; ?>
                 </ul>
             </div>
         </nav>
