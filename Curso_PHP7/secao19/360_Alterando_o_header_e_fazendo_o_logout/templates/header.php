@@ -62,12 +62,12 @@
                   <?php if($userData): ?>
                         <li class="nav-item">
                             <a href="<?= $BASE_URL ?>newmovie.php" class="nav-link">
-                                <i class="far fa-plus-square"></i> Incluir filme
+                                <i class="far fa-plus-square"></i> Adicionar filme
                             </a>
                         </li>   
 
                         <li class="nav-item">
-                            <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar / Registar</a>
+                            <a href="<?= $BASE_URL ?>dashboard.php" class="nav-link">Meus Filmes</a>
                         </li>   
 
                         <li class="nav-item">
