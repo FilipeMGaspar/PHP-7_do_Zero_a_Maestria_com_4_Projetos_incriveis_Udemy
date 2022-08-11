@@ -67,12 +67,12 @@
                     return $user;
                 } else if($protected){
                      // Redireciona utilizador não autenticado
-                     $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "index.php");
+                     $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "");
                 }
 
             } else if($protected) {
                 // Redireciona utilizador não autenticado
-                $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "index.php");
+                $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "");
            }
         }
 
