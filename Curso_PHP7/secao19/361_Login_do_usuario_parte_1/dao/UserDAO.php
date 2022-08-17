@@ -93,7 +93,17 @@
 
             if($user) {
                 if(password_verify($password, $user->password)) { //Verificação de passwords se são iguais
+                   
+                    //Gerar o token e inserir na sessão
+                    $token = $user->generateToken();
+                    $this->setTokenToSession($token);
 
+                    // atualizar token do utilizador na bd
+                    $user->token = $token;
+                    $this->update($user);
+
+                    return true;
+                    
                 } else {
                     return false;
                 }
