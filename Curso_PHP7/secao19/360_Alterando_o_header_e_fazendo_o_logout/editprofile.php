@@ -8,7 +8,7 @@
 ?>
 
     <div id="main-container" class="container-fluid">
-        <h1>Edição de perfil de utilizador</h1>
+        <h1>Editar o perfil do utilizador</h1>
     </div>
 
 <?php
