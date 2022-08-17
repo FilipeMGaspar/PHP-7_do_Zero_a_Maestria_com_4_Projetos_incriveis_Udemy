@@ -90,6 +90,17 @@
         public function authenticateUser($email, $password){
 
             $user = $this->findByEmail($email);
+
+            if($user) {
+                if(password_verify($password, $user->password)) { //Verificação de passwords se são iguais
+
+                } else {
+                    return false;
+                }
+            } else {
+                return false;
+            }
+    
         }
 
         public function findByEmail($email) {

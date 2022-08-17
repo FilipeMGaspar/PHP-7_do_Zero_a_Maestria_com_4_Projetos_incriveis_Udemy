@@ -68,8 +68,8 @@
 
         // Tentativa de autenticar o utilizador
         if($userDao->authenticateUser($email, $password)) {
-            
-        } else { // Redireciona o utilizador no caso de não conseguir autenticação
 
+        } else { // Redireciona o utilizador no caso de não conseguir autenticação
+            $message->setMessage("Utilisador e/ou password, estão incorrectos! ", "error", "back");
         }
     }
