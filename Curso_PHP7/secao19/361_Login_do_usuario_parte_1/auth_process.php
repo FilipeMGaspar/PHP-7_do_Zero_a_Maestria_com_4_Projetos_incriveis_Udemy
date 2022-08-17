@@ -62,5 +62,14 @@
         }
 
     } else if ($type === "login") {   // Verifica o tipo do formulário ..: Register :.. ou ..: Login :..
-        echo "Olá Estou no login!";
+        
+        $email = filter_input(INPUT_POST, "email");
+        $password = filter_input(INPUT_POST, "password");
+
+        // Tentativa de autenticar o utilizador
+        if($userDao->authenticateUser($email, $password)) {
+            
+        } else { // Redireciona o utilizador no caso de não conseguir autenticação
+
+        }
     }
