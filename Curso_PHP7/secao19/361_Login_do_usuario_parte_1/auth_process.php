@@ -62,5 +62,5 @@
         }
 
     } else if ($type === "login") {   // Verifica o tipo do formulário ..: Register :.. ou ..: Login :..
-
+        echo "Olá Estou no login!";
     }
