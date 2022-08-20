@@ -50,7 +50,7 @@
                 }
         }
 
-        public function update(User $user) {
+        public function update(User $user, $redirect = true) {
             $stmt = $this->conn->prepare("UPDATE USERS SET 
                 name = :name,
                 lastname = :lastname
@@ -70,6 +70,11 @@
             $stmt->bindParam(":id", $id);
 
             $stmt->execute();
+
+            if($redirect) {
+                // Redireciona para o perfil do utilizador
+                $this->message->setMessage("Dados atualizados com sucesso!", "success", "editprofile.php");
+            }
         }
        
         public function verifyToken($protected = false){
@@ -118,7 +123,7 @@
 
                     // atualizar token do utilizador na bd
                     $user->token = $token;
-                    $this->update($user);
+                    $this->update($user, false);
 
                     return true;
                     
