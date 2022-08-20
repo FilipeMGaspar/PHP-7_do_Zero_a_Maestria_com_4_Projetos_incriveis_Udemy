@@ -53,12 +53,21 @@
         public function update(User $user) {
             $stmt = $this->conn->prepare("UPDATE USERS SET 
                 name = :name,
+                lastname = :lastname
                 email = :email,
                 image = :image,
                 bio = :bio,
                 token = :token
-                
+                WHERE id = :id
             ");
+
+            $stmt->bindParam(":name", $name);
+            $stmt->bindParam(":lastname", $lastname);
+            $stmt->bindParam(":email", $email);
+            $stmt->bindParam(":image", $image);
+            $stmt->bindParam(":bio", $bio);
+            $stmt->bindParam(":token", $token);
+            $stmt->bindParam(":id", $id);
         }
        
         public function verifyToken($protected = false){
