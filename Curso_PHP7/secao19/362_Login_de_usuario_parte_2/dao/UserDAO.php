@@ -53,11 +53,11 @@
         public function update(User $user, $redirect = true) {
             $stmt = $this->conn->prepare("UPDATE USERS SET 
                 name = :name,
-                lastname = :lastname
-                email = :email,
+                lastname = :lastname,              
                 image = :image,
-                bio = :bio,
-                token = :token
+                token = :token,
+                bio = :bio,                
+                email = :email
                 WHERE id = :id
             ");
 
