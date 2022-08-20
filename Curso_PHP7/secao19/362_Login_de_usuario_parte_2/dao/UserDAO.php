@@ -68,6 +68,8 @@
             $stmt->bindParam(":bio", $bio);
             $stmt->bindParam(":token", $token);
             $stmt->bindParam(":id", $id);
+
+            $stmt->execute();
         }
        
         public function verifyToken($protected = false){
