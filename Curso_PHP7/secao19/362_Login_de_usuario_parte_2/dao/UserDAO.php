@@ -119,7 +119,7 @@
                    
                     //Gerar o token e inserir na sessão
                     $token = $user->generateToken();
-                    $this->setTokenToSession($token);
+                    $this->setTokenToSession($token, false);
 
                     // atualizar token do utilizador na bd
                     $user->token = $token;
