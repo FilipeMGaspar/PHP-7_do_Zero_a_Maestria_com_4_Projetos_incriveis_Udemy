@@ -56,12 +56,12 @@
        
         public function verifyToken($protected = false){
 
-            // Recebe o token da sessão/sission
-            $token = $_SESSION["token"];
-
-            $user = $this->findByToken($token);
-
             if(!empty($_SESSION["token"])) {
+
+                // Recebe o token da sessão/session
+                $token = $_SESSION["token"];
+
+                $user = $this->findByToken($token);
                 
                 if($user) {
                     return $user;
