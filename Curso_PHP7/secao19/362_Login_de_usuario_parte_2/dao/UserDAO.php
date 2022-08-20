@@ -61,13 +61,13 @@
                 WHERE id = :id
             ");
 
-            $stmt->bindParam(":name", $name);
-            $stmt->bindParam(":lastname", $lastname);
-            $stmt->bindParam(":email", $email);
-            $stmt->bindParam(":image", $image);
-            $stmt->bindParam(":bio", $bio);
-            $stmt->bindParam(":token", $token);
-            $stmt->bindParam(":id", $id);
+            $stmt->bindParam(":name", $user->name);
+            $stmt->bindParam(":lastname", $user->lastname);
+            $stmt->bindParam(":email", $user->email);
+            $stmt->bindParam(":image", $user->image);
+            $stmt->bindParam(":bio", $user->bio);
+            $stmt->bindParam(":token", $user->token);
+            $stmt->bindParam(":id", $user->id);
 
             $stmt->execute();
 
