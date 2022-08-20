@@ -51,7 +51,14 @@
         }
 
         public function update(User $user) {
-
+            $stmt = $this->conn->prepare("UPDATE USERS SET 
+                name = :name,
+                email = :email,
+                image = :image,
+                bio = :bio,
+                token = :token
+                
+            ");
         }
        
         public function verifyToken($protected = false){
