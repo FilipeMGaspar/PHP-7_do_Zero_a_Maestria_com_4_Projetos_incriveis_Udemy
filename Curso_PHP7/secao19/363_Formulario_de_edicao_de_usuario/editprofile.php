@@ -31,8 +31,9 @@
 
                         <div class="form-group">
                             <label for="email">E-mail:</label>
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Endereço de E-mail" value="<?= $userData->email ?>" readonly>
+                            <input type="email" name="email" id="email" class="form-control disabled" placeholder="Endereço de E-mail" value="<?= $userData->email ?>" readonly>
                         </div>
+                        <input type="submit" class="btn form-btn" value="Modificar">
                     </div>
                 </div>
             </form>
