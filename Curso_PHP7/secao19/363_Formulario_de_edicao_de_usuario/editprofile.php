@@ -9,7 +9,7 @@
 
     <div id="main-container" class="container-fluid">
         <div class="col-md-12">
-            <form action="<?= $BASE_URL ?>" method="post">
+            <form action="<?= $BASE_URL ?>user_process.php" method="post">
 
             </form>
         </div>
