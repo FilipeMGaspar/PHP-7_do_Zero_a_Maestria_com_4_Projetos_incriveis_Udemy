@@ -10,7 +10,12 @@
     <div id="main-container" class="container-fluid">
         <div class="col-md-12">
             <form action="<?= $BASE_URL ?>user_process.php" method="post">
-
+                <input type="hidden" name="type" value="update">
+                <div class="row">
+                    <div class="col-md-4">
+                        
+                    </div>
+                </div>
             </form>
         </div>
     </div>
