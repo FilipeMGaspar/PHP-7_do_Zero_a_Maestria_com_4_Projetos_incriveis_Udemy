@@ -21,7 +21,17 @@
                         <p class="page-description">Formulário de alteração de dados:</p>
                         <div class="form-group">
                             <label for="name">Nome:</label>
-                            <input type="text" name="name" id="name" class="from-control" placeholder="Digite o seu nome" value="<?= $userData->name ?>">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Digite o seu nome" value="<?= $userData->name ?>">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastname">Sobrenome:</label>
+                            <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Digite o seu sobrenome" value="<?= $userData->lastname ?>">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Sobrenome:</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Endereço de Email" value="<?= $userData->email ?>">
                         </div>
                     </div>
                 </div>
