@@ -37,7 +37,7 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div id="profile-image-container" style="background-image: url('');"></div>
+                        <div id="profile-image-container" style="background-image: url('<?= $BASE_URL ?>img/users/<?= $userData->image ?>');"></div>
                     </div>
                 </div>
             </form>
