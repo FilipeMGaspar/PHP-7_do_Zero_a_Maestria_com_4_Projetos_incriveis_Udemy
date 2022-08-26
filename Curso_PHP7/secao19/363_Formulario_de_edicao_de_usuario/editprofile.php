@@ -47,6 +47,11 @@
                             <label for="image">Foto:</label>
                             <input type="file" name="image" class="form-control-file">
                         </div>
+
+                        <div class="form-group">
+                            <label for="bio">Sobre mim:</label>
+                            <textarea name="bio" id="bio" rows="5" placeholder="Curiosidades, hobbies, onde trabalho... "></textarea>
+                        </div>
                     </div>
                 </div>
             </form>
