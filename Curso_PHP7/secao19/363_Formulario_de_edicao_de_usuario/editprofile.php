@@ -30,8 +30,8 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="email">Sobrenome:</label>
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Endereço de Email" value="<?= $userData->email ?>">
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Endereço de E-mail" value="<?= $userData->email ?>" readonly>
                         </div>
                     </div>
                 </div>
