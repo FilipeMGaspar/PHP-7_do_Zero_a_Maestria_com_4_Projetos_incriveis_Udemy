@@ -35,6 +35,10 @@
                         </div>
                         <input type="submit" class="btn form-btn" value="Modificar">
                     </div>
+
+                    <div class="col-md-4">
+                        <div id="profile-image-container" style="background-image: url('');"></div>
+                    </div>
                 </div>
             </form>
         </div>
