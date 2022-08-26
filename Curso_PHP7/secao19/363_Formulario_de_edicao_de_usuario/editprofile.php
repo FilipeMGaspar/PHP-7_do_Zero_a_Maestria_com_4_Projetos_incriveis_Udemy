@@ -8,7 +8,11 @@
 ?>
 
     <div id="main-container" class="container-fluid">
-        <h1>Edição de perfil de utilizador</h1>
+        <div class="col-md-12">
+            <form action="<?= $BASE_URL ?>" method="post">
+
+            </form>
+        </div>
     </div>
 
 <?php
