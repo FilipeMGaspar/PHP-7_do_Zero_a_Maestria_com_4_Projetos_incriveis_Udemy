@@ -9,6 +9,10 @@
     $userData = $userDao->verifyToken(true);
 
     $fullName = $user->getFullName($userData);
+
+    if($userData->image == "") {
+        $userData->image = "user.png";
+    }
 ?>
 
     <div id="main-container" class="container-fluid">
@@ -38,6 +42,11 @@
 
                     <div class="col-md-4">
                         <div id="profile-image-container" style="background-image: url('<?= $BASE_URL ?>img/users/<?= $userData->image ?>');"></div>
+
+                        <div class="form-group">
+                            <label for="image">Foto:</label>
+                            <input type="file" name="image" class="form-control-file">
+                        </div>
                     </div>
                 </div>
             </form>
