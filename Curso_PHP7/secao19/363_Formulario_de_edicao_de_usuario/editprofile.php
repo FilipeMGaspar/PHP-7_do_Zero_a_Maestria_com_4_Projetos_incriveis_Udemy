@@ -18,6 +18,11 @@
                 <div class="row">
                     <div class="col-md-4">
                         <h1><?= $fullName ?></h1>
+                        <p class="page-description">Formulário de alteração de dados:</p>
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" name="name" id="name" class="from-control" placeholder="Digite o seu nome" value="<?= $userData->name ?>">
+                        </div>
                     </div>
                 </div>
             </form>
