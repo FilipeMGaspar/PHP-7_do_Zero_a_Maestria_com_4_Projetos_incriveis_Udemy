@@ -37,6 +37,7 @@
                             <label for="email">E-mail:</label>
                             <input type="email" name="email" id="email" class="form-control disabled" placeholder="Endereço de E-mail" value="<?= $userData->email ?>" readonly>
                         </div>
+
                         <input type="submit" class="btn form-btn" value="Modificar">
                     </div>
 
@@ -68,6 +69,13 @@
                             <label for="password">Password:</label>
                             <input type="password" name="password" id="password" class="form-control" placeholder="Digite a nova password">
                         </div>
+
+                        <div class="form-group">
+                            <label for="confirmpassword">Confirme a Password:</label>
+                            <input type="password" name="confirmpassword" id="confirmpassword" class="form-control" placeholder="Confirme a password">
+                        </div>
+
+                        <input type="submit" class="btn form-btn" value="Alterar Password">
                     </form>
                 </div>
             </div>
