@@ -60,6 +60,15 @@
                 <div class="col-md-4">
                     <h2>Alteração da Password:</h2>
                     <p class="page-description">Digite a nova password, confirme para alterar.</p>
+                    
+                    <form action="<?= $BASE_URL ?>user_process.php" method="post">
+                        <input type="hidden" name="type" value="changepassword">
+
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Digite a nova password">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
