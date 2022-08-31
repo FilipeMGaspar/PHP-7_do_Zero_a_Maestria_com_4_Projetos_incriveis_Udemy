@@ -151,6 +151,17 @@
     margin: 15px auto;
 }
 
+.page-description {
+    color: #999;
+}
+
+#bio {
+    max-width: 400px;
+}
+
+.form-control.disabled {
+    background: #ccc;
+}
 
 /* Footer*/
 #footer {
