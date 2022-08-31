@@ -51,7 +51,7 @@
 
                         <div class="form-group">
                             <label for="bio">Sobre mim:</label>
-                            <textarea class="form-control" name="bio" id="bio" rows="5" placeholder="Curiosidades, hobbies, onde trabalho... "><?= $userData->bio ?></textarea>
+                            <textarea class="form-control" name="bio" id="bio" rows="5" placeholder="Curiosidades, hobbies, onde trabalho, Musica... "><?= $userData->bio ?></textarea>
                         </div>
                     </div>
                 </div>
