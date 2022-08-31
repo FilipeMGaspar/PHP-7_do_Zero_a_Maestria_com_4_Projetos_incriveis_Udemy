@@ -163,6 +163,14 @@
     background: #ccc;
 }
 
+#change-password-container {
+    margin-top: 30px;
+}
+
+.edit-profile-page .card-btn {
+    width: auto;
+}
+
 /* Footer*/
 #footer {
     background: #000;
