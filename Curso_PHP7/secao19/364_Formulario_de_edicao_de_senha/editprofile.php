@@ -15,7 +15,7 @@
     }
 ?>
 
-    <div id="main-container" class="container-fluid">
+    <div id="main-container" class="container-fluid edit-profile-page">
         <div class="col-md-12">
             <form action="<?= $BASE_URL ?>user_process.php" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="type" value="update">
@@ -38,7 +38,7 @@
                             <input type="email" name="email" id="email" class="form-control disabled" placeholder="Endereço de E-mail" value="<?= $userData->email ?>" readonly>
                         </div>
 
-                        <input type="submit" class="btn form-btn" value="Modificar">
+                        <input type="submit" class="btn card-btn" value="Modificar">
                     </div>
 
                     <div class="col-md-4">
@@ -75,7 +75,7 @@
                             <input type="password" name="confirmpassword" id="confirmpassword" class="form-control" placeholder="Confirme a password">
                         </div>
 
-                        <input type="submit" class="btn form-btn" value="Alterar Password">
+                        <input type="submit" class="btn card-btn" value="Alterar Password">
                     </form>
                 </div>
             </div>
