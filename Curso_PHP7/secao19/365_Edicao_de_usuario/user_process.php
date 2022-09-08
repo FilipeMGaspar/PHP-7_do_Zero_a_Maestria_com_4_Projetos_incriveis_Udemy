@@ -16,9 +16,11 @@ $type = filter_input(INPUT_POST, "type"); // Evita inserção de dados malicioso
 
 //Atualização do utilizador
 if($type === "update") {
-    
 
+    
   //atualizar a password
 } else if($type === "changepassword") { 
 
+} else {
+    $message->setMessage("informações inválidas!", "error", "");
 }
