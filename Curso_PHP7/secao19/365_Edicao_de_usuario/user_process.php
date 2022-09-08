@@ -17,8 +17,17 @@ $type = filter_input(INPUT_POST, "type"); // Evita inserção de dados malicioso
 //Atualização do utilizador
 if($type === "update") {
 
+    //Resgata dados do utilizador
     $userData = $userDao->verifyToken();
-    print_r($userData); exit;
+    
+    //Recebe dados do formulário através do Post
+    $name = filter_input(INPUT_POST, "name");
+    $lastname = filter_input(INPUT_POST, "lastname");
+    $name = filter_input(INPUT_POST, "name");
+    $name = filter_input(INPUT_POST, "name");
+    $name = filter_input(INPUT_POST, "name");
+    $name = filter_input(INPUT_POST, "name");
+    $name = filter_input(INPUT_POST, "name");
 
   //atualizar a password
 } else if($type === "changepassword") { 
