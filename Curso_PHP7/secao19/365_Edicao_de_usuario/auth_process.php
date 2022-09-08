@@ -10,7 +10,7 @@
 
     $userDao = new UserDAO($conn, $BASE_URL); // Instacia do UserDAO
 
-    // Resgata o tipo do furmilário
+    // Resgata o tipo do formulário
     $type = filter_input(INPUT_POST, "type"); // Evita inserção de dados maliciosos pelo utilizador
 
     // Verificação do tipo de formulário
