@@ -35,6 +35,8 @@ if($type === "update") {
     $user->email = $email;
     $user->bio = $bio;
 
+    $userDao->update($User);
+
   //atualizar a password
 } else if($type === "changepassword") { 
 
