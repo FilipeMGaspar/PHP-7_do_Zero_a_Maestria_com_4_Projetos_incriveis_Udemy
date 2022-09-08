@@ -30,12 +30,12 @@ if($type === "update") {
     $user = new User();
 
     // Preencher os dados do utilizador
-    $user->name = $name;
-    $user->lastname = $lastname;
-    $user->email = $email;
-    $user->bio = $bio;
+    $userData->name = $name;
+    $userData->lastname = $lastname;
+    $userData->email = $email;
+    $userData->bio = $bio;
 
-    $userDao->update($User);
+    $userDao->update($userData);
 
   //atualizar a password
 } else if($type === "changepassword") { 
