@@ -15,3 +15,10 @@ $userDao = new UserDAO($conn, $BASE_URL); // Instacia do UserDAO
 $type = filter_input(INPUT_POST, "type"); // Evita inserção de dados maliciosos pelo utilizador
 
 //Atualização do utilizador
+if($type === "update") {
+    
+
+  //atualizar a password
+} else if($type === "changepassword") { 
+
+}
