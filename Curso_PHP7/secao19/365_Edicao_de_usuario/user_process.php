@@ -23,11 +23,17 @@ if($type === "update") {
     //Recebe dados do formulário através do Post
     $name = filter_input(INPUT_POST, "name");
     $lastname = filter_input(INPUT_POST, "lastname");
-    $name = filter_input(INPUT_POST, "name");
-    $name = filter_input(INPUT_POST, "name");
-    $name = filter_input(INPUT_POST, "name");
-    $name = filter_input(INPUT_POST, "name");
-    $name = filter_input(INPUT_POST, "name");
+    $email = filter_input(INPUT_POST, "email");
+    $bio = filter_input(INPUT_POST, "bio");
+
+    // Criação de um novo objeto de utilizador
+    $user = new User();
+
+    // Preencher os dados do utilizador
+    $user->name = $name;
+    $user->lastname = $lastname;
+    $user->email = $email;
+    $user->bio = $bio;
 
   //atualizar a password
 } else if($type === "changepassword") { 
