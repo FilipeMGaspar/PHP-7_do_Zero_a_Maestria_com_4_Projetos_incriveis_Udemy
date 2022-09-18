@@ -56,6 +56,8 @@ if($type === "update") {
 
           }
 
+          $imageName = $user->imageGenerateName();
+
         } else {
           $message->setMessage("Tipo de imagem inválido! Tipos permitidos jpg ou png!", "error", "back");
         }
