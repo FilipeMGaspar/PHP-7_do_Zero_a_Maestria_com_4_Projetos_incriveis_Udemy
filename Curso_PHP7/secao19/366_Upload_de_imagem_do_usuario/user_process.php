@@ -43,7 +43,9 @@ if($type === "update") {
 
         //Verificar o tipo de imagem
         if(in_array($image["type"], $imageTypes)) {
-
+          
+        } else {
+          $message->setMessage("Tipo de imagem inválido! Tipos permitidos jpg ou png!", "error", "back");
         }
     }
 
@@ -53,5 +55,5 @@ if($type === "update") {
 } else if($type === "changepassword") { 
 
 } else {
-    $message->setMessage("informações inválidas!", "error", "");
+    $message->setMessage("Informações inválidas!", "error", "");
 }
