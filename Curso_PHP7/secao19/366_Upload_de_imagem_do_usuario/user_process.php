@@ -37,7 +37,14 @@ if($type === "update") {
 
     // Upload da imagem
     if(isset($_FILES["image"]) && !empty($_FILES["image"]["tmp_name"])){
-      print_r($_FILES); exit;
+
+        $image = $_FILES["image"];
+        $imageTypes = ["image/jpeg", "image/jpg", "image/png"];
+
+        //Verificar o tipo de imagem
+        if(in_array($image["type"], $imageTypes)) {
+
+        }
     }
 
     $userDao->update($userData);
