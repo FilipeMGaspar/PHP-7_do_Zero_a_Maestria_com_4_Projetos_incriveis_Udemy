@@ -46,7 +46,7 @@ if($type === "update") {
         if(in_array($image["type"], $imageTypes)) {
 
           //verificação se é jpg
-          if(in_array($image, $jpgArray)) {
+          if(in_array($image["type"], $jpgArray)) {
 
             $imageFile = imagecreatefromjpeg($image["tmp_name"]);
 
