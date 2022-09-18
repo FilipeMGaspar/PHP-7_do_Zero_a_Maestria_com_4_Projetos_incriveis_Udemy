@@ -40,10 +40,18 @@ if($type === "update") {
 
         $image = $_FILES["image"];
         $imageTypes = ["image/jpeg", "image/jpg", "image/png"];
+        $jpgArray = ["image/jpeg", "image/jpg"];
 
         //Verificar o tipo de imagem
         if(in_array($image["type"], $imageTypes)) {
-          
+
+          //verificação se é jpg
+          if(in_array($image, $jpgArray)) {
+            
+          } else { // Vai ser png
+
+          }
+
         } else {
           $message->setMessage("Tipo de imagem inválido! Tipos permitidos jpg ou png!", "error", "back");
         }
