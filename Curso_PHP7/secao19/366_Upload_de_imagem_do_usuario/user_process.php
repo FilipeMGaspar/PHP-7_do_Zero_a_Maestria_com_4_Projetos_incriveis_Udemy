@@ -58,7 +58,7 @@ if($type === "update") {
 
           $imageName = $user->imageGenerateName();
 
-          imagejpeg($imageFile, "./img/users" . $imageName, 100);
+          imagejpeg($imageFile, "./img/users/" . $imageName, 100);
 
           $userData->image = $imageName;
 
