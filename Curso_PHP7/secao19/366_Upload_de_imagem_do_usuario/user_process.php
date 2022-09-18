@@ -36,7 +36,7 @@ if($type === "update") {
     $userData->bio = $bio;
 
     // Upload da imagem
-    if(isset($_FILES["image"])){
+    if(isset($_FILES["image"]) && !empty($_FILES["image"]["tmp_name"])){
       
     }
 
