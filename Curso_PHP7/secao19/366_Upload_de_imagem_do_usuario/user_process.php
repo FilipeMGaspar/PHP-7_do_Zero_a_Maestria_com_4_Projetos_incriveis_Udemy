@@ -35,6 +35,11 @@ if($type === "update") {
     $userData->email = $email;
     $userData->bio = $bio;
 
+    // Upload da imagem
+    if(isset($_FILES["image"])){
+      
+    }
+
     $userDao->update($userData);
 
   //atualizar a password
