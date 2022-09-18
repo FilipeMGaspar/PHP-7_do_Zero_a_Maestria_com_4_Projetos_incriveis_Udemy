@@ -22,7 +22,7 @@
         }
 
         public function imageGenerateName() {
-            return bin2hex(random_bytes(30)) . ".jpg";
+            return bin2hex(random_bytes(30)) . ".jpg"; // return bin2hex(random_bytes(60)) . ".jpg";  // Para colocar em produção
         }
 
     }
