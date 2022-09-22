@@ -75,5 +75,5 @@
             $message->setMessage("Utilisador e/ou password, estão incorrectos! ", "error", "back");
         }
     } else {
-        $message->setMessage("informações inválidas!", "error", "");
+        $message->setMessage("informações inválidas!", "error", "index.php");
     }
