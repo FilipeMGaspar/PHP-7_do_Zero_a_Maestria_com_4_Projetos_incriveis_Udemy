@@ -64,7 +64,6 @@
                     
                     <form action="<?= $BASE_URL ?>user_process.php" method="post">
                         <input type="hidden" name="type" value="changepassword">
-                        <input type="hidden" name="id" value="<?= $userData->id ?>">
 
                         <div class="form-group">
                             <label for="password">Password:</label>
