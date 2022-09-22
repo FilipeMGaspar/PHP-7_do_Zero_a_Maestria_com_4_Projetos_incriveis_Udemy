@@ -197,7 +197,7 @@
             $_SESSION["token"] = "";
 
             // Redericionar e apresntar a mensagem de sucesso
-            $this->message->setMessage("Logout efectuado com sucesso!", "success", "");// Por defeito redireciona para o index
+            $this->message->setMessage("Logout efectuado com sucesso!", "success", "index.php");// Por defeito redireciona para o index
         }
 
         public function changePassword(User $user){
@@ -210,6 +210,9 @@
             $stmt->bindParam(":password", $user->password);
             $stmt->bindParam(":id", $user->id);
 
+            $stmt->execute();
+
+            $this->message->setMessage("Password alterada com sucesso!", "success", "editprofile.php");
         }
 
     }
