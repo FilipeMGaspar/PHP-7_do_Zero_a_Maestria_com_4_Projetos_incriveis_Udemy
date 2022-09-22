@@ -79,6 +79,8 @@ if($type === "update") {
     // Resgata dados do utilizador
     $userData = $userDao->verifyToken();
 
+    $id = $userData->id;
+
     // Verificação de password com a confirm password
     if($password === $confirmPassword) {
 
