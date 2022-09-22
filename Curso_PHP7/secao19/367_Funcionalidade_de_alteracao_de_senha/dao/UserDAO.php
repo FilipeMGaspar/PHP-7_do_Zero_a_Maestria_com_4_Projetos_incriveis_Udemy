@@ -89,12 +89,12 @@
                     return $user;
                 } else if($protected){
                      // Redireciona utilizador não autenticado
-                     $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "index.php");
+                     $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "");
                 }
 
             } else if($protected) {
                 // Redireciona utilizador não autenticado
-                $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "index.php");
+                $this->message->setMessage("Faça o login, para visualizar esta página!", "error", "");
            }
         }
 
@@ -197,7 +197,7 @@
             $_SESSION["token"] = "";
 
             // Redericionar e apresntar a mensagem de sucesso
-            $this->message->setMessage("Logout efectuado com sucesso!", "success", "index.php");// Por defeito redireciona para o index
+            $this->message->setMessage("Logout efectuado com sucesso!", "success", "");// Por defeito redireciona para o index
         }
 
         public function changePassword(User $user){
