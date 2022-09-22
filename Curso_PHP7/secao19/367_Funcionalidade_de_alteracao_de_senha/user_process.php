@@ -72,6 +72,12 @@ if($type === "update") {
   //atualizar a password
 } else if($type === "changepassword") { 
 
+    // Receber dados vindos do Post
+    $password = filter_input(INPUT_POST, "password");
+    $confirmPassword = filter_input(INPUT_POST, "confirmpassword");
+
+    
+
 } else {
     $message->setMessage("Informações inválidas!", "error", "");
 }
