@@ -75,7 +75,9 @@ if($type === "update") {
     // Receber dados vindos do Post
     $password = filter_input(INPUT_POST, "password");
     $confirmPassword = filter_input(INPUT_POST, "confirmpassword");
-    $id = filter_input(INPUT_POST, "id");
+   
+    // Resgata dados do utilizador
+    $userData = $userDao->verifyToken();
 
     // Verificação de password com a confirm password
     if($password === $confirmPassword) {
