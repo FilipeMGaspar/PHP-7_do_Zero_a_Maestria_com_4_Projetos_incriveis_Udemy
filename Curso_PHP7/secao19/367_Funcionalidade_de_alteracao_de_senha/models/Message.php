@@ -12,7 +12,7 @@
             $_SESSION["type"] = $type;
 
             if ($redirect != "back") {
-                header("Location: $this->url" . $redirect); // Redireciona para o index por padrão, ou para localização especifica
+                header("Location: $this->url" . "$redirect"); // Redireciona para o index por padrão, ou para localização especifica
             } else {
                 header("Location: " . $_SERVER["HTTP_REFERER"]); // Envia para a ultima página acessada
             }
