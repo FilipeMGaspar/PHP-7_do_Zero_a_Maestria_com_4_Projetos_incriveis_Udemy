@@ -88,7 +88,7 @@ if($type === "update") {
         $user->password = $finalPassword;
         $user->id = $id;
 
-        
+        $userDao->changePassword($user);
 
     } else {
       $message->setMessage("As passwords não são iguais!", "error", "back");
