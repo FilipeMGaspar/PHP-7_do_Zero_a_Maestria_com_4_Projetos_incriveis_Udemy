@@ -83,6 +83,13 @@ if($type === "update") {
         // Criar um novo objeto de utilizador
         $user = new User();
 
+        $finalPassword = $user->generatePassword($password);
+
+        $user->password = $finalPassword;
+        $user->id = $id;
+
+        
+
     } else {
       $message->setMessage("As passwords não são iguais!", "error", "back");
     }
