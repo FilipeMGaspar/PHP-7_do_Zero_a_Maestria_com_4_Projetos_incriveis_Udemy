@@ -75,8 +75,19 @@ if($type === "update") {
     // Receber dados vindos do Post
     $password = filter_input(INPUT_POST, "password");
     $confirmPassword = filter_input(INPUT_POST, "confirmpassword");
+    $id = filter_input(INPUT_POST, "id");
 
-    
+    // Verificação de password com a confirm password
+    if($password === $confirmPassword) {
+
+        // Criar um novo objeto de utilizador
+        $user = new User();
+
+    } else {
+      $message->setMessage("As passwords não são iguais!", "error", "back");
+    }
+  
+
 
 } else {
     $message->setMessage("Informações inválidas!", "error", "");
