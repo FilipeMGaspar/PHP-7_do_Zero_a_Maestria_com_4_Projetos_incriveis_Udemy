@@ -15,6 +15,9 @@
         <div class="offset-md-4 col-md-4 new-movie-container">
             <h1 class="page-title">Adicionar Filme</h1>
             <p class="page-description">Pode adicionar uma critica e partilha-la com o mundo!</p>
+            <form action="" id="add-movie-form">
+                
+            </form>
         </div>
     </div>
 
