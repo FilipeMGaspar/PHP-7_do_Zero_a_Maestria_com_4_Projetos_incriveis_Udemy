@@ -13,7 +13,7 @@
 
     <div id="main-container" class="container-fluid">
         <div class="offset-md-4 col-md-4 new-movie-container">
-            
+            <h1 class="page-title">Adicionar Filme</h1>
         </div>
     </div>
 
