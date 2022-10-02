@@ -30,8 +30,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="title">Duração:</label>
-                    <input type="text" class="form-control" id="title" name="title" placeholder="Digite o título do filme">
+                    <label for="length">Duração:</label>
+                    <input type="text" class="form-control" id="title" name="title" placeholder="Digite a duração do filme">
                 </div>
             </form>
         </div>
