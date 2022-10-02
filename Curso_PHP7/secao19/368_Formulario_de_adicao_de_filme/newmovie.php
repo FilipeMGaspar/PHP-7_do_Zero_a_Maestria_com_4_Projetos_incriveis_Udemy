@@ -38,7 +38,11 @@
                     <label for="category">Categoria:</label>
                     <select name="category" id="category" class="form-control">
                         <option value="">Selecione</option>
-                            
+                        <option value="Ação">Ação</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Comédia">Comédia</option>
+                        <option value="Fantasia / Fição">Fantasia / Fição</option>
+                        <option value="Romance">Romance</option>
                     </select>
                 </div>
 
