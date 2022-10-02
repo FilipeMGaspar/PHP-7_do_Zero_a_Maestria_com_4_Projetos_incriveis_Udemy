@@ -53,9 +53,12 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="trailer">Trailer:</label>
-                    
+                    <label for="description">Descrição:</label>
+                    <textarea class="form-control" name="description" id="description" rows="5" placeholder="Descreva o filme...">
+                        
+                    </textarea>
                 </div>
+                <input type="submit" value="Adicionar Filme" class="btn card-btn">
             </form>
         </div>
     </div>
