@@ -20,7 +20,17 @@
                 <input type="hidden" name="type" value="create">
 
                 <div class="form-group">
-                    <label for="title">Título</label>
+                    <label for="title">Título:</label>
+                    <input type="text" class="form-control" id="title" name="title" placeholder="Digite o título do filme">
+                </div>
+
+                <div class="form-group">
+                    <label for="image">Imagem</label>
+                    <input type="file" class="form-control.file" name="image" id="image">
+                </div>
+
+                <div class="form-group">
+                    <label for="title">Duração:</label>
                     <input type="text" class="form-control" id="title" name="title" placeholder="Digite o título do filme">
                 </div>
             </form>
