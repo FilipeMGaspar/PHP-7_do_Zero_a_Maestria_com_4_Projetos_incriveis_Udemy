@@ -12,7 +12,9 @@
 ?>
 
     <div id="main-container" class="container-fluid">
-        
+        <div class="offset-md-4 col-md-4 new-movie-container">
+            
+        </div>
     </div>
 
 <?php
