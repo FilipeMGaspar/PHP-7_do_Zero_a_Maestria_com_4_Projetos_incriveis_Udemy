@@ -23,5 +23,6 @@ interface MovieDAOInterface {
     public function getLatestMovies();
     public function getMoviesByCategory($category);
     public function getMoviesByUsersId($id);
+    public function findByID($id);
 
 }
