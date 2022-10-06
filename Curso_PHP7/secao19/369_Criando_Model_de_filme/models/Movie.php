@@ -25,5 +25,6 @@ interface MovieDAOInterface {
     public function getMoviesByUsersId($id);
     public function findByID($id);
     public function finByTitle($title);
+    public function create(Movie $movie);
 
 }
