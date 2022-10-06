@@ -196,6 +196,8 @@
     width: 300px;
     border-bottom: 2px solid #f5c518;
     display: block;
+    margin: 0 auto;
+    padding-top: 7px;
 }
 
 /* Footer*/
