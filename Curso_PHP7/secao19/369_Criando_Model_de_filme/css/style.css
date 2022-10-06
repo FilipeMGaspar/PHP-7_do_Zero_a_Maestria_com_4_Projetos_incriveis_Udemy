@@ -175,6 +175,13 @@
     margin-bottom: 9px;
 }
 
+/* New Movie - Página de adição de filmes */
+.new-movie-container {
+    text-align: center;
+}
+
+
+
 /* Footer*/
 #footer {
     background: #000;
