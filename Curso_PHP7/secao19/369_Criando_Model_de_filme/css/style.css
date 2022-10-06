@@ -180,7 +180,15 @@
     text-align: center;
 }
 
+#add-movie-form {
+    text-align: left;
+}
 
+.movie-image-container {
+    height: 400px;
+    min-width: 200px;
+    
+}
 
 /* Footer*/
 #footer {
