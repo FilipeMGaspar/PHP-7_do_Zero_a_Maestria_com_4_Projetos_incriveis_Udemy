@@ -19,5 +19,7 @@ class Movie {
 interface MovieDAOInterface {
 
     public function buildMovie($data);
+    public function findAll();
+    public function getLatestMovies();
     
 }
