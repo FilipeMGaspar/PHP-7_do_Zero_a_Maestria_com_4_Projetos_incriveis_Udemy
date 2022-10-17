@@ -39,6 +39,9 @@
             $movie->category = $category;
             $movie->length = $length;
 
+            // upload da imagem do filme
+            
+
         } else {
             $message->setMessage("As informações de Titulo, Categoria e Descrição devem estar preenchidas! ", "error", "back");
         }
