@@ -33,6 +33,9 @@
         // Validação minima de dados, no caso necessita do título da categoria e da descrição
         if(!empty($title) && !empty($description) && !empty($category)) {
 
+            $movie->title = $title;
+            
+
         } else {
             $message->setMessage("As informações de Titulo, Categoria e Descrição devem estar preenchidas! ", "error", "back");
         }
