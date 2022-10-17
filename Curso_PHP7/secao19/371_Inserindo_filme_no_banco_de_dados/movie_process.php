@@ -23,6 +23,10 @@
 
         // Receber os dados dos inputs
         $title = filter_input(INPUT_POST, "title");
+        $description = filter_input(INPUT_POST, "description");
+        $trailer = filter_input(INPUT_POST, "trailer");
+        $category = filter_input(INPUT_POST, "category");
+        $length = filter_input(INPUT_POST, "length");
         
     } else {
         $message->setMessage("Informações inválidas!", "error", "index.php");
