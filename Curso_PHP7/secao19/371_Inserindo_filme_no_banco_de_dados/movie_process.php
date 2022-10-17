@@ -34,6 +34,8 @@
         if(!empty($title) && !empty($description) && !empty($category)) {
 
             $movie->title = $title;
+            $movie->description = $description;
+            $movie->trailer = $trailer;
             
 
         } else {
