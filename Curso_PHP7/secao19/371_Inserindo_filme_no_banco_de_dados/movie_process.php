@@ -29,6 +29,13 @@
         $length = filter_input(INPUT_POST, "length");
 
         $movie = new Movie();
+
+        // Validação minima de dados, no caso necessita do título da categoria e da descrição
+        if(!empty($title) && !empty($description) && !empty($category)) {
+
+        } else {
+            $message->setMessage("As informações de Titulo, Categoria e Descrição devem estar preenchidas! ", "error", "back");
+        }
         
     } else {
         $message->setMessage("Informações inválidas!", "error", "index.php");
