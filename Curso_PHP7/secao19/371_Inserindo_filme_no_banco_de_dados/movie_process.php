@@ -36,7 +36,8 @@
             $movie->title = $title;
             $movie->description = $description;
             $movie->trailer = $trailer;
-            
+            $movie->category = $category;
+            $movie->length = $length;
 
         } else {
             $message->setMessage("As informações de Titulo, Categoria e Descrição devem estar preenchidas! ", "error", "back");
