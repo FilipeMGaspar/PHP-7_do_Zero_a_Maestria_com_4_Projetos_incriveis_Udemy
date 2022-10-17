@@ -21,6 +21,8 @@
 
     if($type === "create") {
 
+        // Receber os dados dos inputs
+        $title = filter_input(INPUT_POST, "title");
         
     } else {
         $message->setMessage("Informações inválidas!", "error", "index.php");
