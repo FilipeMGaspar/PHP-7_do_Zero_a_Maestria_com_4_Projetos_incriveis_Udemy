@@ -27,6 +27,8 @@
         $trailer = filter_input(INPUT_POST, "trailer");
         $category = filter_input(INPUT_POST, "category");
         $length = filter_input(INPUT_POST, "length");
+
+        $movie = new Movie();
         
     } else {
         $message->setMessage("Informações inválidas!", "error", "index.php");
