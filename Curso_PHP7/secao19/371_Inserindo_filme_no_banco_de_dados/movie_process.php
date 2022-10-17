@@ -40,7 +40,15 @@
             $movie->length = $length;
 
             // upload da imagem do filme
-            
+            if (isset($_FILES["image"]) && !empty($_FILES["image"]["tmp_name"])) {
+                
+                $image = $_FILES["image"];
+                $imageTypes = ["image/jpeg", "image/jpg", "image/png"];
+                $jpgArray = ["image/jpeg", "image/jpg"];
+
+                // Verificação do tipo da imagem
+
+            } 
 
         } else {
             $message->setMessage("As informações de Titulo, Categoria e Descrição devem estar preenchidas! ", "error", "back");
