@@ -47,6 +47,13 @@
                 $jpgArray = ["image/jpeg", "image/jpg"];
 
                 // Verificação do tipo da imagem
+                if(in_array($image["type"], $imageTypes)) {
+
+                    // 
+
+                } else {
+                    $message->setMessage("Tipo de imagem inválido! Tipos permitidos jpg ou png!", "error", "back");
+                }
 
             } 
 
