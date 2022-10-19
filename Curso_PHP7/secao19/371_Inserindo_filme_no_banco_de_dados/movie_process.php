@@ -51,8 +51,17 @@
 
                     // Verifica se a imagem é jpg
                     if(in_array($image["type"], $jpgArray)) {
-
+                        $imageFile = imagecreatefromjpeg($image["tmp_name"]);
+                    } else {
+                        $imageFile = imagecreatefrompng($image["tmp_name"]);
                     }
+
+                    // Criação do nome da imagem
+                    $imageName = $movie->imageGenerateName();
+
+                    imagejpeg($imageFile, "./img/movies/" . $imageName, 100); // 100 é a qualidade de imagem
+
+                    $movie->image = $imageName;
 
                 } else {
                     $message->setMessage("Tipo de imagem inválido! Tipos permitidos jpg ou png!", "error", "back");
