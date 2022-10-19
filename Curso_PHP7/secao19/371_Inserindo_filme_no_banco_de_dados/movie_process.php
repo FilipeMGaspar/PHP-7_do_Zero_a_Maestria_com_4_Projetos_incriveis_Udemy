@@ -69,6 +69,14 @@
 
             } 
 
+
+            print_r($_POST);
+            echo "<br><br>";
+            print_r($_FILES); exit;
+
+            $movieDao->create($movie);
+
+
         } else {
             $message->setMessage("As informações de Titulo, Categoria e Descrição devem estar preenchidas! ", "error", "back");
         }
