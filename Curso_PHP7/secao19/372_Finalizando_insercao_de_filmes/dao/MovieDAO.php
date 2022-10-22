@@ -58,7 +58,7 @@
 
         public function create(Movie $movie) {
           $stmt = $this->conn->prepare("INSERT INTO movies (
-
+           title, description, image, trailer, category, length, users_id  
           ) VALUES (
             
           )");
