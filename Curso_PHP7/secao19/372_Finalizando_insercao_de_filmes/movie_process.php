@@ -38,6 +38,7 @@
             $movie->trailer = $trailer;
             $movie->category = $category;
             $movie->length = $length;
+            $movie->users_id = $userData->id;
 
             // upload da imagem do filme
             if (isset($_FILES["image"]) && !empty($_FILES["image"]["tmp_name"])) {
