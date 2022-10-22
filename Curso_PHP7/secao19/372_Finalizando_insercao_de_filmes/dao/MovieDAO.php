@@ -57,7 +57,9 @@
         }
 
         public function create(Movie $movie) {
-
+          $stmt = $this->conn->prepare("
+          ");
+          
         }
 
         public function update(Movie $movie) {
