@@ -72,6 +72,10 @@
             $stmt->bindParam(":length", $movie->length);
             $stmt->bindParam(":users_id", $movie->users_id);
 
+            $stmt->execute();
+
+            $this->message->setMessage("Filme adicionado com sucesso!", "success", "index.php");
+
         }
 
         public function update(Movie $movie) {
