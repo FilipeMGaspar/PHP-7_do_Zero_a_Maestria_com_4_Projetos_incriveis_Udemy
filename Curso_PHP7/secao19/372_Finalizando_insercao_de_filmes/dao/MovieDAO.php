@@ -65,7 +65,13 @@
           )");
 
             $stmt->bindParam(":title", $movie->title);
-            
+            $stmt->bindParam(":description", $movie->description);
+            $stmt->bindParam(":image", $movie->image);
+            $stmt->bindParam(":trailer", $movie->trailer);
+            $stmt->bindParam(":category", $movie->category);
+            $stmt->bindParam(":length", $movie->length);
+            $stmt->bindParam(":users_id", $movie->users_id);
+
         }
 
         public function update(Movie $movie) {
