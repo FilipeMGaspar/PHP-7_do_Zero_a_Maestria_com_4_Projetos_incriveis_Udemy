@@ -57,9 +57,12 @@
         }
 
         public function create(Movie $movie) {
-          $stmt = $this->conn->prepare("
-          ");
-          
+          $stmt = $this->conn->prepare("INSERT INTO movies (
+
+          ) VALUES (
+            
+          )");
+
         }
 
         public function update(Movie $movie) {
