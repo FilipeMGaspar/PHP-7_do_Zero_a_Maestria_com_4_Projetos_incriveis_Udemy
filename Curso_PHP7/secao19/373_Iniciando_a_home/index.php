@@ -4,15 +4,15 @@
 
     <div id="main-container" class="container-fluid">
         <h2 class="section-title">Filmes novos</h2>
-        <p class="section-description">Veja as criticas dos últimos filmes adicionados no MovieStar</p>
+        <p class="section-description">Veja as criticas dos últimos filmes adicionados no MovieStar.</p>
         <div class="movies-container"></div>
 
         <h2 class="section-title">Ação</h2>
-        <p class="section-description">Veja os melhores filmes de ação</p>
+        <p class="section-description">Veja os melhores filmes de ação.</p>
         <div class="movies-container"></div>
         
-        <h2 class="section-title">Filmes novos</h2>
-        <p class="section-description">Vejas as criticas dos últimos filmes adicionados no MovieStar</p>
+        <h2 class="section-title">Comédia</h2>
+        <p class="section-description">Veja os melhores filmes de comédia.</p>
         <div class="movies-container"></div>
     </div>
 
