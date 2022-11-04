@@ -7,7 +7,13 @@
         <p class="section-description">Veja as criticas dos últimos filmes adicionados no MovieStar.</p>
         <div class="movies-container">
             <div class="card movie-card">
+                
                 <div class="card-img-top" style="background-image: url('<?= $BASE_URL ?>img/movies/movie_cover.jpg');"></div>
+
+                <div class="card-body">
+                    
+                </div>
+
             </div>
         </div>
 
