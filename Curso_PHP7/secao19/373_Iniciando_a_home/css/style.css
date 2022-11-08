@@ -128,6 +128,11 @@
     background-position: center;
 }
 
+.card-title {
+    height: 3rem;
+}
+
+
 /* Página de Login */
 #auth-row {
     justify-content: space-evenly;
