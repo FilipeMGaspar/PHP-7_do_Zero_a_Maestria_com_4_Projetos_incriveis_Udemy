@@ -18,6 +18,8 @@
                     </p>
 
                     <h5 class="card-title">Título do Filme</h5>
+
+                    <a href="#" class="btn btn-primary rate-btn">Avaliar</a>
                 </div>
 
             </div>
