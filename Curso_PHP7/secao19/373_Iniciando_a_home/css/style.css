@@ -95,6 +95,17 @@
     padding: 40px;
 }
 
+.section-title {
+    font-size: 24px;
+    border-left: 4px solid #f5c518;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+
+.section-description {
+    color: #ccc;
+}
+
 /* Página de Login */
 #auth-row {
     justify-content: space-evenly;
