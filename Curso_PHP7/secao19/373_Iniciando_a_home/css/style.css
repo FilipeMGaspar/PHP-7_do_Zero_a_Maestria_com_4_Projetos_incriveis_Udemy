@@ -159,6 +159,13 @@
     border-color: #444;
 }
 
+.empty-list {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+}
+
 /* Página de Login */
 #auth-row {
     justify-content: space-evenly;
