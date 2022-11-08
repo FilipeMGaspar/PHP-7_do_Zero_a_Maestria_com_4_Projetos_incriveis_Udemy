@@ -17,6 +17,7 @@
                         <span class="rating">9</span>
                     </p>
 
+                    <h5 class="card-title">Título do Filme</h5>
                 </div>
 
             </div>
