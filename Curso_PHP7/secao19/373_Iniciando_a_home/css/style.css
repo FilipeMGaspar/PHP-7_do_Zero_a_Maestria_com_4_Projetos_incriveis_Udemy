@@ -121,6 +121,10 @@
     margin-right: 1%;
 }
 
+.movie-card .card-img-top {
+    
+}
+
 /* Página de Login */
 #auth-row {
     justify-content: space-evenly;
