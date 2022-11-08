@@ -141,6 +141,18 @@
     color: #f5c518;
 }
 
+.rating {
+    color: #ccc;
+}
+
+.rate-btn {
+    margin-bottom: 15px;
+    color: #5799ef;
+    background-color: #333;
+    border-color: #333;
+    width: 100%;
+    font-weight: bold;
+}
 /* Página de Login */
 #auth-row {
     justify-content: space-evenly;
