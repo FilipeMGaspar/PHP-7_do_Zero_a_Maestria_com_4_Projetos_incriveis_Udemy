@@ -13,9 +13,8 @@
                 <div class="card-body">
                     
                     <p class="card-rating">
-                        <i class="fas fa-star">
-                            
-                        </i>
+                        <i class="fas fa-star"></i>
+                        <span class="rating">9</span>
                     </p>
 
                 </div>
