@@ -12,6 +12,8 @@
 
                 <div class="card-body">
                     
+                    <p class="card-rating"></p>
+
                 </div>
 
             </div>
