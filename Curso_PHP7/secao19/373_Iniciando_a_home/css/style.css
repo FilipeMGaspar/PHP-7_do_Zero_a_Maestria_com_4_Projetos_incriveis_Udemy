@@ -108,7 +108,9 @@
 }
 
 .movies-container {
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 - 15px;
 }
 
 /* Página de Login */
