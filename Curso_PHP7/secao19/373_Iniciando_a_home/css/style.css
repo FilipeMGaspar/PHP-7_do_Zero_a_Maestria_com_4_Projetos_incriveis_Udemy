@@ -104,6 +104,11 @@
 
 .section-description {
     color: #ccc;
+    font-size: 18px;
+}
+
+.movies-container {
+    
 }
 
 /* Página de Login */
