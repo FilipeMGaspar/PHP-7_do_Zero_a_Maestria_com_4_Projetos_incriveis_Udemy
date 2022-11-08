@@ -152,7 +152,13 @@
     border-color: #333;
     width: 100%;
     font-weight: bold;
+}   
+
+.rate-btn:hover{
+    background-color: #444;
+    border-color: #444;
 }
+
 /* Página de Login */
 #auth-row {
     justify-content: space-evenly;
