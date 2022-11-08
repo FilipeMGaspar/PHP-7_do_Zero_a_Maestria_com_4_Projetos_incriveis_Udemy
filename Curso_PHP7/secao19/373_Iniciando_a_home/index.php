@@ -17,9 +17,13 @@
                         <span class="rating">9</span>
                     </p>
 
-                    <h5 class="card-title">Título do Filme</h5>
+                    <h5 class="card-title">
+                       <a href="#">Título do Filme</a> 
+                    </h5>
 
                     <a href="#" class="btn btn-primary rate-btn">Avaliar</a>
+
+                    <a href="#" class="btn btn-primary card-btn">Conhecer</a>
                 </div>
 
             </div>
